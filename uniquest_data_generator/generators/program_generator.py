@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 from config import MIN_PROGRAMS_PER_UNIVERSITY, MAX_PROGRAMS_PER_UNIVERSITY
-from base_generators import *
+from .base_generators import *
 
 PROGRAM_NAMES = [
     "Computer Science", "Business Administration", "Electrical Engineering",

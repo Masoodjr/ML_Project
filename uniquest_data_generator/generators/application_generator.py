@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 from config import APPLICATIONS_PER_STUDENT, APPLICATION_YEAR
-from base_generators import *
+from .base_generators import *
 
 def generate_applications(students, programs):
     applications = []

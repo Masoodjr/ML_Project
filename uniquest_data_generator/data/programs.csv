@@ -1,0 +1,801 @@
+university_id,program_name,program_level,duration,tuition_fee,avg_program_salary,program_placement_rate,description,program_id
+1,Chemistry,Graduate,2,31053,80803,63.69,Require woman dog stop open.,1
+1,Mechanical Engineering,Graduate,4,7262,105245,67.58,Her she somebody least film suffer opportunity.,2
+1,Art,Graduate,2,37629,71142,90.84,Into large sign defense door.,3
+1,History,Graduate,2,36488,74559,73.46,Protect source sing.,4
+1,English Literature,Undergraduate,2,9013,45610,82.32,Center might stuff want.,5
+2,Chemistry,Graduate,4,34435,74337,63.25,Rise organization affect change husband.,6
+2,Biology,Undergraduate,4,17174,95702,89.7,Quality expert whether mention stay shoulder crime.,7
+2,Mechanical Engineering,Undergraduate,4,21990,39799,84.1,Statement size apply.,8
+3,Psychology,Graduate,4,37629,33101,71.42,Ten common draw word.,9
+3,Chemistry,Undergraduate,2,44982,33158,74.45,Bed when example certain under decide.,10
+3,Computer Science,Undergraduate,2,11008,85134,58.75,Table pattern relationship move late various.,11
+3,Chemistry,Graduate,2,25823,37303,52.42,Effort its create nature vote model film.,12
+3,History,Graduate,4,27020,99420,80.38,Standard seven key position share consumer same.,13
+4,Biology,Graduate,4,44089,55846,87.46,Out only not safe national continue glass success.,14
+4,Economics,Graduate,2,36788,82089,57.66,Pressure way future woman fall available.,15
+4,Electrical Engineering,Undergraduate,2,18396,94929,90.37,When able detail they.,16
+4,Chemistry,Graduate,4,22519,53759,61.14,Discuss those education these analysis.,17
+4,Art,Undergraduate,4,13005,32020,52.98,World trade fish poor body hand enjoy.,18
+5,Art,Undergraduate,2,30594,82238,54.85,Physical something person phone save.,19
+5,Chemistry,Graduate,2,5115,92709,79.39,Personal participant budget morning theory forget realize.,20
+5,Chemistry,Undergraduate,2,38449,37629,93.14,Age seat should.,21
+5,Music,Graduate,4,31345,73078,94.55,Population think key let blood act.,22
+6,Psychology,Graduate,4,9454,65078,83.6,Future ok nice read understand.,23
+6,English Literature,Graduate,4,31734,38445,65.98,Heart Mrs wall drug whatever ability.,24
+6,History,Undergraduate,2,44459,92818,94.14,Tell anyone throw.,25
+6,Political Science,Graduate,4,44132,46421,55.06,Seat sister nature maintain.,26
+7,Biology,Graduate,2,39689,84027,89.84,Whom save any mention letter group.,27
+7,Political Science,Graduate,2,44313,77488,68.69,Pull foot face seat marriage.,28
+7,Physics,Undergraduate,2,46499,53944,79.45,Three ready Democrat music require.,29
+7,Mechanical Engineering,Graduate,4,41160,107183,66.18,When foreign more involve.,30
+7,History,Graduate,4,49570,76707,92.48,Attorney bring group structure fly.,31
+8,Music,Undergraduate,4,36102,107458,71.91,The message hope.,32
+8,Political Science,Undergraduate,2,22710,85004,87.91,Simply over husband.,33
+8,Psychology,Graduate,4,23561,77305,56.72,Believe either according suggest industry fear.,34
+8,Biology,Graduate,2,7612,95167,53.34,Another water far law.,35
+9,Psychology,Graduate,2,19163,46185,79.96,Sometimes sit bar top short take.,36
+9,Music,Graduate,2,5021,100980,50.01,Individual enter collection live.,37
+9,Electrical Engineering,Undergraduate,2,19177,48999,59.3,Both other culture day plant include.,38
+9,English Literature,Graduate,4,16125,67777,91.4,Live collection his very recent financial company.,39
+10,Computer Science,Graduate,4,15622,78365,63.26,Sport job attention arm husband drug include.,40
+10,Biology,Graduate,4,47457,67527,58.05,Machine head hot want idea use single trouble.,41
+10,Art,Graduate,4,38949,96557,92.03,Practice economic blue series woman.,42
+11,Computer Science,Graduate,2,49749,33593,92.5,Himself stage image once choice theory.,43
+11,History,Graduate,2,36721,108190,82.55,Professional offer I.,44
+11,Economics,Graduate,4,36816,74897,58.65,Writer way step tell four popular.,45
+11,Physics,Graduate,2,46193,92483,93.32,Billion approach PM free relationship.,46
+12,Computer Science,Undergraduate,4,46459,105086,85.95,Capital live ever after increase charge including.,47
+12,Music,Graduate,4,17605,41892,61.66,Walk staff view yard newspaper good official.,48
+12,Economics,Graduate,2,47204,31309,90.06,Skin building lay rest.,49
+12,Economics,Undergraduate,4,47217,50669,83.37,Name about right step bring play catch common.,50
+13,Art,Graduate,2,31736,79449,76.7,Grow American during community.,51
+13,Business Administration,Undergraduate,2,17043,86502,80.2,Draw forward word whole.,52
+13,Mathematics,Graduate,4,11727,109892,58.21,Medical cost figure international.,53
+13,Art,Undergraduate,4,7330,37853,85.8,Everything consumer reveal quickly Congress meeting.,54
+13,Art,Undergraduate,2,47563,60381,84.24,Approach sport ready strong worker water.,55
+14,Economics,Graduate,4,42298,106944,55.06,Town fall memory learn.,56
+14,Chemistry,Graduate,4,49187,77203,61.53,Because two recognize someone.,57
+14,Psychology,Undergraduate,2,37641,43536,53.51,Activity good ten.,58
+14,Computer Science,Graduate,2,16046,105228,53.58,Anyone offer street focus natural pass dream.,59
+14,Music,Undergraduate,4,28607,104959,60.89,Kind he cover make.,60
+15,Biology,Undergraduate,2,48006,40838,64.72,Pattern notice when ask amount billion mouth.,61
+15,Psychology,Graduate,2,26023,87182,74.28,Life plant rest picture important radio my.,62
+15,Business Administration,Undergraduate,2,23449,78974,91.88,Similar culture business number interesting.,63
+15,History,Undergraduate,2,28012,46020,58.44,Himself responsibility idea give thousand election just.,64
+15,Mathematics,Graduate,2,40229,83100,92.76,Not image rock need level.,65
+16,Business Administration,Undergraduate,4,29987,46562,80.66,Human range model effect window seat.,66
+16,History,Undergraduate,2,29680,67579,57.6,Door toward base program low.,67
+16,Political Science,Undergraduate,2,30209,53373,76.01,Choice positive establish none see.,68
+16,English Literature,Graduate,4,42038,67523,87.4,Information reflect child.,69
+17,Chemistry,Graduate,4,43397,92741,81.28,Song PM oil your unit.,70
+17,Biology,Graduate,2,22464,53730,94.59,Enough direction seven break song according economic.,71
+17,English Literature,Undergraduate,2,37665,32899,70.77,Remember particular rather try.,72
+17,Electrical Engineering,Graduate,2,12829,102759,80.31,Effort cause foot early indicate pick hundred.,73
+18,Economics,Undergraduate,2,44030,90953,75.37,Student work child research develop role.,74
+18,Biology,Graduate,4,43761,42008,73.03,Pattern north senior brother.,75
+18,Art,Graduate,4,17740,102075,83.12,Involve two treat feeling particularly arrive.,76
+18,Art,Graduate,4,12519,100333,54.09,Friend remember rate billion.,77
+18,History,Undergraduate,4,23047,95957,54.99,Food produce feel something.,78
+19,Chemistry,Graduate,2,6613,68000,88.73,Method woman need structure left environmental our.,79
+19,Chemistry,Graduate,2,11564,74118,81.8,Data such many.,80
+19,Mathematics,Graduate,2,27601,75078,86.36,Wonder son large everyone its.,81
+20,Music,Graduate,2,8787,80629,90.68,Despite inside people beat walk parent.,82
+20,Biology,Undergraduate,4,22406,31033,73.67,Charge cell past.,83
+20,Chemistry,Undergraduate,4,29304,63314,89.0,Doctor smile issue feel hit camera.,84
+20,Mathematics,Undergraduate,2,29236,80247,59.5,Key take low cold down.,85
+20,Chemistry,Graduate,2,39582,99343,94.7,Whatever good statement film.,86
+21,Business Administration,Graduate,2,11463,67605,68.36,Congress gas agree arm father arm agreement.,87
+21,Psychology,Graduate,4,36770,57416,72.61,Yeah above listen none challenge television season.,88
+21,Mechanical Engineering,Graduate,2,6642,32421,75.62,Believe animal ball walk street number.,89
+21,Music,Graduate,4,21579,98342,66.79,Answer class remember own quite region myself.,90
+21,Biology,Graduate,2,19289,85238,89.93,Many shoulder last fly hope realize.,91
+22,Music,Graduate,4,33445,39496,53.61,Husband station usually success other moment.,92
+22,Psychology,Undergraduate,2,9197,103422,76.11,Recognize two language moment professional.,93
+22,Physics,Undergraduate,2,37513,73541,69.79,Wife him value next if computer.,94
+22,Business Administration,Graduate,4,18432,40534,88.85,Democratic role training should box.,95
+23,English Literature,Graduate,2,17349,83332,68.88,Card seat model worry add.,96
+23,Art,Graduate,4,37189,54763,66.02,Police structure together political state sea imagine.,97
+23,Mechanical Engineering,Undergraduate,2,25510,94276,76.33,End pick focus number where gun prove agreement.,98
+24,Music,Undergraduate,2,23332,35397,76.8,South hotel else talk any.,99
+24,Mechanical Engineering,Graduate,2,13072,90643,91.07,Fear process business pressure share table skill million.,100
+24,Business Administration,Graduate,4,24879,36997,66.11,Worker begin do hundred.,101
+25,Art,Graduate,4,22358,36639,93.33,Gun southern pull base why much.,102
+25,Psychology,Graduate,4,39424,93140,82.74,Interview whose yeah.,103
+25,History,Graduate,4,38740,37324,56.14,New keep join hand race drop power.,104
+26,Mechanical Engineering,Graduate,4,11465,44363,53.74,Source site world staff everybody window again.,105
+26,Art,Undergraduate,4,5279,31193,90.27,His during specific just.,106
+26,Psychology,Graduate,4,26638,40082,53.49,Above contain choice old lay miss court piece.,107
+26,Psychology,Undergraduate,2,44701,75803,73.78,Prevent theory must.,108
+26,Chemistry,Graduate,4,6448,53347,51.35,Despite easy their.,109
+27,Chemistry,Undergraduate,2,13303,57502,68.62,Reach where idea charge identify majority.,110
+27,Political Science,Graduate,4,10771,36736,61.3,Message lead wide indeed book painting research.,111
+27,Art,Graduate,4,26950,36158,51.18,Economy suffer conference instead keep live.,112
+27,Physics,Graduate,4,7634,85338,79.86,Government into already agent.,113
+28,Business Administration,Graduate,2,37976,50827,71.0,Under itself argue art sport term.,114
+28,Chemistry,Graduate,4,15698,99726,66.94,Lay mention hear seven upon.,115
+28,Computer Science,Undergraduate,2,40070,57477,67.43,Probably magazine she listen huge finally eat consumer.,116
+28,Computer Science,Undergraduate,2,13192,101774,82.99,Sell son particularly art have report although.,117
+28,English Literature,Graduate,2,22075,78225,57.51,Then make president just study resource place.,118
+29,History,Graduate,2,6491,66765,50.75,Like clear toward quickly financial.,119
+29,Chemistry,Undergraduate,4,6670,97612,53.65,Behind full my listen concern.,120
+29,Art,Graduate,2,8997,74819,77.24,Go affect growth have wish situation prepare.,121
+29,Mechanical Engineering,Undergraduate,4,44690,73226,61.52,Process various technology add.,122
+29,Psychology,Undergraduate,4,48144,58534,91.25,Leave do stand area young security.,123
+30,Biology,Undergraduate,4,15072,60932,89.58,Song one better eye according process medical.,124
+30,Political Science,Graduate,4,43822,72143,50.64,Of out not less particular us information whatever.,125
+30,Music,Graduate,2,44372,66097,57.22,His many career beautiful animal hope.,126
+30,Mathematics,Undergraduate,4,27360,60707,70.14,Test test money half.,127
+31,Psychology,Undergraduate,2,20438,70744,66.27,Record including church television finally minute what.,128
+31,History,Undergraduate,2,42165,48206,76.96,Thousand event turn decide yet decision tonight.,129
+31,Art,Graduate,4,29875,32201,54.84,Little choice also term.,130
+32,Electrical Engineering,Graduate,4,16890,96447,57.84,Will word bed fine.,131
+32,Mechanical Engineering,Graduate,2,13911,103930,94.71,Trade beautiful single morning.,132
+32,Physics,Undergraduate,2,6842,76542,84.35,Price price off fall stand something environment.,133
+32,Mechanical Engineering,Graduate,4,39083,97889,65.72,Fill food half policy.,134
+32,English Literature,Undergraduate,2,8150,34447,59.79,Different media research sit bag section plant beautiful.,135
+33,Electrical Engineering,Undergraduate,2,48102,103425,67.95,The close particular.,136
+33,Music,Graduate,4,46724,104499,91.54,Control factor reason rise long head.,137
+33,Computer Science,Graduate,2,26582,33568,57.97,Indeed hot poor word say tend stuff dog.,138
+33,Electrical Engineering,Graduate,4,23157,79657,75.84,Board hot your whole see.,139
+33,Electrical Engineering,Graduate,4,17528,79409,50.11,Form yard top mention.,140
+34,Economics,Undergraduate,2,43857,104732,78.14,Put subject speak.,141
+34,Business Administration,Graduate,4,15064,92396,79.22,Describe coach list easy source scientist.,142
+34,Chemistry,Graduate,2,31763,84473,94.69,Ask assume office street per sell part.,143
+34,Biology,Graduate,4,29084,67325,80.05,Probably particularly race center side speech.,144
+34,Electrical Engineering,Undergraduate,4,25275,58235,55.13,Beautiful your much.,145
+35,Chemistry,Undergraduate,2,29114,61137,88.17,Benefit idea green thus.,146
+35,Biology,Graduate,4,48904,85788,76.46,Trade event age news visit.,147
+35,Mathematics,Undergraduate,4,30875,106904,70.09,Reach effort wind officer peace raise pay.,148
+35,Music,Undergraduate,2,34875,42800,51.26,About hit against rather.,149
+36,Music,Graduate,2,27696,72462,51.83,Mission financial north environment drive of major.,150
+36,Biology,Undergraduate,2,18520,62481,53.69,Staff partner including.,151
+36,Chemistry,Undergraduate,4,29668,67190,73.77,When apply set large.,152
+36,Electrical Engineering,Graduate,4,19889,41751,54.09,Itself court voice poor.,153
+37,Electrical Engineering,Graduate,2,15243,54087,72.58,Type century point cultural great.,154
+37,Economics,Graduate,4,39082,102686,64.43,What reach financial test wide four.,155
+37,Political Science,Undergraduate,2,27399,99166,58.58,Service behavior beat mission billion whom avoid.,156
+38,History,Undergraduate,4,37553,64547,60.47,Heavy easy image fear.,157
+38,Business Administration,Graduate,4,7541,78844,54.22,Space news low available structure.,158
+38,Electrical Engineering,Undergraduate,4,45701,31875,54.78,Make choice material simple every chair.,159
+38,English Literature,Undergraduate,4,9695,37827,75.81,Daughter land experience scientist cell show never.,160
+38,Mathematics,Graduate,2,37999,109337,53.35,Standard along forget season out ready American maybe.,161
+39,Business Administration,Graduate,4,11707,36421,73.08,Crime edge law reduce.,162
+39,Art,Undergraduate,2,12585,81639,59.68,Surface fly traditional meet material.,163
+39,Biology,Undergraduate,4,26145,67982,87.8,Difference billion position.,164
+39,Electrical Engineering,Undergraduate,2,26805,48853,94.0,Offer manager single head structure.,165
+39,Business Administration,Undergraduate,2,48628,40349,77.05,Crime family center draw order member.,166
+40,Computer Science,Graduate,4,5543,77280,87.7,Any serve herself.,167
+40,Economics,Graduate,4,43192,84959,50.06,Conference fight rate activity suggest near tough.,168
+40,Biology,Undergraduate,2,25082,44924,80.05,Kitchen never garden scientist.,169
+40,Biology,Undergraduate,2,7133,101755,66.45,Chance goal majority billion there.,170
+41,Economics,Graduate,2,35058,68017,58.81,For large trouble political.,171
+41,Computer Science,Undergraduate,2,20869,84175,57.93,Figure half place country end single order.,172
+41,Music,Undergraduate,2,43013,99990,86.62,Individual type dog.,173
+41,Political Science,Undergraduate,2,26612,51129,93.58,Reach statement these vote level.,174
+41,Chemistry,Undergraduate,4,12789,108098,89.6,Risk catch learn affect ok dream.,175
+42,Mechanical Engineering,Undergraduate,4,39183,93827,71.52,Young blood movement option cut.,176
+42,Economics,Graduate,2,15548,107176,68.28,Action alone half painting.,177
+42,Business Administration,Undergraduate,2,41068,45287,56.18,Understand hope surface society allow collection.,178
+43,Mathematics,Undergraduate,4,28734,69855,83.43,Create have purpose often it region.,179
+43,Music,Undergraduate,4,38684,62644,74.2,Less man administration best.,180
+43,Political Science,Graduate,4,33525,105116,89.02,View build site court very table.,181
+43,Psychology,Undergraduate,4,49463,36008,94.65,South contain generation ball big my.,182
+43,Political Science,Undergraduate,2,38165,56500,81.84,Provide international energy natural follow add.,183
+44,Biology,Undergraduate,2,36041,74431,65.27,Campaign issue always unit by.,184
+44,Business Administration,Undergraduate,4,44928,64179,90.87,Husband son human range.,185
+44,Mathematics,Undergraduate,4,40714,37347,82.72,Experience agreement film.,186
+44,History,Undergraduate,4,8989,82004,70.9,Method church table street director back such.,187
+44,Political Science,Undergraduate,2,16629,107014,78.95,Stay ago design season accept industry agency.,188
+45,Computer Science,Graduate,4,22423,63765,88.45,Significant ok not relationship lot painting.,189
+45,Art,Undergraduate,4,49043,42156,81.19,Coach budget its game girl mouth.,190
+45,Physics,Graduate,4,45966,44316,69.95,Wait challenge increase father.,191
+46,History,Graduate,4,22905,75239,80.92,Until bring media its as agency.,192
+46,Economics,Undergraduate,2,8357,91557,72.1,Wall less thousand high agent second wind.,193
+46,Physics,Graduate,2,39543,41698,73.65,Upon carry short machine.,194
+47,Physics,Undergraduate,4,45203,91154,51.3,They table much anyone job society.,195
+47,History,Undergraduate,4,49772,37260,55.9,Type current him behavior appear.,196
+47,Economics,Graduate,4,25305,95070,63.39,Theory treatment easy agency itself quite.,197
+47,Electrical Engineering,Undergraduate,2,6839,87812,65.98,Country art car approach firm method body benefit.,198
+47,Art,Undergraduate,4,46422,41524,79.74,Stay vote per speak rich.,199
+48,Mechanical Engineering,Graduate,2,22350,58401,76.35,Light effort tonight class music group.,200
+48,Electrical Engineering,Undergraduate,2,26382,45111,63.51,Mr series race hour.,201
+48,Economics,Undergraduate,2,48646,59503,88.62,Person view truth read learn.,202
+48,Economics,Undergraduate,2,31677,100636,61.94,Next record positive anyone close worry.,203
+49,Psychology,Undergraduate,2,39877,109064,52.93,Want draw believe bag garden force themselves must.,204
+49,History,Graduate,4,33612,76688,65.93,Marriage across price never.,205
+49,Political Science,Undergraduate,4,47437,94017,75.64,Camera hear technology light ago oil minute.,206
+49,Psychology,Undergraduate,4,49643,86707,59.65,Common institution five investment within foot task mouth.,207
+50,Political Science,Undergraduate,4,49557,85004,50.62,Hotel our soon ever.,208
+50,Economics,Graduate,4,11097,96616,63.4,Candidate decision marriage mention news manager.,209
+50,Mechanical Engineering,Undergraduate,4,45919,97711,89.23,Morning go behavior approach these.,210
+51,Economics,Graduate,4,15953,35111,76.77,Again night cup might administration quality week.,211
+51,Art,Undergraduate,4,21830,56368,69.54,Final can still seat Democrat.,212
+51,Business Administration,Undergraduate,2,31696,88899,89.95,Rise allow result laugh describe small finally.,213
+52,English Literature,Undergraduate,4,47493,86055,86.69,Several city available value.,214
+52,Economics,Undergraduate,4,32385,35872,72.54,Wait class situation with.,215
+52,Business Administration,Graduate,4,14392,44659,56.1,More understand ten cell have clear she own.,216
+52,Electrical Engineering,Undergraduate,4,39935,93783,55.57,Our soon security glass.,217
+53,Mechanical Engineering,Undergraduate,4,24194,55644,87.87,Argue technology past focus.,218
+53,Mechanical Engineering,Graduate,2,12353,43438,83.76,Vote lead huge education prove catch thousand simple.,219
+53,Chemistry,Undergraduate,4,41604,93588,64.32,Section address late age PM.,220
+54,Art,Undergraduate,2,43610,74415,69.43,They big discuss will.,221
+54,English Literature,Undergraduate,4,42889,74442,55.46,Really garden require simple high reach.,222
+54,Computer Science,Graduate,4,13443,65447,69.47,Relate page adult improve feel.,223
+55,Electrical Engineering,Undergraduate,2,47562,77548,89.59,Guess lead second rich style ahead subject.,224
+55,History,Undergraduate,4,35755,44066,62.37,Role consumer ball play.,225
+55,Political Science,Undergraduate,2,41803,86113,75.58,Forward property laugh four role.,226
+55,Biology,Graduate,2,7119,84132,83.33,Claim huge onto.,227
+55,History,Graduate,2,10040,72188,72.78,Rate media maintain president stock early.,228
+56,English Literature,Undergraduate,2,21172,73777,67.57,Along when feel live.,229
+56,Computer Science,Undergraduate,4,23429,94978,92.4,Near might short mission action defense treat.,230
+56,Business Administration,Undergraduate,2,42608,75531,54.3,Young deep husband industry beyond kind mission.,231
+56,Mechanical Engineering,Graduate,2,5343,75447,73.98,Quite office trial day usually goal senior.,232
+57,Economics,Graduate,2,39943,87798,69.02,Citizen source change we identify.,233
+57,Psychology,Graduate,4,25925,72763,52.81,Pass never indicate interest present.,234
+57,English Literature,Undergraduate,4,44837,93476,53.7,Statement radio serious cost effort listen.,235
+58,History,Undergraduate,4,43916,93944,87.98,Tax film both now.,236
+58,Electrical Engineering,Graduate,2,31721,105406,71.47,Sit network head scene boy level rest central.,237
+58,Electrical Engineering,Undergraduate,2,43132,77600,63.01,Age maintain girl however national behind billion.,238
+58,Music,Graduate,4,32017,48232,79.34,Three play by shoulder population finish beautiful.,239
+58,Computer Science,Undergraduate,2,25911,85141,85.1,Series certainly little interest deep home affect light.,240
+59,Music,Graduate,4,7892,47612,58.88,Many start together energy.,241
+59,Physics,Graduate,2,37964,54326,77.59,Industry send create sea.,242
+59,Music,Undergraduate,4,16418,107519,61.46,Spend each design.,243
+59,English Literature,Undergraduate,4,5803,60892,80.23,Necessary arm win.,244
+60,Economics,Graduate,2,14200,101337,72.09,Instead bit modern so decide central population.,245
+60,Electrical Engineering,Graduate,4,49938,108764,61.53,Build method machine yes theory yet.,246
+60,History,Undergraduate,2,28624,96261,94.43,Possible phone attorney support federal.,247
+60,Political Science,Undergraduate,2,36436,51330,72.85,Trouble executive anything.,248
+61,Political Science,Undergraduate,2,37646,75219,66.17,Lot strategy people answer bad some light.,249
+61,Biology,Graduate,2,23560,92047,74.86,Such man think visit range.,250
+61,Chemistry,Undergraduate,4,44945,69544,85.75,Join kid sister.,251
+61,Economics,Graduate,4,12718,45692,52.81,Take production note hope across nature south.,252
+61,Mechanical Engineering,Graduate,2,10345,38301,50.45,Tree this trip.,253
+62,Biology,Graduate,2,44296,31854,66.11,Free politics body senior trial.,254
+62,Computer Science,Undergraduate,2,27511,63857,70.05,Tonight thousand sister trial democratic section bed.,255
+62,Mathematics,Undergraduate,4,42001,31159,80.45,Place my pretty manager discussion.,256
+62,History,Undergraduate,4,33143,85314,86.25,Series return citizen.,257
+63,Business Administration,Undergraduate,2,35403,32825,52.91,Country study fine.,258
+63,Biology,Graduate,4,44105,108919,69.97,Scene baby south seem inside fire.,259
+63,Physics,Undergraduate,4,44078,75672,56.47,Why such card none exactly goal.,260
+64,Electrical Engineering,Undergraduate,4,6539,34493,59.96,Type machine memory care day would better.,261
+64,Business Administration,Graduate,4,26224,41280,65.52,Deal easy not week top paper consider you.,262
+64,Physics,Undergraduate,2,44585,60820,93.83,Admit leg answer maintain.,263
+64,Mechanical Engineering,Graduate,4,43585,82440,94.16,Material executive guy feel it.,264
+64,Mathematics,Undergraduate,2,49678,56813,79.79,Example local behind sometimes.,265
+65,Biology,Graduate,4,19539,43011,65.04,Fine practice accept public see true meeting.,266
+65,Psychology,Undergraduate,4,21875,60468,51.15,Game hair early hear continue.,267
+65,Chemistry,Graduate,4,9013,62829,70.98,We teacher focus really condition foreign house there.,268
+65,English Literature,Undergraduate,4,43332,43828,86.6,Others yes billion bank model son on.,269
+66,Economics,Undergraduate,2,18604,71416,68.7,End region interesting base TV special.,270
+66,Mechanical Engineering,Undergraduate,2,33247,92782,65.11,Ok process realize tonight performance keep.,271
+66,Electrical Engineering,Undergraduate,2,17780,33258,54.35,Cut current what medical seat establish end.,272
+67,English Literature,Graduate,4,7531,42153,58.22,Through play brother seven leave without fill.,273
+67,Computer Science,Undergraduate,2,34133,39056,64.53,Yourself start my whatever oil between begin.,274
+67,Computer Science,Graduate,2,26679,47547,74.72,Student hospital site up.,275
+68,Electrical Engineering,Graduate,2,35200,35129,69.78,Carry group authority store I every before.,276
+68,Psychology,Graduate,4,33859,89469,90.52,Decision manager brother development specific movement all.,277
+68,History,Graduate,2,8495,82544,69.58,Word international probably always its front.,278
+68,Music,Undergraduate,2,36856,88425,62.07,Economic yard attention goal road reflect almost.,279
+68,Psychology,Graduate,2,27544,32733,67.71,Watch administration so radio machine.,280
+69,Music,Undergraduate,4,35618,97237,62.79,Various whatever kid.,281
+69,Mathematics,Undergraduate,4,32815,30843,93.89,Might rock doctor involve social poor.,282
+69,Psychology,Graduate,4,47461,107438,56.89,Fast network thank modern impact push.,283
+70,Business Administration,Graduate,2,31954,43686,89.8,Meet full because show save respond.,284
+70,Mechanical Engineering,Graduate,2,20693,72818,93.14,Daughter movement here situation current official consider.,285
+70,Computer Science,Undergraduate,2,39502,90991,94.14,Staff opportunity form.,286
+70,Physics,Graduate,2,46341,85552,52.44,Hold box factor side form.,287
+71,Physics,Undergraduate,4,48366,31913,68.45,Lose check water remain.,288
+71,Biology,Undergraduate,4,32507,91222,88.14,Around create become member remember assume find.,289
+71,Economics,Graduate,4,21525,69973,84.24,Within agent above agent work value garden few.,290
+72,Mathematics,Graduate,2,42300,105107,61.55,Social least upon successful risk difference seek.,291
+72,Business Administration,Undergraduate,2,23198,47445,69.9,Once continue address author report.,292
+72,Economics,Undergraduate,4,38215,42221,53.29,Particular record senior available institution.,293
+73,Mathematics,Graduate,4,32378,100344,86.32,Ability world approach involve.,294
+73,Political Science,Graduate,2,19951,84175,55.83,Real model huge write rest.,295
+73,Electrical Engineering,Undergraduate,2,12274,107081,55.75,Could base name wait leave.,296
+73,Chemistry,Undergraduate,2,45455,67625,66.85,Protect view weight office design social.,297
+74,Political Science,Undergraduate,2,17752,62448,71.65,Simple media world arm research anything.,298
+74,Computer Science,Undergraduate,4,25803,59498,83.96,Onto power claim could oil everything future.,299
+74,Business Administration,Graduate,4,23297,75068,51.15,Specific notice teacher recent despite before imagine.,300
+74,Psychology,Graduate,2,10389,102737,56.97,Stage establish main nation season always none.,301
+75,Electrical Engineering,Graduate,4,9418,108803,63.8,Method dinner environmental forget reduce.,302
+75,Art,Undergraduate,4,30022,55313,81.51,Pay probably people heart enter public institution.,303
+75,Computer Science,Undergraduate,4,6919,35215,64.93,National people personal will return since reach affect.,304
+75,Political Science,Graduate,4,26672,35337,51.65,Relate quickly letter history less human by.,305
+75,Chemistry,Undergraduate,4,46361,57586,73.28,Industry figure structure theory treat pretty.,306
+76,Economics,Graduate,4,33036,107852,87.28,Carry cost yet maybe figure may deep.,307
+76,Biology,Graduate,4,40737,66850,88.25,Industry machine can send site save.,308
+76,Biology,Undergraduate,4,5586,68480,62.83,Impact north animal.,309
+76,History,Undergraduate,2,43158,100464,53.38,Charge more prepare expert like market.,310
+76,Psychology,Graduate,4,17215,90528,92.67,Sit available work eye sort.,311
+77,Political Science,Graduate,2,45458,34381,74.24,Election art view much sense few none.,312
+77,English Literature,Graduate,4,17314,94989,56.36,Certain large half college reality trouble.,313
+77,Psychology,Undergraduate,2,40377,36599,92.96,Big debate top matter ability.,314
+77,History,Undergraduate,4,17311,67716,82.27,Who test do never house military.,315
+78,Economics,Undergraduate,4,45625,81549,62.15,People resource involve stay stock subject.,316
+78,Music,Graduate,2,13084,54570,78.08,Girl consumer end win season.,317
+78,Physics,Graduate,4,14865,71706,77.5,Hit red art.,318
+79,Political Science,Graduate,2,37195,106832,52.75,Fall sound according determine leg.,319
+79,Chemistry,Undergraduate,2,19641,52753,74.06,Type room major cover card lead.,320
+79,Psychology,Undergraduate,4,28987,80253,88.54,Condition writer himself there.,321
+80,Chemistry,Graduate,2,24334,51045,72.25,Region thought enter box understand.,322
+80,Economics,Undergraduate,2,16352,58935,82.34,Or short large often southern the fear.,323
+80,Business Administration,Graduate,4,39419,102200,73.76,Sometimes report gun business ask perform role very.,324
+80,Computer Science,Graduate,4,17541,55291,67.51,Save picture team fund.,325
+80,Physics,Undergraduate,2,45410,49202,51.49,Law order discover operation.,326
+81,Biology,Undergraduate,4,28847,38083,54.54,Raise chair support key.,327
+81,Economics,Graduate,2,44366,91839,68.02,Piece unit support range establish.,328
+81,Psychology,Graduate,2,7286,83935,63.56,Spring space difficult similar method.,329
+81,English Literature,Graduate,4,17694,95474,72.84,Security contain center issue visit must.,330
+82,Physics,Undergraduate,2,17827,60541,90.23,Section accept common age.,331
+82,Computer Science,Graduate,2,33075,51936,50.87,Trial talk price station.,332
+82,English Literature,Graduate,2,44518,97437,77.69,Among class physical itself.,333
+83,Mathematics,Graduate,4,36405,100638,78.38,Similar fine lot recognize.,334
+83,English Literature,Undergraduate,2,16846,49870,65.16,Prove business alone loss notice pick.,335
+83,Psychology,Graduate,4,12325,52112,72.34,Avoid traditional include its land agent.,336
+83,Music,Graduate,2,14869,42347,74.2,Number allow available itself prevent wish camera.,337
+83,Political Science,Graduate,4,7571,51622,79.36,Way television you protect audience despite.,338
+84,Physics,Graduate,4,24139,36863,51.7,About value material require talk.,339
+84,Mechanical Engineering,Undergraduate,4,34065,35169,89.72,Key cut politics figure building.,340
+84,History,Undergraduate,4,36294,76669,85.2,Rather finish too control knowledge next act.,341
+85,Biology,Undergraduate,2,14093,32513,77.85,Wait discussion get hold response cold leader.,342
+85,History,Graduate,2,36506,41222,89.5,Pattern hour imagine music describe bring.,343
+85,Music,Undergraduate,4,48464,74028,82.44,People consumer first person.,344
+85,Chemistry,Undergraduate,4,5893,85044,71.95,Art central now official get order animal.,345
+85,Mechanical Engineering,Graduate,2,10699,61312,88.63,Go including PM when newspaper real statement military.,346
+86,History,Undergraduate,2,31723,91372,52.72,Continue offer anyone choice rest nice.,347
+86,Mathematics,Undergraduate,2,29821,95691,84.79,Usually line Congress.,348
+86,Chemistry,Undergraduate,2,32733,36949,82.01,Newspaper security television.,349
+86,Political Science,Undergraduate,4,29696,95093,67.53,Tell course remain activity country apply view.,350
+86,Chemistry,Graduate,4,10738,52222,52.47,Including history think trip eye play water.,351
+87,Political Science,Graduate,4,32869,102434,62.63,Street catch job second lose community.,352
+87,Business Administration,Graduate,2,49524,68251,64.66,Capital usually law item state risk call.,353
+87,Art,Undergraduate,4,11161,48702,93.02,Story stock foreign court cut.,354
+87,Biology,Graduate,4,39321,30269,89.44,Performance water Mr all down somebody.,355
+88,English Literature,Graduate,4,15389,68241,91.4,Everybody office experience form could design soldier black.,356
+88,Business Administration,Graduate,2,28246,44770,76.87,Face begin pick national individual where.,357
+88,Music,Undergraduate,2,12190,90501,75.11,And threat education herself.,358
+88,Political Science,Graduate,2,6711,46832,55.5,Career manager table life.,359
+89,Mathematics,Undergraduate,2,23258,60460,69.76,Central challenge trouble you happy myself.,360
+89,Art,Undergraduate,2,37709,63855,84.53,Score system current offer.,361
+89,Music,Graduate,2,43343,76494,57.53,Moment cell report drop issue rather.,362
+89,History,Undergraduate,4,41794,94370,92.57,Quite clear perform rule year.,363
+90,Biology,Undergraduate,2,29425,65794,71.46,Family why through pay finally explain.,364
+90,Mechanical Engineering,Graduate,2,35337,63444,80.94,Care maybe paper catch.,365
+90,Biology,Graduate,4,27203,95492,53.54,However everything become whom capital technology.,366
+91,Mechanical Engineering,Undergraduate,2,45760,73106,53.69,Media buy media maintain theory.,367
+91,Chemistry,Undergraduate,2,5540,80972,50.7,Receive model be area teacher our.,368
+91,Physics,Graduate,2,9123,54274,79.21,Use soldier ten others race.,369
+91,Political Science,Undergraduate,2,31081,73728,64.07,Capital air put thousand future ball.,370
+91,Computer Science,Graduate,4,34776,73365,88.74,Program bad visit how finish information.,371
+92,Chemistry,Undergraduate,4,25946,59108,68.1,Any cause fall plant.,372
+92,Business Administration,Undergraduate,4,35437,58279,94.14,Day probably matter whole out.,373
+92,Mathematics,Graduate,2,25192,75721,71.96,Need exactly popular take type.,374
+92,Mathematics,Graduate,4,13146,74445,88.99,Work result remain time.,375
+92,Biology,Graduate,4,13167,53924,56.44,Song establish mention age doctor.,376
+93,Mechanical Engineering,Undergraduate,2,24944,50879,83.03,Since protect and dinner full audience.,377
+93,Economics,Graduate,4,37558,30827,67.44,She plant standard action lead generation him.,378
+93,Political Science,Graduate,4,8216,66365,52.82,Trial throw court beyond seven idea.,379
+93,Music,Graduate,2,33324,52969,60.23,Sing behind stop take growth response marriage keep.,380
+93,Mathematics,Undergraduate,4,26446,93261,75.36,Gas question black billion television.,381
+94,Physics,Graduate,4,8960,108085,84.44,Few reach imagine message find realize.,382
+94,Economics,Graduate,2,13733,47204,57.92,Environment from great animal other.,383
+94,Business Administration,Graduate,4,15959,40070,54.32,Responsibility now win purpose model.,384
+95,Physics,Undergraduate,4,14147,63619,92.36,Chair chair could who.,385
+95,Biology,Graduate,4,39881,90159,55.44,Off call benefit at.,386
+95,Mechanical Engineering,Graduate,2,33624,109195,74.59,Experience little sign miss suggest positive.,387
+95,Computer Science,Graduate,4,29072,87825,88.28,Pattern there environmental water political prevent.,388
+96,Mathematics,Undergraduate,4,19480,102754,78.28,Individual reality interview company phone our.,389
+96,Political Science,Undergraduate,4,23963,81563,58.8,Century push finally wide third.,390
+96,Psychology,Undergraduate,2,13190,97574,71.98,Political often money experience kind.,391
+97,Political Science,Undergraduate,2,46599,31977,79.14,Already remain hope under.,392
+97,Music,Undergraduate,4,13869,82982,91.45,Land meet way address near.,393
+97,Psychology,Undergraduate,4,23880,36161,85.97,Fight computer give everything black.,394
+97,Business Administration,Graduate,2,32136,71389,82.95,Protect contain painting hope.,395
+98,Business Administration,Undergraduate,4,47578,93182,63.7,Seven specific fish whether never difference.,396
+98,Music,Undergraduate,4,10520,51197,54.72,Table off any also able arrive.,397
+98,Mechanical Engineering,Graduate,4,33905,38028,67.08,Soon up spring factor.,398
+98,Physics,Graduate,4,14689,35892,84.29,Bed range thousand themselves offer them.,399
+99,Art,Undergraduate,4,6537,90219,93.62,Tend toward baby thing read.,400
+99,Art,Undergraduate,2,46304,91201,82.46,From pay short show.,401
+99,Economics,Graduate,2,40117,53933,82.32,Agreement whole miss million.,402
+100,English Literature,Undergraduate,2,23418,54173,73.83,Several military better card.,403
+100,Chemistry,Graduate,4,23591,60599,71.75,Ball to church word player career wonder.,404
+100,Economics,Undergraduate,2,19857,94310,72.46,Benefit stock stop business system stock Congress claim.,405
+100,Music,Graduate,2,19304,89981,81.09,Unit although often first visit once.,406
+101,Chemistry,Undergraduate,4,7187,50282,72.39,Billion stand appear success campaign day.,407
+101,English Literature,Undergraduate,4,47714,47905,80.66,Modern that present where growth.,408
+101,Music,Undergraduate,2,25232,96956,73.7,Enter rule central money.,409
+101,Music,Undergraduate,2,35367,59544,87.72,Close coach less individual within color.,410
+102,English Literature,Undergraduate,4,23538,90750,68.12,General class he.,411
+102,Electrical Engineering,Undergraduate,2,17539,37952,64.02,Sea marriage international effort enter real scene.,412
+102,Art,Undergraduate,4,29053,98068,61.25,Art meet ever commercial author police power.,413
+102,Chemistry,Graduate,2,13270,104230,90.67,Measure physical process situation authority establish hospital network.,414
+103,Chemistry,Undergraduate,2,21112,78170,66.94,Try determine view physical.,415
+103,Biology,Graduate,2,26183,86616,61.95,Fear charge over role.,416
+103,Mechanical Engineering,Undergraduate,2,30498,49335,57.6,Tonight himself can hear eye ask whose.,417
+103,Computer Science,Graduate,4,31738,63715,65.79,Either shoulder history.,418
+103,Psychology,Graduate,4,18787,38190,85.76,New big administration positive staff three challenge claim.,419
+104,Physics,Graduate,4,19369,87009,77.27,Once word meet arrive personal.,420
+104,Mathematics,Graduate,2,12859,61671,92.15,Trade someone let.,421
+104,Physics,Undergraduate,2,47055,105401,60.08,Goal doctor use share.,422
+104,Computer Science,Undergraduate,4,44025,54433,55.21,Also street writer create support.,423
+105,Mathematics,Graduate,4,31438,77054,72.22,Suggest up short much risk option.,424
+105,Mathematics,Graduate,2,49420,80199,84.95,Before trip series sign herself.,425
+105,Art,Undergraduate,2,6634,76470,87.45,Conference relationship decision owner learn.,426
+106,Physics,Undergraduate,2,38350,48766,75.43,Director soon wrong part near.,427
+106,English Literature,Undergraduate,2,46370,77422,85.35,Too rich environment despite another blue close.,428
+106,Biology,Graduate,2,42661,41453,89.36,Force threat however computer that tree.,429
+106,Art,Undergraduate,4,49159,54746,56.63,American air box drive.,430
+107,Political Science,Graduate,4,25831,55003,57.29,Goal ago choice after decade chair mind.,431
+107,Music,Undergraduate,2,48643,61208,90.87,Four remain summer get effort.,432
+107,Mathematics,Undergraduate,2,8304,71470,73.0,State American ask suffer shoulder against environment.,433
+108,Computer Science,Graduate,4,23495,59717,82.11,Physical whole teach in generation.,434
+108,Computer Science,Graduate,2,12862,51975,64.49,Later identify wife.,435
+108,Mechanical Engineering,Undergraduate,2,30747,36009,61.03,Charge college clear.,436
+108,Computer Science,Graduate,4,46129,45766,57.95,Someone buy especially smile may late.,437
+109,Mathematics,Undergraduate,4,43952,35011,91.39,Blue maintain use last season half reduce.,438
+109,Mathematics,Undergraduate,4,28788,64230,74.21,Already bit against already.,439
+109,Mechanical Engineering,Undergraduate,2,46129,72408,72.12,Success lead once everybody court music.,440
+109,Business Administration,Graduate,4,34839,39101,67.33,Interview item take.,441
+110,Economics,Undergraduate,2,36291,89334,54.82,Congress court college if.,442
+110,Electrical Engineering,Graduate,2,47240,69098,88.28,Explain all page respond.,443
+110,History,Undergraduate,4,25338,46649,79.91,Road allow religious hundred.,444
+110,Biology,Graduate,2,44864,36127,59.74,Majority movie see or.,445
+110,Economics,Undergraduate,2,48881,92190,77.12,Hand still consumer civil theory class ball.,446
+111,Business Administration,Graduate,4,6093,56212,83.68,Smile simple admit here about.,447
+111,Chemistry,Graduate,4,12113,53451,61.38,Staff without century language.,448
+111,Mathematics,Undergraduate,4,47985,108768,86.85,Little environment bill democratic serious happen performance challenge.,449
+111,English Literature,Graduate,2,11595,81420,63.97,Traditional forget first seat down.,450
+111,Political Science,Graduate,4,33996,99455,92.8,Lay tend let between evening no able.,451
+112,Biology,Undergraduate,4,48705,34385,69.32,He technology stand.,452
+112,Mathematics,Undergraduate,4,8279,92398,50.62,Compare effect subject today last minute professional know.,453
+112,Physics,Graduate,4,39891,75089,89.44,Field your than how.,454
+113,Electrical Engineering,Graduate,2,37283,74405,54.25,Interest assume special.,455
+113,Political Science,Graduate,2,41867,52272,57.78,Situation treat education data job put.,456
+113,Music,Graduate,4,24191,58269,64.88,Report lot get cause.,457
+114,Mathematics,Graduate,2,26578,59586,84.82,Important issue speak none decade sound better trial.,458
+114,Music,Graduate,2,12718,105811,60.29,Something of dog professional.,459
+114,Chemistry,Graduate,2,28496,79037,61.76,Part stuff pass PM star act.,460
+115,English Literature,Graduate,2,12563,85407,67.26,Grow year unit plan traditional professional.,461
+115,Business Administration,Graduate,2,27574,78203,79.38,Near area radio most Mr tell movement clear.,462
+115,Economics,Undergraduate,2,9638,71910,69.71,Later skill end education result loss trouble.,463
+116,Psychology,Undergraduate,2,48033,42272,84.34,Office apply unit financial beat loss front.,464
+116,Art,Graduate,4,35289,96228,87.66,Discussion development own cause war.,465
+116,Biology,Undergraduate,4,13456,97251,67.02,Democrat likely month image protect oil become.,466
+116,Mechanical Engineering,Graduate,4,38750,50810,79.49,View as baby cover single.,467
+117,Biology,Graduate,4,6659,70711,86.74,School still rise wish natural federal page.,468
+117,Computer Science,Undergraduate,2,33632,62521,54.02,World see fund billion.,469
+117,History,Graduate,2,41014,53623,92.19,Lose wall hope evidence court wife manage.,470
+117,Biology,Undergraduate,4,48800,51195,67.85,His accept society.,471
+118,Mathematics,Undergraduate,2,19111,109176,69.53,Message fire individual son.,472
+118,Business Administration,Undergraduate,4,38709,71943,94.42,Thank star someone citizen.,473
+118,History,Graduate,4,15296,56663,92.34,Cover nothing north but bag.,474
+118,History,Undergraduate,4,13615,37579,56.06,State trade college stand subject value.,475
+118,Biology,Undergraduate,4,35753,69410,85.06,Find the different near race between voice.,476
+119,History,Graduate,4,22325,44040,91.11,Special show goal try employee share public.,477
+119,Economics,Graduate,2,39809,57566,89.06,Mother strategy fall.,478
+119,Mathematics,Graduate,2,49704,31278,79.55,Her allow civil sister tax address image.,479
+119,Art,Undergraduate,2,40327,71927,92.66,Near none drive age work five.,480
+120,Mechanical Engineering,Undergraduate,2,7098,44330,59.92,Newspaper Democrat audience evening.,481
+120,Economics,Graduate,2,14941,77347,89.58,Discuss every stay operation college.,482
+120,English Literature,Undergraduate,2,31889,102939,60.96,Know according approach.,483
+121,Music,Undergraduate,4,35812,101685,60.48,Force police score voice common small form kid.,484
+121,Music,Graduate,2,15188,88442,60.17,Five rich imagine half.,485
+121,Electrical Engineering,Graduate,2,37533,43810,63.18,Week wife may military nature while issue.,486
+122,Political Science,Graduate,2,37154,34777,77.71,Over sea show strategy.,487
+122,Electrical Engineering,Undergraduate,4,14843,45864,68.51,Interview believe race theory clearly.,488
+122,Music,Graduate,2,27449,72628,52.82,Manage think beat item.,489
+123,Psychology,Graduate,2,48694,87718,58.15,Dog play range second explain election.,490
+123,Art,Graduate,4,8812,41262,80.06,Letter case science get while senior inside.,491
+123,Music,Undergraduate,4,46377,102304,78.29,Focus four worker son likely.,492
+123,English Literature,Graduate,4,13848,66482,79.14,Which place face art writer.,493
+124,Biology,Graduate,4,20601,55954,81.98,Despite day movement arrive summer though enjoy.,494
+124,Business Administration,Graduate,4,33581,52353,76.56,Under poor down anything they.,495
+124,Art,Graduate,4,35813,32167,54.88,Support same say wait audience receive begin.,496
+124,Business Administration,Undergraduate,4,30376,99937,87.89,Hospital country late future full billion.,497
+124,Electrical Engineering,Undergraduate,2,42377,33017,66.67,Cost picture can employee between this.,498
+125,Economics,Undergraduate,2,37199,96487,71.99,Should he first fear trip.,499
+125,Music,Undergraduate,2,33937,81358,74.98,Short throw seek close leader three shoulder.,500
+125,Psychology,Graduate,2,40630,82181,87.87,Until beat speech five beat.,501
+125,Mechanical Engineering,Undergraduate,4,21945,109407,70.07,Commercial six rather vote view national school.,502
+126,Business Administration,Graduate,2,32692,109964,69.73,War rock truth spring.,503
+126,Art,Graduate,4,16023,75385,60.34,Marriage west nation eat defense last.,504
+126,Economics,Graduate,4,31578,59431,77.07,Under money phone six participant protect feeling.,505
+127,Business Administration,Graduate,2,16018,52573,68.0,Management performance change focus who six.,506
+127,Art,Graduate,2,14095,49390,56.3,Up general wish quality particular until return.,507
+127,Chemistry,Graduate,2,43361,41199,79.99,Thousand street hour newspaper list mission no indicate.,508
+128,Chemistry,Undergraduate,4,28572,69022,51.38,Side theory rather draw so.,509
+128,Economics,Graduate,4,43042,35055,92.29,Civil like off themselves.,510
+128,Biology,Undergraduate,2,43682,49726,85.18,Heart stop style short decision us.,511
+128,Economics,Undergraduate,4,43263,69490,77.4,Believe too through environment.,512
+129,Physics,Graduate,2,28723,52408,82.71,Do well traditional.,513
+129,Psychology,Undergraduate,2,26730,101782,58.84,Market person per.,514
+129,Mechanical Engineering,Graduate,2,40518,57136,89.83,Create dinner recent deal stop memory smile lose.,515
+129,Physics,Undergraduate,4,40027,30570,53.74,Test attorney what usually help enter shake.,516
+130,Mechanical Engineering,Undergraduate,4,34682,96559,65.06,Data goal population close.,517
+130,History,Undergraduate,2,33712,79737,65.23,Nor us great mother believe miss scene television.,518
+130,Art,Graduate,2,48450,102170,53.89,I late million movie audience quickly.,519
+131,Physics,Undergraduate,2,25559,84327,86.82,Turn various put sport.,520
+131,Economics,Undergraduate,2,7465,82409,64.44,Military understand hit growth forget rock.,521
+131,Art,Undergraduate,2,30201,74087,87.26,Alone set act everything follow third smile.,522
+131,Art,Undergraduate,2,24800,39962,66.71,Enough method identify beautiful.,523
+132,Physics,Graduate,2,15446,90595,80.94,Woman carry medical nothing in.,524
+132,Computer Science,Undergraduate,2,49926,41007,63.36,Edge live now must.,525
+132,Business Administration,Undergraduate,2,35650,45259,54.84,Campaign side lot.,526
+132,Psychology,Undergraduate,2,9801,97901,88.17,Smile hospital believe kitchen.,527
+133,Biology,Undergraduate,4,13433,56844,83.15,Thing admit like everybody chance news accept.,528
+133,English Literature,Undergraduate,4,43983,101054,65.89,Sound together chair nor popular.,529
+133,Biology,Graduate,4,27613,107153,85.23,Guy purpose those official difference weight.,530
+134,Computer Science,Undergraduate,4,40040,97753,67.11,Choice money charge window floor move.,531
+134,Biology,Graduate,4,16668,103663,91.88,Music thing executive vote just.,532
+134,Biology,Undergraduate,4,13443,109155,84.65,Finish plant detail price rise plant.,533
+134,Physics,Undergraduate,4,41531,91312,72.83,Instead edge able decide.,534
+134,Biology,Graduate,4,32369,88821,75.09,Blood deep door.,535
+135,Economics,Graduate,2,19382,53246,55.47,Cultural fear involve always top despite.,536
+135,Music,Graduate,4,24495,105985,63.3,Practice much news happy.,537
+135,Business Administration,Undergraduate,2,27412,82942,76.54,Area different none world.,538
+135,Mathematics,Graduate,2,11395,42285,91.76,Will section those serve cell.,539
+135,Art,Undergraduate,4,39148,38904,78.16,His this occur reveal.,540
+136,History,Graduate,4,10579,103689,53.1,Likely power plan surface world.,541
+136,Psychology,Graduate,4,13799,97147,76.65,Window seven interesting last almost physical.,542
+136,Computer Science,Graduate,4,43722,108037,66.32,Those stop state set beautiful.,543
+136,Physics,Graduate,2,17708,48129,55.75,Foot officer pretty memory state need popular.,544
+137,Business Administration,Graduate,4,48888,79908,84.43,Difference ok time hope spend.,545
+137,Physics,Undergraduate,2,12315,73954,57.59,Future history resource that north prevent painting.,546
+137,Electrical Engineering,Undergraduate,4,34706,90695,94.27,Watch painting hope success pattern with.,547
+137,Computer Science,Undergraduate,2,37171,42267,78.05,Can Mr especially PM.,548
+137,English Literature,Graduate,4,35618,102141,63.83,Theory this company hope product base.,549
+138,Biology,Undergraduate,2,35422,100130,74.08,Whole rule foreign first truth east current.,550
+138,Biology,Graduate,2,20348,99865,68.56,Project station nearly enough.,551
+138,Computer Science,Undergraduate,4,20262,79486,72.85,Play share floor guy law.,552
+138,Chemistry,Undergraduate,2,23875,44316,85.96,Year behind develop exist.,553
+138,Art,Graduate,4,25995,32650,53.72,Future ask air line heavy resource the.,554
+139,English Literature,Undergraduate,4,5448,31258,94.32,Community surface not go serve heavy rich.,555
+139,Economics,Undergraduate,2,29335,32957,91.74,Mind that information right her indicate American.,556
+139,Art,Undergraduate,2,7415,76260,63.13,Call newspaper member young.,557
+139,History,Graduate,4,30708,69081,90.59,Gun new society laugh make near chance.,558
+139,Computer Science,Undergraduate,2,29247,87034,60.07,Partner record home idea fly theory mission.,559
+140,Economics,Undergraduate,4,18551,37894,93.91,Easy someone here deep.,560
+140,Music,Undergraduate,4,14142,57316,81.12,Difficult new success letter hear none.,561
+140,Mechanical Engineering,Graduate,4,19053,38674,86.19,Matter church certainly represent see enough.,562
+140,Biology,Graduate,2,43102,54115,54.1,Present water especially front push measure fight.,563
+140,Economics,Graduate,4,36337,47838,56.4,Current challenge magazine conference result job beyond.,564
+141,Music,Undergraduate,2,47030,80463,73.88,Bit somebody would economy between simple.,565
+141,Biology,Undergraduate,2,5022,33982,77.09,Choose actually call apply.,566
+141,Business Administration,Graduate,2,23835,106950,94.75,Each thank carry.,567
+141,Mechanical Engineering,Graduate,2,35286,107460,89.28,Office defense direction program spring focus.,568
+142,Electrical Engineering,Undergraduate,4,44496,34545,82.44,Study industry record energy.,569
+142,Chemistry,Graduate,2,33251,79660,68.77,Man argue politics.,570
+142,Physics,Undergraduate,2,33111,51192,80.51,Practice car good town.,571
+143,Mechanical Engineering,Undergraduate,2,21017,62692,76.3,Give begin number chair within.,572
+143,English Literature,Graduate,2,32134,35613,87.3,World product subject.,573
+143,History,Graduate,4,25352,60800,61.87,Someone another bit break should.,574
+143,Chemistry,Undergraduate,2,21558,109476,55.32,Successful control point evening whom forget.,575
+143,Art,Graduate,4,45155,92433,55.94,To five executive receive fear at.,576
+144,English Literature,Graduate,2,23020,109058,82.44,Than recognize effect risk against.,577
+144,Chemistry,Graduate,4,34069,65596,52.92,Ask business adult might kind true.,578
+144,Electrical Engineering,Graduate,2,5650,41022,68.41,Hotel development form pattern six.,579
+144,History,Graduate,2,18542,41039,77.84,Official practice thus size major because yeah.,580
+144,Psychology,Graduate,4,25095,108770,61.28,Parent increase name firm investment ability current the.,581
+145,Chemistry,Graduate,2,7129,46874,85.23,South find morning write.,582
+145,History,Undergraduate,4,29169,91796,66.05,Computer ago successful image.,583
+145,Electrical Engineering,Undergraduate,4,28293,30962,50.98,Break use environment rise hard watch very.,584
+146,History,Graduate,2,22899,39724,63.59,Already maybe red difficult.,585
+146,Mathematics,Undergraduate,4,7374,77767,58.9,Do quite watch resource first yes talk.,586
+146,Biology,Graduate,4,17090,92612,74.39,Student coach happy apply church skin commercial.,587
+146,Art,Graduate,2,21775,96457,94.46,Forward shoulder plant voice brother management.,588
+146,Physics,Undergraduate,2,48365,58062,93.47,First believe marriage person why.,589
+147,Economics,Graduate,2,39075,40243,89.85,Stay tough us approach a.,590
+147,Art,Graduate,4,31199,65741,93.54,Food bring quickly treatment seat.,591
+147,Mathematics,Graduate,4,34630,46814,54.23,Age official social season soon son.,592
+147,Economics,Graduate,2,40573,54503,70.16,Attack national little democratic election laugh money.,593
+148,Business Administration,Undergraduate,2,11396,48898,88.59,Manager member many bill.,594
+148,History,Undergraduate,2,18175,50415,90.3,Throw movie lose exist past.,595
+148,Mathematics,Graduate,4,39145,107538,60.62,Across lawyer without performance.,596
+149,Computer Science,Undergraduate,4,26964,34823,66.18,Writer threat mention whether drug rich artist.,597
+149,Business Administration,Undergraduate,2,43263,66352,92.74,Forget certainly age dream red strong.,598
+149,Economics,Graduate,2,12096,67677,68.09,Too defense after provide couple lot.,599
+149,Computer Science,Undergraduate,4,43804,39387,64.43,Management easy opportunity despite let discussion.,600
+149,Psychology,Graduate,2,33598,33369,81.32,All player writer hundred among fear so.,601
+150,Mathematics,Undergraduate,2,16940,34443,93.13,Common pick note entire.,602
+150,Computer Science,Undergraduate,4,42972,74333,94.81,Listen discuss world push.,603
+150,Physics,Undergraduate,4,25859,101817,73.96,From financial no thus.,604
+151,Music,Undergraduate,2,20530,66876,69.3,Country side picture buy make for shake.,605
+151,Physics,Graduate,2,6485,54989,86.02,Us paper student necessary.,606
+151,Computer Science,Graduate,4,24870,63204,81.27,Analysis quickly beyond upon cold evening.,607
+151,Biology,Undergraduate,4,39889,85041,71.53,Page beat would stock beat just home.,608
+152,Biology,Undergraduate,2,18823,94122,85.66,Second already child include trial painting.,609
+152,Business Administration,Graduate,4,27696,60153,64.29,Defense increase bit economy position ask outside program.,610
+152,Computer Science,Undergraduate,4,33093,30985,77.87,Big agreement reality teach explain beat side.,611
+153,History,Undergraduate,4,9761,75833,62.98,Conference sound interesting.,612
+153,Electrical Engineering,Graduate,4,17851,86083,73.4,Billion president left.,613
+153,Political Science,Undergraduate,2,41521,91629,52.78,Machine career goal make realize role trouble.,614
+153,Computer Science,Graduate,4,9295,36481,80.89,During important draw.,615
+154,Mathematics,Graduate,4,8575,93028,82.78,Evening opportunity anything defense themselves smile magazine.,616
+154,Economics,Graduate,2,19354,67729,64.33,Adult already law energy generation page church moment.,617
+154,Chemistry,Graduate,2,47035,80171,54.95,Pm brother hospital.,618
+154,Computer Science,Graduate,4,11538,41197,92.4,Tend what officer kitchen.,619
+155,Economics,Graduate,2,36783,85780,61.71,Identify over throw who increase visit focus participant.,620
+155,Mechanical Engineering,Graduate,4,37682,102068,84.34,There decade food institution suddenly floor.,621
+155,Computer Science,Undergraduate,4,43540,109613,83.64,According point personal worker join once under.,622
+155,Economics,Undergraduate,4,9051,37012,70.35,Space left reveal live radio me task.,623
+155,Art,Undergraduate,2,39324,49730,65.71,Some politics then situation.,624
+156,Business Administration,Graduate,4,34808,45242,79.2,Left machine kitchen work.,625
+156,Music,Graduate,2,21115,108437,64.03,Yet fall sing.,626
+156,History,Graduate,2,19972,81235,92.02,Recognize believe low cover find.,627
+157,Economics,Undergraduate,4,8620,107203,78.0,Power help where value possible others majority.,628
+157,Political Science,Undergraduate,2,26630,36890,52.14,Space forget address news father by according.,629
+157,Biology,Graduate,2,43133,43513,78.77,Movie movement could only.,630
+157,Biology,Undergraduate,4,28482,37991,72.05,Speech career toward town.,631
+157,Computer Science,Undergraduate,2,9922,41409,79.3,Sign produce adult story.,632
+158,English Literature,Undergraduate,2,8932,70353,61.64,Several could thus me I more music across.,633
+158,Chemistry,Graduate,4,38161,71602,72.91,Wear industry role our who pretty Mr.,634
+158,Mechanical Engineering,Graduate,2,13919,46774,81.44,Door him either tree serious speak you.,635
+158,History,Undergraduate,2,9889,90161,57.14,Young attack decision few international six available.,636
+158,Biology,Undergraduate,2,45399,108036,57.18,News daughter cell nice as list physical.,637
+159,Psychology,Graduate,4,16996,39625,71.9,Successful analysis response.,638
+159,Business Administration,Undergraduate,4,26673,79218,50.92,Choice stand situation travel save try.,639
+159,Psychology,Graduate,2,45143,95084,50.8,Score or purpose player write whose account.,640
+160,Psychology,Undergraduate,2,31478,99442,69.51,Issue image these.,641
+160,Mathematics,Undergraduate,4,18213,60998,78.4,Special point much forward beautiful point present control.,642
+160,English Literature,Undergraduate,4,34589,34599,76.26,Military fund finally whom international.,643
+161,Economics,Undergraduate,2,49080,52940,60.29,Live past despite break reveal every society rise.,644
+161,Biology,Graduate,4,39678,52671,66.03,Study itself off question policy feel.,645
+161,English Literature,Graduate,4,27230,89829,70.24,Owner relate model degree million.,646
+161,Business Administration,Graduate,2,38842,36754,59.22,Girl current beautiful protect unit.,647
+161,Business Administration,Undergraduate,2,20526,83531,56.51,Listen simple activity hot.,648
+162,Mathematics,Undergraduate,4,33877,101932,88.48,Explain space hold sit writer will claim place.,649
+162,Mechanical Engineering,Graduate,2,32285,82011,83.65,Oil piece above science million between sister.,650
+162,Art,Undergraduate,4,33478,66051,63.32,Somebody factor measure season.,651
+163,Political Science,Graduate,2,15667,69994,73.61,Tax page relationship business.,652
+163,Mathematics,Undergraduate,2,38081,85859,59.04,Financial tell after note role.,653
+163,Biology,Graduate,4,42914,43105,80.51,Onto indicate always capital behind indeed sense.,654
+164,Psychology,Graduate,2,33139,108108,59.98,Enjoy factor friend bad message.,655
+164,Physics,Graduate,4,37515,45058,74.36,Career hotel become professional car item senior.,656
+164,Business Administration,Graduate,2,30268,69185,84.65,Clearly price around check world move.,657
+165,Business Administration,Undergraduate,4,42624,38525,79.16,Number strong quickly notice before account professor detail.,658
+165,Biology,Undergraduate,2,9485,36891,81.26,These final garden detail.,659
+165,Music,Graduate,2,39583,45729,94.05,Tree image break prevent.,660
+166,Art,Graduate,4,49617,44884,72.03,Natural near data thought foot a require.,661
+166,Biology,Undergraduate,2,5207,46968,76.07,Society deal explain follow attorney possible green.,662
+166,Economics,Graduate,4,25322,87698,63.13,Trade fall provide tell poor sound action.,663
+166,Music,Graduate,2,46204,34920,74.4,Including generation take want over.,664
+166,Business Administration,Undergraduate,2,42076,79209,84.62,Accept interest win second performance.,665
+167,History,Undergraduate,2,46745,54306,76.58,Industry ten man past unit young quite.,666
+167,Music,Undergraduate,2,36929,106636,85.01,Save within compare quite.,667
+167,Mathematics,Undergraduate,4,46432,69053,86.65,Page their at her gas money doctor.,668
+168,Art,Graduate,4,25407,35643,51.28,Someone later owner.,669
+168,Computer Science,Graduate,4,23562,50091,78.48,Among same land few but heavy.,670
+168,Economics,Undergraduate,4,41065,67273,80.35,Blue seat buy hold section the resource.,671
+168,Mathematics,Graduate,4,10685,75524,84.23,Thing audience role nice event service weight.,672
+168,Economics,Undergraduate,4,8239,50671,76.52,The often participant throughout nearly take.,673
+169,Music,Graduate,2,37376,30342,94.9,Drug kid community design along simply daughter.,674
+169,History,Graduate,4,15296,97627,73.2,Physical reveal attorney today physical else drop.,675
+169,Biology,Graduate,4,40344,106500,67.08,Agency paper form manager add street.,676
+170,Art,Graduate,4,41366,106182,66.63,Design rock sea Congress.,677
+170,Mathematics,Undergraduate,4,20280,69792,57.3,Claim family admit never.,678
+170,Mechanical Engineering,Undergraduate,4,14095,34684,64.7,Population social director.,679
+170,Music,Undergraduate,2,31935,83795,72.36,Effort loss fund indicate soon large forget these.,680
+171,Psychology,Graduate,4,36657,34272,66.99,Important development other return weight case her draw.,681
+171,Biology,Graduate,4,39601,95744,94.97,Ability collection indicate show.,682
+171,History,Graduate,2,41811,90803,55.47,Stock different skill.,683
+171,Mathematics,Undergraduate,2,48549,46219,59.74,Meeting left form rather from radio.,684
+171,Psychology,Graduate,4,49189,69280,80.14,They democratic drive official material.,685
+172,Psychology,Undergraduate,2,41063,102998,56.65,Less focus within seven school people.,686
+172,Biology,Graduate,2,28413,41860,60.17,Establish decision first fight.,687
+172,Physics,Graduate,2,30601,71359,89.03,Skill raise bit strategy would economic.,688
+172,Business Administration,Undergraduate,4,20532,96165,66.98,Example low follow purpose begin tax somebody.,689
+172,English Literature,Graduate,4,11653,88288,89.22,Fight employee check away reduce more.,690
+173,Economics,Undergraduate,2,32036,44948,58.3,Movie social office section big help.,691
+173,Chemistry,Graduate,2,37133,59638,77.15,Smile interesting article pay policy beyond road forward.,692
+173,History,Graduate,4,33679,67826,50.98,Go successful show art decision.,693
+173,Chemistry,Undergraduate,4,16935,78656,59.1,Maybe southern pressure.,694
+174,Art,Undergraduate,4,29656,89950,53.57,Book particularly hope director involve think.,695
+174,Economics,Undergraduate,4,43730,81190,59.28,Safe religious again produce put rest.,696
+174,Psychology,Undergraduate,4,38736,44376,90.62,Career sign of should ground officer he.,697
+175,Art,Undergraduate,2,47098,89192,75.09,Buy total system over several.,698
+175,English Literature,Undergraduate,4,24709,81469,84.0,Bring commercial share product ten operation blue.,699
+175,Mathematics,Undergraduate,2,21465,105359,60.35,Rest individual green film area.,700
+176,Art,Undergraduate,4,5956,62102,63.36,Gas whose class generation day information mission.,701
+176,Mechanical Engineering,Undergraduate,4,16729,69772,61.74,Along recognize question moment.,702
+176,History,Graduate,4,20511,93317,81.99,Police little score cold speech position between.,703
+176,Business Administration,Graduate,2,38275,65369,92.5,Over white still career model institution place result.,704
+177,Political Science,Undergraduate,2,23046,98592,76.54,Four wish I.,705
+177,English Literature,Undergraduate,2,30469,64529,70.58,Focus suffer father interview respond.,706
+177,Music,Graduate,2,39231,55783,88.72,Think hope tell firm.,707
+177,Chemistry,Graduate,2,15829,72505,55.89,Lose thank film expect physical.,708
+177,Economics,Undergraduate,2,32512,109169,93.99,Once challenge personal operation very my.,709
+178,Mechanical Engineering,Undergraduate,2,45994,98845,79.83,Pass short nation law admit too.,710
+178,Mechanical Engineering,Undergraduate,4,22634,106475,56.69,Quite discuss fine federal.,711
+178,Economics,Undergraduate,2,32928,43685,94.54,Relate although kitchen instead thought north.,712
+178,Chemistry,Undergraduate,2,37593,43871,52.35,Score child yard address authority value not.,713
+179,Electrical Engineering,Graduate,2,7231,54239,57.61,Inside various letter begin.,714
+179,Political Science,Undergraduate,2,32810,70427,79.07,Few national guess board international hold.,715
+179,Economics,Undergraduate,4,26977,32908,65.64,Public note final election son.,716
+179,Music,Undergraduate,4,25733,55841,78.12,Purpose economy goal key speak authority.,717
+179,Mathematics,Undergraduate,2,46514,102453,93.58,Account each himself answer music friend.,718
+180,Business Administration,Graduate,2,9984,32185,75.35,Suggest job just might fight.,719
+180,Mathematics,Undergraduate,2,16378,59102,66.44,Character finally affect difficult teacher.,720
+180,Mathematics,Graduate,4,9534,52111,82.02,Present region player sort morning.,721
+180,History,Undergraduate,2,42432,88414,60.67,Sense much international offer condition.,722
+180,Computer Science,Graduate,2,27072,90017,67.45,Whole cause three just.,723
+181,Chemistry,Graduate,4,15678,106129,80.43,Wish anything event but.,724
+181,Chemistry,Undergraduate,4,29372,30062,66.87,Structure unit simple while represent.,725
+181,Computer Science,Graduate,2,11762,84586,78.26,Product onto growth add.,726
+181,Chemistry,Graduate,2,20086,46672,66.62,International own apply.,727
+181,English Literature,Graduate,4,17183,66392,65.7,Run behavior audience.,728
+182,English Literature,Graduate,4,39697,86027,72.53,Like speak treat seven purpose.,729
+182,Art,Graduate,4,34191,70360,58.23,Opportunity gas teacher his name professor finally.,730
+182,History,Graduate,4,14025,51731,85.56,Century star keep special space actually.,731
+182,English Literature,Graduate,4,43085,106642,77.73,Drive even increase realize.,732
+183,Music,Graduate,2,13708,107536,58.8,Meeting which yet which forward name bit store.,733
+183,Art,Undergraduate,4,17329,98378,62.41,Southern world age majority major.,734
+183,Business Administration,Undergraduate,2,21700,98981,86.09,Range available media.,735
+183,Psychology,Undergraduate,4,47142,66387,66.4,Attorney these three take program.,736
+183,Mathematics,Undergraduate,4,40409,104553,80.76,Research somebody direction list never.,737
+184,Music,Undergraduate,4,23197,68208,59.51,Message loss against your people.,738
+184,Mathematics,Graduate,4,38648,101488,72.6,Increase enjoy sister sister plan network authority.,739
+184,Music,Undergraduate,2,12922,71622,53.03,None student team drive.,740
+185,Psychology,Graduate,4,18091,43737,65.81,Sense development short per ten beyond standard.,741
+185,Physics,Undergraduate,4,32555,93593,59.9,Executive writer history administration space institution.,742
+185,Biology,Undergraduate,2,10745,54282,74.86,Leg wall process feeling figure know economy.,743
+186,Biology,Undergraduate,2,22627,60133,55.5,Challenge some focus remain south result.,744
+186,Electrical Engineering,Undergraduate,4,26951,92516,87.36,Issue five fact worry.,745
+186,Political Science,Undergraduate,4,25608,58770,71.17,Customer true pretty public reach information health one.,746
+186,Chemistry,Graduate,2,9019,104097,77.16,Everyone she during each religious involve join.,747
+187,Political Science,Graduate,2,13540,88848,75.9,Sea data such conference.,748
+187,Economics,Graduate,2,36534,102704,64.78,Full admit mouth unit cut father.,749
+187,English Literature,Undergraduate,4,6827,73976,52.86,Anything bad music idea development stuff more.,750
+187,Music,Graduate,2,20481,94203,53.72,Series back thus.,751
+187,Psychology,Undergraduate,2,37418,88772,72.11,My include need ever beautiful since.,752
+188,Art,Graduate,2,44058,78688,70.5,Trip worker any hair.,753
+188,Computer Science,Undergraduate,2,14156,49910,90.34,Usually simple such civil receive almost great.,754
+188,Mechanical Engineering,Graduate,4,25483,64817,55.32,Management world play language manager together.,755
+188,Political Science,Graduate,4,8214,102659,83.97,Race religious sell describe run cell.,756
+189,Chemistry,Undergraduate,2,36912,87283,75.0,Good wall daughter.,757
+189,Political Science,Graduate,2,24930,61221,59.29,Address mission myself win matter value beyond eat.,758
+189,Business Administration,Graduate,2,7898,60061,58.4,Or then we back.,759
+190,Electrical Engineering,Undergraduate,4,29794,90702,72.49,Class stop sit.,760
+190,Economics,Graduate,4,32574,62789,53.64,Lay walk most throw.,761
+190,Biology,Graduate,4,45730,80908,89.92,Third use fly worker.,762
+190,English Literature,Graduate,2,39418,45643,53.22,Line result response but be.,763
+190,Music,Graduate,4,7148,44115,51.36,Opportunity art herself behind.,764
+191,Electrical Engineering,Undergraduate,4,25966,96853,76.2,Movie might including mouth.,765
+191,Biology,Graduate,4,15372,76405,52.0,Reduce medical somebody trade hotel bank for.,766
+191,Chemistry,Graduate,4,29244,34870,92.79,Tend difficult class and lawyer.,767
+192,English Literature,Undergraduate,4,48684,59382,94.91,Night culture safe effect onto.,768
+192,History,Undergraduate,4,32246,75858,50.48,Group ago son wife concern cold spring.,769
+192,Computer Science,Graduate,2,42264,47244,77.59,Change check sell design book rest house.,770
+192,Physics,Undergraduate,2,23600,42574,72.0,Team stock culture.,771
+193,Economics,Undergraduate,4,25921,67234,54.68,Heavy eye anything.,772
+193,Business Administration,Graduate,2,29157,60134,89.1,There any money carry front job.,773
+193,Business Administration,Undergraduate,2,42253,48256,62.29,Goal even cover fly.,774
+194,Economics,Graduate,4,45149,52302,63.56,Note east black understand.,775
+194,Political Science,Undergraduate,2,20261,74625,93.65,State rather realize this.,776
+194,Psychology,Graduate,2,40155,85231,64.65,Republican able in finish call fact else.,777
+194,Computer Science,Graduate,4,24349,80227,75.57,Reason pay tough over information bag area live.,778
+195,Art,Undergraduate,2,45422,101363,66.21,Recent long there sit.,779
+195,Mechanical Engineering,Undergraduate,4,34943,75777,64.65,Affect stock opportunity summer sometimes process begin team.,780
+195,Chemistry,Undergraduate,4,25745,41702,92.45,Kitchen realize data whole.,781
+196,Mechanical Engineering,Graduate,4,39929,102676,81.13,Most usually country though moment.,782
+196,History,Graduate,4,19223,81926,94.53,Type tough weight result.,783
+196,Mathematics,Graduate,2,16733,37021,79.9,Act specific season language fall ball.,784
+196,Political Science,Undergraduate,2,8448,85546,83.87,Cost item class various though man hotel.,785
+196,Physics,Graduate,4,26568,100171,58.88,Night bag executive.,786
+197,Music,Undergraduate,4,41739,75062,50.58,Rich to left customer sit lose beat keep.,787
+197,Political Science,Graduate,4,26268,77916,51.1,Expert establish maintain board these might task.,788
+197,English Literature,Graduate,4,30822,103445,67.15,Decision firm skill production indicate.,789
+197,Mechanical Engineering,Undergraduate,4,45268,64140,89.01,Least song her cost which past fish.,790
+198,Biology,Graduate,2,23996,104306,81.95,Onto my can church forward operation service.,791
+198,Political Science,Undergraduate,4,45583,106074,87.01,At throughout word allow move else.,792
+198,Business Administration,Graduate,4,40823,70939,85.39,Spend enjoy hand deal.,793
+199,Music,Undergraduate,4,15674,80393,67.6,Store teach skill as how I.,794
+199,Mechanical Engineering,Graduate,4,25812,50386,56.87,Value wear those later fine market.,795
+199,Art,Undergraduate,4,32664,83866,61.42,Pm account agency bar peace someone sure.,796
+199,Political Science,Graduate,2,49556,93631,68.29,Include single agreement risk especially business.,797
+200,Business Administration,Graduate,2,19340,66882,83.88,Relate political late close avoid hard magazine.,798
+200,English Literature,Undergraduate,4,34966,98566,54.52,Join personal figure plan.,799
+200,History,Graduate,2,41206,86925,93.78,Candidate business like family.,800

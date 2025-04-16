@@ -1,14 +1,24 @@
 import pandas as pd
 import random
-from .base_generators import *
+from .base_generators import fake, random_gre, random_toefl, random_gpa, random_phone
 from config import (NUM_STUDENTS, DIRTY_DATA_PROBABILITY, DUPLICATE_PROBABILITY,
                    MIN_STUDENT_AGE, MAX_STUDENT_AGE, MISSING_DATA_PROBABILITY)
 
 def generate_students():
+    """
+    Generates a DataFrame of student records with:
+    - Clean data (85% of records)
+    - Dirty data (15% of records) with:
+      - Missing values
+      - Invalid values
+      - Outliers
+    - Duplicates (5% of total records)
+    """
     students = []
+    
     for _ in range(NUM_STUDENTS):
-        # Create clean student record
-        clean_data = {
+        # Base clean student record
+        student = {
             'first_name': fake.first_name(),
             'last_name': fake.last_name(),
             'email': fake.email(),
@@ -26,58 +36,49 @@ def generate_students():
             'loan_risk_score': round(random.uniform(1.0, 10.0), 2)
         }
 
-        # Randomly decide if we'll create a dirty record
+        # Introduce data quality issues
         if random.random() < DIRTY_DATA_PROBABILITY:
-            dirty_type = random.choice(['missing', 'invalid', 'outlier'])
+            issue_type = random.choice(['missing', 'invalid', 'outlier'])
             
-            if dirty_type == 'missing':
-                # Create record with missing values
-                student = {
-                    **clean_data,
-                    'email': None,
-                    'gre_score': None if random.random() < MISSING_DATA_PROBABILITY else clean_data['gre_score'],
-                    'toefl_score': None if random.random() < MISSING_DATA_PROBABILITY else clean_data['toefl_score'],
-                    'gpa': None if random.random() < MISSING_DATA_PROBABILITY else clean_data['gpa']
-                }
-            elif dirty_type == 'invalid':
-                # Create record with invalid values
-                student = {
-                    **clean_data,
+            if issue_type == 'missing':
+                # Randomly nullify fields
+                for field in ['email', 'gre_score', 'toefl_score', 'gpa']:
+                    if random.random() < MISSING_DATA_PROBABILITY:
+                        student[field] = None
+                        
+            elif issue_type == 'invalid':
+                # Set invalid values
+                student.update({
                     'email': 'invalid_email',
-                    'gre_score': random.randint(100, 259),  # Below valid range
-                    'toefl_score': random.randint(121, 150),  # Above valid range
-                    'gpa': round(random.uniform(4.1, 5.0), 2),  # Above valid range
-                    'work_experience': -5,  # Negative value
-                    'phone': '123',  # Invalid format
-                    'financial_status': 'Unknown'  # Invalid value
-                }
-            elif dirty_type == 'outlier':
-                # Create record with outlier values
-                student = {
-                    **clean_data,
+                    'gre_score': random.randint(100, 259),  # Below minimum
+                    'toefl_score': random.randint(121, 150),  # Above maximum
+                    'gpa': round(random.uniform(4.1, 5.0), 2),  # Above 4.0
+                    'work_experience': -random.randint(1, 12),  # Negative
+                    'phone': '123'  # Invalid format
+                })
+                
+            elif issue_type == 'outlier':
+                # Set extreme but possible values
+                student.update({
                     'gre_score': 340,  # Perfect score
                     'toefl_score': 120,  # Perfect score
                     'gpa': 4.0,  # Perfect GPA
-                    'work_experience': 120,  # 10 years (unusual for student)
+                    'work_experience': random.randint(72, 120),  # 6-10 years
                     'date_of_birth': fake.date_of_birth(
-                        minimum_age=40,  # Older than typical student
-                        maximum_age=50
+                        minimum_age=MAX_STUDENT_AGE + 5,
+                        maximum_age=MAX_STUDENT_AGE + 15
                     )
-                }
-        else:
-            # Use clean data
-            student = clean_data
-        
+                })
+
         students.append(student)
     
-    # Add duplicates (5% of records)
-    num_duplicates = int(NUM_STUDENTS * DUPLICATE_PROBABILITY)
-    students.extend(random.choices(students, k=num_duplicates))
+    # Add duplicates
+    if DUPLICATE_PROBABILITY > 0:
+        num_duplicates = int(NUM_STUDENTS * DUPLICATE_PROBABILITY)
+        students.extend(random.choices(students, k=num_duplicates))
     
     # Create DataFrame
     df = pd.DataFrame(students)
-    
-    # Ensure student_id is unique even with duplicates
     df['student_id'] = range(1, len(df) + 1)
     
     return df

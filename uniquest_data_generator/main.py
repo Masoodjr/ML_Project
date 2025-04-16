@@ -9,7 +9,7 @@ from generators.admission_generator import generate_admissions
 from generators.historical_data_generator import generate_historical_admissions
 from generators.alumni_generator import generate_alumni_salary_data
 from generators.funding_generator import generate_funding_data
-from generators.ranking_operator import generate_ranking_data
+from generators.ranking_generator import generate_ranking_data
 from generators.prediction_generator import (generate_admission_predictions,
                                            generate_salary_predictions)
 from generators.user_generator import generate_users

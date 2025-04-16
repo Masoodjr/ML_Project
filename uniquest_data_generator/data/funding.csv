@@ -1,0 +1,687 @@
+university_id,funding_source,amount,funding_year,funding_id
+1,Corporate Sponsorship,3970422,2024,1
+1,State Funding,795845,2024,2
+1,Research Grant,4258262,2018,3
+1,Research Grant,2114175,2024,4
+1,Federal Grant,2679379,2015,5
+2,Corporate Sponsorship,105044,2021,6
+2,Endowment,2241744,2018,7
+3,Private Donation,4479568,2015,8
+3,Private Donation,265429,2024,9
+3,Federal Grant,4101728,2017,10
+3,Endowment,2774503,2022,11
+4,Federal Grant,1319309,2018,12
+4,State Funding,3605543,2016,13
+4,Research Grant,1603902,2023,14
+4,State Funding,4406343,2017,15
+5,Federal Grant,684505,2023,16
+5,Research Grant,565338,2016,17
+5,Research Grant,829276,2017,18
+5,Private Donation,2617236,2023,19
+5,Corporate Sponsorship,2089471,2023,20
+6,Corporate Sponsorship,3890912,2016,21
+6,Endowment,4915502,2018,22
+7,Private Donation,50555,2020,23
+7,Endowment,4941717,2024,24
+7,Research Grant,142658,2016,25
+7,Endowment,4598136,2015,26
+8,Federal Grant,2402528,2022,27
+8,Private Donation,2022945,2016,28
+8,Federal Grant,582832,2017,29
+9,Private Donation,521030,2015,30
+9,Corporate Sponsorship,2351081,2019,31
+9,State Funding,869322,2022,32
+10,Endowment,4352685,2017,33
+10,Endowment,3191082,2023,34
+10,State Funding,2536028,2015,35
+11,Private Donation,4668274,2021,36
+11,Private Donation,1723081,2017,37
+12,State Funding,3997766,2023,38
+12,State Funding,2356924,2017,39
+12,State Funding,3416535,2019,40
+13,Research Grant,1420814,2016,41
+13,Research Grant,1803761,2021,42
+13,Endowment,3873070,2015,43
+13,Endowment,460575,2024,44
+14,Corporate Sponsorship,1672364,2018,45
+14,Private Donation,262664,2018,46
+14,State Funding,1824652,2016,47
+15,Federal Grant,585713,2021,48
+15,State Funding,2323626,2018,49
+15,Research Grant,1948847,2022,50
+15,Endowment,2204967,2020,51
+16,Private Donation,4819062,2016,52
+16,Federal Grant,3672409,2023,53
+16,Federal Grant,3477150,2017,54
+16,Federal Grant,659469,2018,55
+16,Research Grant,2661257,2022,56
+17,Federal Grant,1255862,2023,57
+17,Research Grant,1385838,2019,58
+17,Research Grant,2491915,2024,59
+17,Private Donation,461927,2018,60
+17,Corporate Sponsorship,3726382,2023,61
+18,Endowment,1080430,2015,62
+18,Endowment,3112105,2022,63
+18,Endowment,3371988,2020,64
+19,Private Donation,1393875,2018,65
+19,Endowment,3928572,2020,66
+20,Research Grant,112510,2022,67
+20,Private Donation,2070625,2024,68
+20,Corporate Sponsorship,244448,2021,69
+20,State Funding,4405607,2015,70
+21,Endowment,4712368,2024,71
+21,State Funding,1893537,2018,72
+21,Private Donation,1784946,2018,73
+22,Private Donation,4636569,2018,74
+22,Private Donation,1883886,2019,75
+22,Corporate Sponsorship,604759,2023,76
+22,State Funding,1556577,2016,77
+22,State Funding,4705943,2022,78
+23,Federal Grant,1445657,2018,79
+23,Endowment,3985978,2016,80
+23,Research Grant,2089101,2019,81
+24,Corporate Sponsorship,3488474,2021,82
+24,Federal Grant,4116482,2022,83
+25,Endowment,2220435,2024,84
+25,Corporate Sponsorship,4467740,2019,85
+25,Private Donation,1933657,2021,86
+25,State Funding,1358640,2021,87
+25,Corporate Sponsorship,4027195,2020,88
+26,Endowment,1093144,2017,89
+26,Corporate Sponsorship,4293475,2023,90
+27,Federal Grant,2844846,2015,91
+27,Federal Grant,3135007,2021,92
+27,Endowment,3000381,2024,93
+27,Corporate Sponsorship,1680857,2020,94
+27,Federal Grant,4638145,2022,95
+28,Endowment,609566,2024,96
+28,Corporate Sponsorship,399254,2019,97
+28,State Funding,4521340,2016,98
+28,Corporate Sponsorship,2313255,2016,99
+29,Research Grant,4413955,2023,100
+29,State Funding,2074962,2024,101
+30,Private Donation,3941331,2018,102
+30,Research Grant,3472573,2016,103
+30,Endowment,3979344,2016,104
+31,Endowment,680879,2017,105
+31,Research Grant,4738394,2017,106
+32,Research Grant,2464014,2021,107
+32,Endowment,4389745,2016,108
+32,Corporate Sponsorship,1587098,2015,109
+32,Federal Grant,3544036,2024,110
+33,State Funding,3821176,2016,111
+33,State Funding,2436301,2018,112
+34,Corporate Sponsorship,2117088,2018,113
+34,Corporate Sponsorship,3484531,2019,114
+34,Research Grant,3551871,2016,115
+34,Corporate Sponsorship,533778,2015,116
+35,Endowment,4068310,2023,117
+35,Federal Grant,1670800,2018,118
+35,Corporate Sponsorship,4654856,2017,119
+36,Research Grant,2681129,2024,120
+36,Endowment,925972,2016,121
+36,Federal Grant,411611,2023,122
+36,Research Grant,3137757,2023,123
+37,Research Grant,1455826,2017,124
+37,Corporate Sponsorship,912620,2017,125
+37,State Funding,1271103,2019,126
+37,Research Grant,1144745,2016,127
+37,Federal Grant,278607,2019,128
+38,Corporate Sponsorship,2941713,2018,129
+38,State Funding,2494129,2017,130
+39,State Funding,3292237,2020,131
+39,Research Grant,4450496,2019,132
+39,Private Donation,128647,2024,133
+39,Private Donation,3964815,2021,134
+40,State Funding,4146511,2018,135
+40,Private Donation,3563807,2021,136
+41,Federal Grant,1822640,2018,137
+41,State Funding,1903727,2021,138
+41,Private Donation,4037455,2023,139
+42,Endowment,4832718,2022,140
+42,State Funding,4862088,2015,141
+42,State Funding,4034705,2015,142
+42,Federal Grant,1767448,2015,143
+42,Endowment,1674242,2022,144
+43,Private Donation,3789514,2016,145
+43,Corporate Sponsorship,4743437,2019,146
+43,Endowment,958417,2019,147
+43,Federal Grant,906023,2020,148
+44,State Funding,2021834,2019,149
+44,State Funding,1689090,2017,150
+45,Federal Grant,1643152,2024,151
+45,Corporate Sponsorship,615184,2016,152
+45,State Funding,1862825,2020,153
+45,Endowment,2552856,2023,154
+45,Research Grant,17676,2019,155
+46,Corporate Sponsorship,2696844,2016,156
+46,State Funding,375821,2015,157
+46,Research Grant,1197135,2016,158
+46,State Funding,971306,2024,159
+46,Endowment,2284807,2017,160
+47,Private Donation,2311288,2020,161
+47,State Funding,3919260,2016,162
+47,Endowment,824179,2018,163
+47,Endowment,4780940,2019,164
+48,Federal Grant,2462053,2023,165
+48,Federal Grant,3255684,2019,166
+48,Endowment,4300534,2017,167
+48,Endowment,4221722,2022,168
+49,Research Grant,902680,2024,169
+49,Endowment,230949,2017,170
+49,Private Donation,4081374,2017,171
+49,Corporate Sponsorship,1201981,2024,172
+49,Federal Grant,844091,2024,173
+50,Federal Grant,2273242,2023,174
+50,Research Grant,862738,2024,175
+50,Corporate Sponsorship,2476248,2018,176
+50,Federal Grant,518716,2016,177
+50,Corporate Sponsorship,2271101,2021,178
+51,State Funding,2538404,2023,179
+51,State Funding,4084147,2017,180
+51,Private Donation,4038470,2018,181
+51,Corporate Sponsorship,1041142,2019,182
+51,State Funding,3601561,2023,183
+52,State Funding,1389584,2021,184
+52,Corporate Sponsorship,1455570,2022,185
+52,Private Donation,2490770,2024,186
+52,Corporate Sponsorship,289876,2019,187
+52,Corporate Sponsorship,909595,2017,188
+53,Federal Grant,115841,2015,189
+53,Endowment,4826487,2022,190
+53,Endowment,2688233,2024,191
+53,Research Grant,3646735,2017,192
+54,Endowment,876485,2024,193
+54,State Funding,1532850,2023,194
+54,Corporate Sponsorship,2383063,2021,195
+55,Research Grant,3639515,2021,196
+55,Endowment,3308118,2019,197
+55,Endowment,2299653,2024,198
+55,Endowment,2643423,2023,199
+56,Private Donation,1791060,2015,200
+56,Research Grant,3225505,2023,201
+56,Federal Grant,1685716,2016,202
+56,State Funding,1798257,2022,203
+57,Research Grant,4847098,2016,204
+57,Research Grant,657563,2015,205
+58,Endowment,5000000,2016,206
+58,Endowment,3700171,2019,207
+58,State Funding,334278,2015,208
+58,Corporate Sponsorship,4067599,2022,209
+59,Private Donation,1942686,2015,210
+59,Research Grant,3826799,2023,211
+59,Research Grant,4685327,2022,212
+60,Research Grant,839059,2020,213
+60,Private Donation,959915,2020,214
+60,Endowment,1643008,2015,215
+60,State Funding,2785016,2016,216
+61,Private Donation,3738660,2017,217
+61,Endowment,4124279,2023,218
+61,Corporate Sponsorship,1839317,2015,219
+62,Corporate Sponsorship,1462757,2020,220
+62,Corporate Sponsorship,4201371,2022,221
+62,Corporate Sponsorship,493730,2017,222
+63,Endowment,1054811,2016,223
+63,Federal Grant,170354,2016,224
+63,Corporate Sponsorship,1200191,2021,225
+63,Research Grant,260546,2019,226
+63,Research Grant,1392264,2016,227
+64,Federal Grant,4664603,2023,228
+64,Research Grant,2183351,2023,229
+64,Corporate Sponsorship,692665,2024,230
+65,Research Grant,1071658,2022,231
+65,Corporate Sponsorship,3293596,2020,232
+65,Endowment,1782554,2022,233
+65,Private Donation,173454,2020,234
+65,Corporate Sponsorship,1656354,2021,235
+66,Endowment,644709,2023,236
+66,Federal Grant,3189187,2017,237
+67,Private Donation,4128916,2022,238
+67,Research Grant,1915447,2024,239
+67,Endowment,3166876,2022,240
+67,Endowment,1234485,2015,241
+68,Corporate Sponsorship,1836039,2020,242
+68,Endowment,516493,2023,243
+69,Corporate Sponsorship,1461105,2024,244
+69,Private Donation,4592694,2018,245
+69,Research Grant,3617642,2019,246
+70,Federal Grant,1668384,2016,247
+70,Research Grant,2044634,2021,248
+71,State Funding,2855280,2019,249
+71,Private Donation,2188679,2016,250
+71,Private Donation,1273172,2018,251
+71,Endowment,4757548,2019,252
+72,Federal Grant,2664117,2015,253
+72,Private Donation,3275110,2024,254
+72,Research Grant,3008821,2022,255
+72,State Funding,727790,2016,256
+73,State Funding,1457355,2019,257
+73,Private Donation,683539,2022,258
+73,Federal Grant,4272731,2023,259
+74,Federal Grant,631709,2022,260
+74,Research Grant,3171768,2019,261
+74,Corporate Sponsorship,400398,2017,262
+74,State Funding,3562801,2021,263
+74,Corporate Sponsorship,1633275,2015,264
+75,Endowment,3849312,2015,265
+75,Federal Grant,4298916,2015,266
+75,Endowment,3370219,2015,267
+76,Federal Grant,4283805,2017,268
+76,State Funding,4445480,2023,269
+76,Research Grant,3899264,2019,270
+77,Private Donation,2900161,2015,271
+77,State Funding,448123,2019,272
+77,State Funding,4620730,2020,273
+77,Corporate Sponsorship,2231115,2022,274
+77,Federal Grant,4126148,2018,275
+78,Private Donation,210123,2021,276
+78,State Funding,3073385,2020,277
+78,Research Grant,4709536,2017,278
+79,Research Grant,1699378,2021,279
+79,Federal Grant,3391698,2022,280
+79,Private Donation,321010,2021,281
+79,Private Donation,2307832,2018,282
+79,State Funding,3346843,2018,283
+80,Research Grant,4342645,2024,284
+80,Federal Grant,834325,2020,285
+81,Private Donation,447450,2015,286
+81,Private Donation,4956080,2015,287
+81,Endowment,2235298,2019,288
+81,Corporate Sponsorship,1809787,2019,289
+82,Endowment,4886259,2018,290
+82,State Funding,3091001,2017,291
+82,Endowment,1642950,2020,292
+83,Federal Grant,2048980,2015,293
+83,Research Grant,4009461,2021,294
+84,Corporate Sponsorship,2971960,2022,295
+84,Federal Grant,3109610,2015,296
+84,Endowment,2218549,2017,297
+84,Federal Grant,1700405,2023,298
+84,Corporate Sponsorship,4908423,2023,299
+85,State Funding,2627258,2017,300
+85,Federal Grant,720420,2024,301
+85,Private Donation,3408982,2018,302
+85,Corporate Sponsorship,3490603,2016,303
+85,Research Grant,1815087,2015,304
+86,Private Donation,2953983,2023,305
+86,State Funding,2991147,2024,306
+87,Corporate Sponsorship,1492559,2015,307
+87,State Funding,3307857,2016,308
+87,Research Grant,1041380,2024,309
+88,Endowment,3885524,2021,310
+88,Federal Grant,2418998,2018,311
+88,Private Donation,3003240,2022,312
+88,Federal Grant,553973,2022,313
+89,Endowment,2308708,2022,314
+89,State Funding,601030,2017,315
+89,Private Donation,672004,2016,316
+90,Research Grant,3797195,2024,317
+90,Research Grant,1142035,2017,318
+90,Endowment,3003134,2024,319
+91,Private Donation,4952360,2022,320
+91,Research Grant,2055786,2020,321
+91,State Funding,4811526,2017,322
+91,Endowment,446575,2019,323
+91,Research Grant,4459306,2022,324
+92,Federal Grant,4245604,2016,325
+92,Corporate Sponsorship,4327357,2019,326
+92,Corporate Sponsorship,4743829,2015,327
+92,State Funding,1218413,2015,328
+92,Federal Grant,2525112,2024,329
+93,Private Donation,2326505,2018,330
+93,State Funding,2284753,2020,331
+93,Corporate Sponsorship,2807996,2017,332
+93,Private Donation,487373,2018,333
+94,Research Grant,1196671,2015,334
+94,Endowment,3108634,2021,335
+94,Research Grant,3785139,2022,336
+94,Research Grant,432965,2021,337
+94,Federal Grant,1327374,2022,338
+95,Federal Grant,944377,2023,339
+95,State Funding,4112983,2021,340
+95,Endowment,1266824,2024,341
+95,Federal Grant,723879,2019,342
+96,Corporate Sponsorship,2534962,2018,343
+96,Research Grant,3866413,2017,344
+96,State Funding,2675521,2022,345
+97,Endowment,509882,2021,346
+97,Federal Grant,2926124,2023,347
+98,State Funding,3134395,2021,348
+98,Corporate Sponsorship,3566677,2019,349
+99,Endowment,3495307,2024,350
+99,Private Donation,4482415,2019,351
+100,Research Grant,1768743,2016,352
+100,Private Donation,2770285,2024,353
+100,Federal Grant,1592187,2020,354
+100,Federal Grant,2317732,2021,355
+100,Corporate Sponsorship,1379447,2022,356
+101,Private Donation,4456604,2024,357
+101,State Funding,2580927,2019,358
+101,Endowment,3400464,2017,359
+102,Federal Grant,3750210,2023,360
+102,Private Donation,2019514,2023,361
+102,Federal Grant,4513909,2016,362
+103,Private Donation,4881508,2016,363
+103,Research Grant,341880,2016,364
+103,Research Grant,2616413,2022,365
+103,Federal Grant,4610238,2018,366
+104,Federal Grant,1739291,2015,367
+104,Research Grant,644403,2021,368
+105,Endowment,2168831,2021,369
+105,Corporate Sponsorship,720816,2021,370
+106,State Funding,865345,2019,371
+106,State Funding,1527918,2019,372
+106,Federal Grant,4210418,2018,373
+106,Endowment,4201086,2023,374
+107,Private Donation,3295564,2016,375
+107,Research Grant,4198845,2022,376
+107,Private Donation,2883010,2016,377
+108,Endowment,599422,2018,378
+108,State Funding,2099853,2018,379
+108,Endowment,3678941,2017,380
+108,Endowment,1028747,2021,381
+109,Private Donation,1606179,2023,382
+109,Federal Grant,2263771,2017,383
+110,Endowment,2211474,2018,384
+110,Corporate Sponsorship,319650,2020,385
+111,Private Donation,4721832,2016,386
+111,State Funding,3167775,2015,387
+111,Endowment,2826166,2019,388
+111,Federal Grant,4511143,2016,389
+112,State Funding,4436549,2019,390
+112,Federal Grant,3210993,2019,391
+113,State Funding,2384035,2016,392
+113,Private Donation,3967843,2024,393
+113,Corporate Sponsorship,2093719,2015,394
+113,Research Grant,621471,2018,395
+114,Federal Grant,666229,2023,396
+114,Federal Grant,1297127,2019,397
+114,Endowment,4318415,2017,398
+114,Corporate Sponsorship,3834809,2023,399
+114,Endowment,2671899,2023,400
+115,Private Donation,4782484,2024,401
+115,State Funding,1665787,2024,402
+115,Corporate Sponsorship,4368336,2019,403
+115,Endowment,4142385,2018,404
+116,Corporate Sponsorship,3497572,2019,405
+116,Endowment,2927855,2021,406
+117,Federal Grant,2280224,2020,407
+117,Research Grant,4822447,2020,408
+118,Federal Grant,4058834,2021,409
+118,Research Grant,4944954,2020,410
+119,Private Donation,2206028,2018,411
+119,Federal Grant,2358213,2017,412
+120,Corporate Sponsorship,2556626,2022,413
+120,Federal Grant,1958219,2023,414
+120,Corporate Sponsorship,3818978,2022,415
+121,Private Donation,4813845,2022,416
+121,State Funding,131447,2020,417
+121,Private Donation,4419149,2019,418
+122,Endowment,4828054,2019,419
+122,Corporate Sponsorship,2217080,2020,420
+122,Federal Grant,1809866,2020,421
+123,Endowment,4163632,2021,422
+123,State Funding,384157,2022,423
+123,Federal Grant,2095957,2016,424
+123,Endowment,4309085,2017,425
+123,Private Donation,1677535,2015,426
+124,Private Donation,1952102,2016,427
+124,Private Donation,3504074,2021,428
+124,State Funding,4025374,2016,429
+125,Private Donation,4983800,2024,430
+125,State Funding,4208495,2024,431
+125,State Funding,2497090,2020,432
+126,Endowment,3429412,2015,433
+126,Research Grant,4123249,2023,434
+126,State Funding,4359139,2022,435
+126,Federal Grant,1135945,2015,436
+126,State Funding,3820760,2020,437
+127,Corporate Sponsorship,2747470,2023,438
+127,Research Grant,2730820,2021,439
+127,Federal Grant,1940914,2023,440
+127,Research Grant,1676206,2019,441
+128,Research Grant,2721207,2023,442
+128,Federal Grant,4317000,2024,443
+129,Private Donation,4761143,2021,444
+129,Corporate Sponsorship,3369591,2015,445
+129,Endowment,1406742,2016,446
+129,Federal Grant,962970,2024,447
+129,State Funding,3280619,2015,448
+130,State Funding,773129,2019,449
+130,Research Grant,134491,2022,450
+130,State Funding,3145518,2018,451
+130,Private Donation,99594,2015,452
+130,Research Grant,2077508,2016,453
+131,Research Grant,393601,2020,454
+131,State Funding,4722600,2022,455
+131,Corporate Sponsorship,1706922,2015,456
+132,Private Donation,1590795,2018,457
+132,Corporate Sponsorship,4111796,2021,458
+132,Endowment,4139937,2022,459
+132,Private Donation,111458,2015,460
+133,Private Donation,3946322,2021,461
+133,Research Grant,4814065,2016,462
+133,Research Grant,3878336,2022,463
+134,Corporate Sponsorship,3438597,2019,464
+134,State Funding,2149757,2024,465
+134,Private Donation,2355568,2015,466
+134,Federal Grant,3955985,2024,467
+135,Private Donation,4282253,2022,468
+135,Research Grant,566710,2021,469
+136,State Funding,4711651,2015,470
+136,Private Donation,431901,2019,471
+137,State Funding,1257588,2023,472
+137,Research Grant,2538194,2015,473
+138,Corporate Sponsorship,1855280,2015,474
+138,State Funding,4533989,2018,475
+138,Corporate Sponsorship,1368289,2023,476
+138,State Funding,1927640,2020,477
+139,Research Grant,1815685,2023,478
+139,Corporate Sponsorship,3276535,2017,479
+140,Federal Grant,940836,2016,480
+140,Research Grant,4568929,2019,481
+140,Federal Grant,3181556,2020,482
+140,Corporate Sponsorship,4354554,2018,483
+140,Federal Grant,655504,2015,484
+141,Endowment,4184318,2020,485
+141,Research Grant,3264747,2018,486
+141,Corporate Sponsorship,240881,2024,487
+141,Federal Grant,495961,2016,488
+142,State Funding,4417117,2019,489
+142,State Funding,3267769,2022,490
+143,Federal Grant,2570669,2022,491
+143,Research Grant,1959886,2016,492
+144,Federal Grant,4666329,2024,493
+144,Federal Grant,4992668,2016,494
+144,State Funding,2306214,2021,495
+145,Private Donation,4950694,2022,496
+145,Corporate Sponsorship,2249403,2023,497
+146,State Funding,4883947,2018,498
+146,Federal Grant,1165016,2015,499
+146,Research Grant,2206408,2015,500
+146,Research Grant,2221742,2024,501
+146,Research Grant,62490,2020,502
+147,Corporate Sponsorship,4531191,2020,503
+147,Research Grant,692382,2019,504
+148,State Funding,265346,2019,505
+148,State Funding,433306,2020,506
+148,Federal Grant,1135192,2019,507
+148,State Funding,152571,2022,508
+149,Endowment,2327895,2020,509
+149,Federal Grant,3284700,2018,510
+149,Corporate Sponsorship,2039622,2018,511
+149,Private Donation,711818,2019,512
+150,Research Grant,2010485,2024,513
+150,Federal Grant,371869,2022,514
+150,Federal Grant,1223197,2015,515
+151,State Funding,3755472,2019,516
+151,Private Donation,3914547,2020,517
+151,Corporate Sponsorship,4512817,2024,518
+152,Federal Grant,3676793,2016,519
+152,Federal Grant,3266708,2020,520
+152,Private Donation,249604,2020,521
+152,Federal Grant,3901000,2023,522
+152,Research Grant,3390629,2019,523
+153,Endowment,793588,2024,524
+153,Research Grant,2666320,2016,525
+153,Research Grant,4067023,2017,526
+153,State Funding,949083,2018,527
+153,Research Grant,1080555,2016,528
+154,State Funding,2907885,2020,529
+154,Endowment,2045353,2018,530
+154,Endowment,2109870,2016,531
+154,State Funding,3243688,2022,532
+155,Corporate Sponsorship,4801465,2020,533
+155,Corporate Sponsorship,1767258,2017,534
+155,Private Donation,4590978,2020,535
+156,Corporate Sponsorship,976019,2017,536
+156,Research Grant,1815584,2019,537
+156,Endowment,3619201,2023,538
+156,Corporate Sponsorship,2346683,2020,539
+157,Endowment,4158005,2018,540
+157,Endowment,3206359,2019,541
+157,Endowment,444194,2015,542
+157,Research Grant,1929882,2016,543
+157,Endowment,2248391,2018,544
+158,Corporate Sponsorship,2418081,2015,545
+158,Research Grant,4830450,2023,546
+158,Private Donation,2062395,2016,547
+159,Corporate Sponsorship,3114258,2018,548
+159,Corporate Sponsorship,1658274,2019,549
+160,Research Grant,4937300,2015,550
+160,Corporate Sponsorship,860620,2019,551
+160,Endowment,4524257,2015,552
+160,Private Donation,1826133,2019,553
+161,Corporate Sponsorship,171604,2017,554
+161,State Funding,2776431,2021,555
+162,Private Donation,4578423,2016,556
+162,Corporate Sponsorship,1989619,2015,557
+162,Private Donation,2421231,2023,558
+162,Research Grant,3901103,2015,559
+163,Research Grant,3983289,2021,560
+163,State Funding,3304305,2019,561
+163,Private Donation,4204856,2015,562
+164,Corporate Sponsorship,4883537,2019,563
+164,State Funding,1326832,2019,564
+165,State Funding,2626051,2019,565
+165,State Funding,1901652,2016,566
+165,Private Donation,1177697,2019,567
+165,Research Grant,2631942,2019,568
+165,State Funding,4838048,2015,569
+166,Corporate Sponsorship,1988003,2016,570
+166,State Funding,4196763,2019,571
+166,Endowment,3509617,2017,572
+167,Research Grant,4280052,2020,573
+167,Private Donation,1284572,2021,574
+167,Research Grant,2710764,2017,575
+167,Federal Grant,2701005,2015,576
+167,Endowment,3203982,2023,577
+168,Private Donation,3519945,2019,578
+168,Federal Grant,4689710,2024,579
+168,Corporate Sponsorship,312811,2022,580
+169,Federal Grant,2814242,2015,581
+169,Private Donation,3038469,2017,582
+169,Corporate Sponsorship,4095223,2016,583
+170,Endowment,3261207,2016,584
+170,State Funding,2690864,2022,585
+170,Endowment,858800,2021,586
+170,Research Grant,4550471,2022,587
+170,State Funding,2094547,2021,588
+171,State Funding,3248978,2016,589
+171,Federal Grant,1370365,2016,590
+171,Corporate Sponsorship,4085701,2018,591
+172,Private Donation,82367,2024,592
+172,Corporate Sponsorship,3572083,2015,593
+173,State Funding,1794369,2020,594
+173,Endowment,4012503,2019,595
+173,State Funding,2703660,2018,596
+173,Private Donation,2910563,2020,597
+174,Federal Grant,4361371,2024,598
+174,Private Donation,1802153,2019,599
+174,Endowment,1516922,2017,600
+175,Federal Grant,2555048,2018,601
+175,Research Grant,1941842,2015,602
+176,Corporate Sponsorship,4708205,2016,603
+176,State Funding,1268227,2022,604
+176,Federal Grant,3078520,2018,605
+177,Private Donation,1171811,2021,606
+177,Private Donation,957809,2017,607
+177,Federal Grant,2398419,2015,608
+177,Endowment,2542835,2023,609
+178,Federal Grant,2870477,2024,610
+178,Private Donation,2335342,2016,611
+178,State Funding,2756816,2017,612
+179,Federal Grant,550238,2021,613
+179,Research Grant,4543700,2020,614
+179,Research Grant,4056539,2015,615
+180,Research Grant,4659103,2017,616
+180,State Funding,3286380,2016,617
+180,Endowment,975078,2022,618
+180,Research Grant,3485104,2023,619
+180,Research Grant,2838792,2015,620
+181,State Funding,4798593,2019,621
+181,Endowment,936874,2015,622
+181,Endowment,4328835,2024,623
+181,Federal Grant,867428,2020,624
+181,Private Donation,2348971,2021,625
+182,Corporate Sponsorship,4477600,2015,626
+182,Federal Grant,941037,2019,627
+183,Corporate Sponsorship,1930722,2016,628
+183,Endowment,4676398,2021,629
+183,Federal Grant,4734579,2016,630
+184,State Funding,3493938,2015,631
+184,Research Grant,92321,2020,632
+185,Corporate Sponsorship,4751040,2023,633
+185,Corporate Sponsorship,2319004,2018,634
+185,Private Donation,1055304,2022,635
+185,State Funding,4343212,2018,636
+185,Research Grant,4774698,2018,637
+186,Endowment,2978011,2021,638
+186,Research Grant,4422554,2024,639
+186,Endowment,1809659,2021,640
+186,Federal Grant,966663,2015,641
+186,Federal Grant,1549547,2016,642
+187,Research Grant,2863205,2018,643
+187,Research Grant,2340496,2015,644
+187,Corporate Sponsorship,1892464,2021,645
+187,Federal Grant,2944503,2022,646
+188,Research Grant,4711323,2015,647
+188,Federal Grant,982823,2018,648
+189,Private Donation,2964785,2020,649
+189,Endowment,1681699,2023,650
+190,Private Donation,57056,2024,651
+190,Corporate Sponsorship,4287413,2017,652
+190,State Funding,574996,2018,653
+190,Research Grant,910898,2023,654
+190,Federal Grant,2388697,2017,655
+191,State Funding,293160,2021,656
+191,Federal Grant,4594568,2021,657
+191,Private Donation,468610,2023,658
+191,State Funding,3939674,2024,659
+191,State Funding,1132988,2017,660
+192,Corporate Sponsorship,3297165,2020,661
+192,Endowment,4801080,2023,662
+193,Corporate Sponsorship,2223006,2024,663
+193,Federal Grant,2714631,2024,664
+194,State Funding,514969,2021,665
+194,Private Donation,4709383,2015,666
+195,Federal Grant,646303,2016,667
+195,Federal Grant,1588051,2017,668
+195,Corporate Sponsorship,3251282,2018,669
+195,Federal Grant,2409944,2017,670
+195,Endowment,830703,2018,671
+196,Private Donation,1995389,2021,672
+196,State Funding,547973,2016,673
+196,Private Donation,4450020,2015,674
+197,Endowment,2407694,2018,675
+197,Research Grant,3220161,2023,676
+197,Corporate Sponsorship,2062975,2019,677
+198,Private Donation,1956590,2017,678
+198,Research Grant,4344937,2018,679
+198,Corporate Sponsorship,1075078,2021,680
+198,State Funding,3479945,2019,681
+198,Endowment,3137437,2021,682
+199,State Funding,4826185,2021,683
+199,State Funding,4336531,2018,684
+200,Private Donation,3283726,2018,685
+200,Research Grant,1773965,2022,686
