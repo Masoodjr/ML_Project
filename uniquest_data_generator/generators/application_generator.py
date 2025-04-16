@@ -1,7 +1,11 @@
 import pandas as pd
 import random
 from config import APPLICATIONS_PER_STUDENT, APPLICATION_YEAR
-from .base_generators import *
+from faker import Faker  # Make sure to import Faker
+from datetime import datetime
+
+# Initialize Faker instance
+fake = Faker()
 
 def generate_applications(students, programs):
     applications = []
@@ -11,21 +15,26 @@ def generate_applications(students, programs):
     
     for student_id in student_ids:
         num_apps = random.randint(
-            APPLICATIONS_PER_STUDENT//2,
+            max(1, APPLICATIONS_PER_STUDENT//2),  # Ensure at least 1 application
             APPLICATIONS_PER_STUDENT
         )
-        selected_programs = random.sample(program_records, num_apps)
+        selected_programs = random.sample(program_records, min(num_apps, len(program_records)))
+        
         for program in selected_programs:
-            app_date = fake.date_between(
-                start_date=f'{APPLICATION_YEAR-1}-01-01',
-                end_date='today'
+            # Create datetime objects for date handling
+            start_date = datetime(APPLICATION_YEAR-1, 1, 1)
+            
+            app_date = fake.date_between_dates(
+                date_start=start_date,
+                date_end=datetime.now()
             )
+            
             status = random.choice(statuses)
             decision_date = None
             if status in ['accepted', 'rejected', 'waitlisted']:
-                decision_date = fake.date_between(
-                    start_date=app_date,
-                    end_date='today'
+                decision_date = fake.date_between_dates(
+                    date_start=app_date,
+                    date_end=datetime.now()
                 )
             
             applications.append({

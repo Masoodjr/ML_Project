@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 from config import NUM_STUDENTS
-import faker
+from .base_generators import *
 
 def generate_users(students):
     users = []
@@ -12,9 +12,9 @@ def generate_users(students):
         users.append({
             'student_id': student_id,
             'role': 'student',
-            'username': faker.unique.user_name(),
-            'password_hash': faker.sha256(raw_output=False),
-            'last_login': faker.date_time_between(start_date='-1y', end_date='now')
+            'username': fake.unique.user_name(),
+            'password_hash': fake.sha256(raw_output=False),
+            'last_login': fake.date_time_between(start_date='-1y', end_date='now')
         })
     
     # Create admin/advisor users (about 1% of student count)
@@ -24,9 +24,9 @@ def generate_users(students):
         users.append({
             'student_id': student_id,
             'role': random.choice(['admin', 'advisor']),
-            'username': faker.unique.user_name(),
-            'password_hash': faker.sha256(raw_output=False),
-            'last_login': faker.date_time_between(start_date='-1y', end_date='now')
+            'username': fake.unique.user_name(),
+            'password_hash': fake.sha256(raw_output=False),
+            'last_login': fake.date_time_between(start_date='-1y', end_date='now')
         })
     
     df = pd.DataFrame(users)

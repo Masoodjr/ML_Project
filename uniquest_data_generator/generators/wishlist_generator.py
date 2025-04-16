@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 from config import WISHLIST_ITEMS_PER_STUDENT
-import faker
+from .base_generators import *
 
 def generate_wishlist(students, programs):
     wishlist = []
@@ -22,7 +22,7 @@ def generate_wishlist(students, programs):
                 'admission_probability': round(random.uniform(10, 90), 2),
                 'predicted_salary': random.randint(40000, 120000),
                 'value_score': round(random.uniform(3.0, 9.5), 2),
-                'notes': faker.sentence() if random.random() > 0.7 else None
+                'notes': fake.sentence() if random.random() > 0.7 else None
             })
     
     df = pd.DataFrame(wishlist)

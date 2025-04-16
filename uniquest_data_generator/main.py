@@ -15,6 +15,7 @@ from generators.prediction_generator import (generate_admission_predictions,
 from generators.user_generator import generate_users
 from generators.wishlist_generator import generate_wishlist
 from generators.application_generator import generate_applications
+from generators.value_analysis_generator import generate_value_analysis
 
 def save_to_csv(df, filename):
     df.to_csv(f'data/{filename}', index=False)
@@ -76,6 +77,10 @@ def main():
     print("Generating applications...")
     applications = generate_applications(students, programs)
     save_to_csv(applications, 'applications.csv')
+
+    print("Generating value analysis predictor...")
+    analysis = generate_value_analysis(programs)
+    save_to_csv(analysis, "value_analysis.csv")
     
     print("Data generation complete!")
 
