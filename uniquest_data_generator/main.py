@@ -16,73 +16,104 @@ from generators.user_generator import generate_users
 from generators.wishlist_generator import generate_wishlist
 from generators.application_generator import generate_applications
 from generators.value_analysis_generator import generate_value_analysis
+from generators.combined_datasets import *
 
 def save_to_csv(df, filename):
-    df.to_csv(f'data/{filename}', index=False)
+    """Save DataFrame to CSV with checks"""
+    path = f'data/{filename}'
+    if not os.path.exists(path):
+        df.to_csv(path, index=False)
+        print(f"Saved {filename} ({len(df)} records)")
+    else:
+        print(f"{filename} already exists - skipping")
+
+def generate_if_not_exists(generator_func, filename, *args, **kwargs):
+    """Generate data only if file doesn't exist"""
+    path = f'data/{filename}'
+    if not os.path.exists(path):
+        print(f"Generating {filename}...")
+        df = generator_func(*args, **kwargs)
+        save_to_csv(df, filename)
+        return df
+    else:
+        print(f"Loading existing {filename}...")
+        return pd.read_csv(path)
 
 def main():
     # Setup
     os.makedirs('data', exist_ok=True)
     initialize_generators(SEED)
     
-    # Generate data
-    print("Generating universities...")
-    universities = generate_universities()
-    save_to_csv(universities, 'universities.csv')
+    # Generate or load data
+    universities = generate_if_not_exists(
+        generate_universities, 'universities.csv'
+    )
     
-    print("Generating students...")
-    students = generate_students()
-    save_to_csv(students, 'students.csv')
+    students = generate_if_not_exists(
+        generate_students, 'students.csv'
+    )
     
-    print("Generating programs...")
-    programs = generate_programs(universities)
-    save_to_csv(programs, 'programs.csv')
+    programs = generate_if_not_exists(
+        generate_programs, 'programs.csv', universities
+    )
     
-    print("Generating admissions criteria...")
-    admissions = generate_admissions(programs)
-    save_to_csv(admissions, 'admissions.csv')
+    generate_if_not_exists(
+        generate_admissions, 'admissions.csv', programs
+    )
     
-    print("Generating historical admissions...")
-    historical_admissions = generate_historical_admissions(programs, students)
-    save_to_csv(historical_admissions, 'historical_admissions.csv')
+    generate_if_not_exists(
+        generate_historical_admissions, 'historical_admissions.csv', 
+        programs, students
+    )
     
-    print("Generating alumni salary data...")
-    alumni_salary = generate_alumni_salary_data(programs, students)
-    save_to_csv(alumni_salary, 'alumni_salary.csv')
+    generate_if_not_exists(
+        generate_alumni_salary_data, 'alumni_salary.csv',
+        programs, students
+    )
     
-    print("Generating funding data...")
-    funding = generate_funding_data(universities)
-    save_to_csv(funding, 'funding.csv')
+    generate_if_not_exists(
+        generate_funding_data, 'funding.csv', universities
+    )
     
-    print("Generating ranking data...")
-    rankings = generate_ranking_data(programs)
-    save_to_csv(rankings, 'rankings.csv')
+    generate_if_not_exists(
+        generate_ranking_data, 'rankings.csv', programs
+    )
     
-    print("Generating admission predictions...")
-    admission_preds = generate_admission_predictions(students, programs)
-    save_to_csv(admission_preds, 'admission_predictions.csv')
+    generate_if_not_exists(
+        generate_admission_predictions, 'admission_predictions.csv',
+        students, programs
+    )
     
-    print("Generating salary predictions...")
-    salary_preds = generate_salary_predictions(students, programs)
-    save_to_csv(salary_preds, 'salary_predictions.csv')
+    generate_if_not_exists(
+        generate_salary_predictions, 'salary_predictions.csv',
+        students, programs
+    )
     
-    print("Generating users...")
-    users = generate_users(students)
-    save_to_csv(users, 'users.csv')
+    generate_if_not_exists(
+        generate_users, 'users.csv', students
+    )
     
-    print("Generating wishlist...")
-    wishlist = generate_wishlist(students, programs)
-    save_to_csv(wishlist, 'wishlist.csv')
+    generate_if_not_exists(
+        generate_wishlist, 'wishlist.csv', students, programs
+    )
     
-    print("Generating applications...")
-    applications = generate_applications(students, programs)
-    save_to_csv(applications, 'applications.csv')
+    generate_if_not_exists(
+        generate_applications, 'applications.csv', students, programs
+    )
+    
+    generate_if_not_exists(
+        generate_value_analysis, 'value_analysis.csv', programs
+    )
 
-    print("Generating value analysis predictor...")
-    analysis = generate_value_analysis(programs)
-    save_to_csv(analysis, "value_analysis.csv")
-    
-    print("Data generation complete!")
+    # # Combine datasets
+    # combined_path = 'combined/master_dataset.csv'
+    # if not os.path.exists(combined_path):
+    #     print("Combining datasets...")
+    #     load_and_prepare()
+    #     combine_efficiently()
+    #     print(f"Master dataset created at {combined_path}")
+    # else:
+    #     print("Master dataset already exists - skipping combination")
 
 if __name__ == "__main__":
     main()
