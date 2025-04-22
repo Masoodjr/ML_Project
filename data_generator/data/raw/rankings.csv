@@ -1,0 +1,1618 @@
+university_id,program_id,program_rank,ranking_year,ranking_source,ranking_category,ranking_id
+1,1,34,2022,Forbes,Research,1
+1,2,167,2024,Princeton Review,Innovation,2
+1,2,144,2018,US News,Overall,3
+1,3,84,2023,Princeton Review,Innovation,4
+1,4,26,2022,Times Higher Education,Innovation,5
+1,4,130,2019,Forbes,Innovation,6
+1,5,161,2020,QS World University,Employability,7
+1,5,185,2019,Forbes,Overall,8
+1,5,145,2022,US News,Teaching,9
+2,6,187,2022,Princeton Review,Teaching,10
+2,7,76,2023,QS World University,Overall,11
+2,8,38,2024,US News,Employability,12
+2,8,83,2024,Forbes,Overall,13
+3,9,158,2023,Princeton Review,Overall,14
+3,9,73,2018,Forbes,Research,15
+3,9,162,2020,US News,Research,16
+3,10,111,2018,Princeton Review,Overall,17
+3,10,181,2019,Forbes,Teaching,18
+3,10,64,2023,Forbes,Innovation,19
+3,11,40,2022,Times Higher Education,Overall,20
+3,11,184,2018,Princeton Review,Employability,21
+3,11,103,2023,QS World University,Teaching,22
+3,12,172,2021,US News,Overall,23
+3,12,186,2023,Forbes,Employability,24
+3,13,184,2018,Forbes,Research,25
+3,13,50,2024,Princeton Review,Employability,26
+3,13,193,2018,US News,Overall,27
+4,14,148,2018,US News,Overall,28
+4,14,130,2022,US News,Innovation,29
+4,14,83,2018,Times Higher Education,Innovation,30
+4,15,6,2021,QS World University,Overall,31
+4,15,178,2018,Times Higher Education,Employability,32
+4,15,194,2019,Times Higher Education,Innovation,33
+4,16,18,2018,Times Higher Education,Innovation,34
+4,16,57,2024,QS World University,Innovation,35
+4,17,191,2024,Times Higher Education,Employability,36
+4,17,34,2022,Times Higher Education,Teaching,37
+4,18,140,2021,Times Higher Education,Innovation,38
+4,18,6,2024,Princeton Review,Research,39
+5,19,10,2024,Times Higher Education,Overall,40
+5,19,178,2020,Princeton Review,Employability,41
+5,19,195,2020,Times Higher Education,Innovation,42
+5,20,199,2022,Princeton Review,Innovation,43
+5,21,125,2019,QS World University,Teaching,44
+5,21,20,2020,Forbes,Teaching,45
+5,21,179,2020,Forbes,Teaching,46
+5,22,98,2021,Princeton Review,Research,47
+5,22,83,2018,Forbes,Teaching,48
+5,22,99,2020,US News,Research,49
+6,23,123,2024,Forbes,Research,50
+6,24,196,2022,Forbes,Research,51
+6,24,54,2023,Princeton Review,Employability,52
+6,25,129,2023,US News,Employability,53
+6,26,59,2020,QS World University,Teaching,54
+7,27,133,2020,Times Higher Education,Innovation,55
+7,27,8,2022,Times Higher Education,Research,56
+7,28,194,2021,Forbes,Innovation,57
+7,28,46,2024,Princeton Review,Research,58
+7,28,160,2024,Forbes,Overall,59
+7,29,182,2023,US News,Teaching,60
+7,29,158,2022,Princeton Review,Employability,61
+7,30,139,2023,QS World University,Research,62
+7,31,162,2022,Times Higher Education,Teaching,63
+7,31,77,2024,Times Higher Education,Overall,64
+8,32,178,2023,QS World University,Innovation,65
+8,32,27,2018,Forbes,Research,66
+8,32,135,2023,QS World University,Innovation,67
+8,33,86,2019,Forbes,Research,68
+8,33,113,2024,Princeton Review,Research,69
+8,34,177,2022,Forbes,Teaching,70
+8,34,159,2024,US News,Employability,71
+8,35,110,2018,US News,Innovation,72
+8,35,102,2024,Forbes,Employability,73
+8,35,132,2020,QS World University,Employability,74
+9,36,120,2023,Princeton Review,Teaching,75
+9,36,171,2020,QS World University,Innovation,76
+9,37,80,2024,QS World University,Innovation,77
+9,38,135,2023,Forbes,Teaching,78
+9,38,180,2021,QS World University,Teaching,79
+9,38,189,2024,Princeton Review,Overall,80
+9,39,111,2019,US News,Teaching,81
+9,39,89,2019,Princeton Review,Overall,82
+9,39,154,2021,US News,Employability,83
+10,40,161,2018,QS World University,Innovation,84
+10,41,153,2018,Forbes,Teaching,85
+10,41,136,2024,Princeton Review,Teaching,86
+10,42,41,2022,US News,Overall,87
+10,42,2,2023,Princeton Review,Innovation,88
+10,42,19,2024,Forbes,Innovation,89
+11,43,103,2020,Times Higher Education,Innovation,90
+11,43,73,2024,Times Higher Education,Innovation,91
+11,44,165,2019,Forbes,Research,92
+11,45,70,2022,Times Higher Education,Overall,93
+11,46,61,2018,US News,Innovation,94
+11,46,34,2018,US News,Overall,95
+11,46,159,2018,QS World University,Overall,96
+12,47,176,2018,QS World University,Employability,97
+12,48,59,2024,US News,Overall,98
+12,49,92,2022,QS World University,Innovation,99
+12,49,19,2020,US News,Overall,100
+12,50,190,2022,Princeton Review,Employability,101
+12,50,144,2019,Forbes,Teaching,102
+12,50,12,2019,US News,Research,103
+13,51,38,2019,US News,Teaching,104
+13,51,59,2019,Times Higher Education,Research,105
+13,51,182,2019,Times Higher Education,Overall,106
+13,52,190,2021,Times Higher Education,Overall,107
+13,52,190,2019,US News,Teaching,108
+13,53,102,2019,US News,Research,109
+13,54,1,2019,QS World University,Teaching,110
+13,55,23,2018,Times Higher Education,Research,111
+14,56,157,2018,Princeton Review,Employability,112
+14,56,21,2019,Princeton Review,Teaching,113
+14,56,188,2022,Forbes,Research,114
+14,57,124,2019,QS World University,Overall,115
+14,58,5,2021,Times Higher Education,Teaching,116
+14,58,24,2021,Times Higher Education,Research,117
+14,58,12,2018,Times Higher Education,Research,118
+14,59,161,2023,Times Higher Education,Teaching,119
+14,60,22,2019,Times Higher Education,Teaching,120
+14,60,32,2018,QS World University,Research,121
+14,60,74,2022,QS World University,Employability,122
+15,61,162,2021,Times Higher Education,Research,123
+15,62,6,2022,Princeton Review,Overall,124
+15,63,42,2018,Times Higher Education,Innovation,125
+15,63,70,2024,US News,Employability,126
+15,64,10,2018,Princeton Review,Research,127
+15,65,130,2021,QS World University,Employability,128
+16,66,186,2019,Princeton Review,Teaching,129
+16,67,66,2022,US News,Teaching,130
+16,68,24,2021,Princeton Review,Overall,131
+16,69,193,2019,Times Higher Education,Employability,132
+16,69,165,2021,US News,Employability,133
+17,70,47,2022,QS World University,Employability,134
+17,71,116,2021,QS World University,Innovation,135
+17,71,167,2021,Forbes,Employability,136
+17,72,188,2022,US News,Research,137
+17,72,70,2024,Princeton Review,Teaching,138
+17,73,108,2019,QS World University,Innovation,139
+17,73,11,2020,Forbes,Teaching,140
+18,74,3,2018,US News,Employability,141
+18,75,82,2023,Princeton Review,Research,142
+18,75,149,2019,Princeton Review,Overall,143
+18,76,100,2019,US News,Employability,144
+18,77,2,2022,US News,Teaching,145
+18,77,57,2021,US News,Employability,146
+18,77,178,2024,Princeton Review,Research,147
+18,78,2,2023,Times Higher Education,Employability,148
+18,78,55,2024,QS World University,Research,149
+19,79,119,2019,US News,Employability,150
+19,79,103,2018,Forbes,Teaching,151
+19,80,97,2021,Princeton Review,Innovation,152
+19,80,152,2023,Forbes,Employability,153
+19,80,53,2021,Times Higher Education,Teaching,154
+19,81,141,2022,Times Higher Education,Innovation,155
+19,81,102,2022,QS World University,Employability,156
+19,81,142,2021,Princeton Review,Innovation,157
+20,82,162,2024,Princeton Review,Research,158
+20,82,62,2023,US News,Innovation,159
+20,82,32,2022,QS World University,Innovation,160
+20,83,200,2021,QS World University,Innovation,161
+20,84,195,2021,Forbes,Teaching,162
+20,84,48,2022,Princeton Review,Innovation,163
+20,84,25,2022,Forbes,Employability,164
+20,85,12,2022,Forbes,Innovation,165
+20,86,42,2021,Forbes,Innovation,166
+20,86,178,2024,US News,Employability,167
+21,87,181,2024,Princeton Review,Overall,168
+21,88,22,2020,Times Higher Education,Innovation,169
+21,89,162,2024,Forbes,Research,170
+21,90,194,2021,Princeton Review,Research,171
+21,90,11,2023,Princeton Review,Research,172
+21,90,169,2019,Princeton Review,Teaching,173
+21,91,112,2018,QS World University,Overall,174
+22,92,113,2019,Times Higher Education,Employability,175
+22,93,64,2022,Times Higher Education,Research,176
+22,94,63,2019,Forbes,Employability,177
+22,95,35,2019,Forbes,Innovation,178
+22,95,58,2022,Princeton Review,Research,179
+22,95,62,2024,Forbes,Teaching,180
+23,96,121,2022,Times Higher Education,Research,181
+23,97,145,2018,Times Higher Education,Overall,182
+23,98,56,2019,US News,Overall,183
+24,99,195,2020,Forbes,Research,184
+24,100,108,2021,Princeton Review,Research,185
+24,101,50,2021,Princeton Review,Employability,186
+24,101,157,2023,Princeton Review,Employability,187
+24,101,87,2024,US News,Innovation,188
+25,102,65,2024,Princeton Review,Research,189
+25,103,13,2024,QS World University,Overall,190
+25,103,71,2018,Princeton Review,Research,191
+25,103,42,2018,Forbes,Overall,192
+25,104,112,2024,QS World University,Innovation,193
+25,104,186,2021,Princeton Review,Research,194
+25,104,141,2024,Princeton Review,Employability,195
+26,105,45,2021,Forbes,Employability,196
+26,106,180,2019,Forbes,Innovation,197
+26,106,10,2020,Forbes,Teaching,198
+26,106,99,2021,Times Higher Education,Teaching,199
+26,107,169,2023,Forbes,Teaching,200
+26,107,97,2021,QS World University,Teaching,201
+26,107,165,2024,Times Higher Education,Overall,202
+26,108,170,2024,Forbes,Research,203
+26,109,154,2018,US News,Teaching,204
+27,110,194,2020,QS World University,Teaching,205
+27,111,17,2021,QS World University,Teaching,206
+27,112,125,2024,Princeton Review,Innovation,207
+27,112,157,2019,US News,Employability,208
+27,112,37,2023,US News,Innovation,209
+27,113,194,2022,Princeton Review,Research,210
+27,113,84,2020,QS World University,Innovation,211
+28,114,55,2018,QS World University,Teaching,212
+28,114,104,2023,Forbes,Employability,213
+28,114,50,2023,Forbes,Overall,214
+28,115,165,2023,Forbes,Overall,215
+28,115,90,2021,QS World University,Overall,216
+28,116,85,2019,Forbes,Teaching,217
+28,116,122,2024,US News,Overall,218
+28,116,151,2021,Forbes,Research,219
+28,117,111,2018,Times Higher Education,Employability,220
+28,117,154,2021,Times Higher Education,Teaching,221
+28,118,12,2023,Forbes,Innovation,222
+29,119,178,2019,US News,Employability,223
+29,119,57,2021,Princeton Review,Innovation,224
+29,120,8,2019,QS World University,Overall,225
+29,120,189,2024,Forbes,Innovation,226
+29,120,139,2020,Forbes,Employability,227
+29,121,122,2022,Times Higher Education,Research,228
+29,121,95,2023,Princeton Review,Innovation,229
+29,121,3,2019,Princeton Review,Overall,230
+29,122,3,2020,Times Higher Education,Teaching,231
+29,123,155,2019,QS World University,Employability,232
+30,124,54,2018,US News,Teaching,233
+30,124,86,2020,QS World University,Innovation,234
+30,124,128,2018,Princeton Review,Employability,235
+30,125,119,2024,US News,Research,236
+30,126,170,2019,Princeton Review,Teaching,237
+30,126,26,2018,Forbes,Innovation,238
+30,126,159,2022,Princeton Review,Overall,239
+30,127,166,2022,US News,Research,240
+31,128,105,2019,Princeton Review,Innovation,241
+31,128,14,2024,Forbes,Research,242
+31,129,150,2020,Times Higher Education,Innovation,243
+31,129,36,2022,Princeton Review,Teaching,244
+31,130,32,2020,Forbes,Teaching,245
+31,130,196,2019,QS World University,Employability,246
+32,131,89,2024,QS World University,Overall,247
+32,132,34,2022,Princeton Review,Employability,248
+32,133,47,2021,QS World University,Employability,249
+32,133,8,2019,Forbes,Overall,250
+32,133,92,2020,Forbes,Overall,251
+32,134,10,2022,US News,Innovation,252
+32,135,130,2018,Princeton Review,Employability,253
+32,135,47,2023,Times Higher Education,Innovation,254
+32,135,100,2021,Forbes,Research,255
+33,136,138,2022,Princeton Review,Innovation,256
+33,136,139,2020,Princeton Review,Research,257
+33,136,27,2019,Times Higher Education,Innovation,258
+33,137,2,2020,Forbes,Overall,259
+33,138,66,2023,Forbes,Employability,260
+33,138,120,2021,Princeton Review,Overall,261
+33,139,198,2021,QS World University,Overall,262
+33,139,189,2023,Forbes,Overall,263
+33,139,35,2021,Princeton Review,Employability,264
+33,140,150,2020,Times Higher Education,Teaching,265
+34,141,56,2021,Forbes,Innovation,266
+34,142,82,2021,Forbes,Teaching,267
+34,142,153,2024,QS World University,Overall,268
+34,143,33,2022,Princeton Review,Overall,269
+34,144,131,2018,QS World University,Research,270
+34,145,136,2018,US News,Innovation,271
+34,145,46,2023,US News,Overall,272
+35,146,59,2019,Times Higher Education,Innovation,273
+35,146,115,2018,QS World University,Research,274
+35,147,59,2023,Forbes,Research,275
+35,147,18,2021,Forbes,Innovation,276
+35,147,92,2023,Times Higher Education,Overall,277
+35,148,150,2019,QS World University,Innovation,278
+35,149,80,2022,Forbes,Research,279
+35,149,154,2023,US News,Innovation,280
+36,150,10,2024,QS World University,Overall,281
+36,151,2,2022,Times Higher Education,Overall,282
+36,152,63,2020,Princeton Review,Research,283
+36,153,35,2018,US News,Innovation,284
+36,153,77,2022,Forbes,Overall,285
+37,154,144,2019,Forbes,Teaching,286
+37,155,11,2021,US News,Research,287
+37,156,153,2019,Times Higher Education,Overall,288
+37,156,176,2019,US News,Research,289
+38,157,128,2020,Times Higher Education,Teaching,290
+38,158,140,2022,US News,Overall,291
+38,158,41,2023,QS World University,Research,292
+38,159,127,2019,Princeton Review,Teaching,293
+38,159,56,2019,QS World University,Overall,294
+38,160,113,2022,US News,Innovation,295
+38,160,42,2018,Forbes,Innovation,296
+38,160,106,2018,Times Higher Education,Research,297
+38,161,106,2024,QS World University,Research,298
+38,161,81,2019,QS World University,Teaching,299
+39,162,105,2020,Forbes,Research,300
+39,163,15,2019,Princeton Review,Teaching,301
+39,163,17,2018,Times Higher Education,Innovation,302
+39,163,124,2019,QS World University,Research,303
+39,164,99,2020,QS World University,Overall,304
+39,164,149,2023,Forbes,Employability,305
+39,164,52,2022,US News,Overall,306
+39,165,19,2024,Princeton Review,Innovation,307
+39,166,134,2020,QS World University,Employability,308
+39,166,178,2021,US News,Overall,309
+40,167,49,2019,Princeton Review,Overall,310
+40,167,4,2021,Forbes,Teaching,311
+40,168,35,2022,Forbes,Teaching,312
+40,168,194,2020,Princeton Review,Innovation,313
+40,168,45,2023,Times Higher Education,Innovation,314
+40,169,175,2024,QS World University,Employability,315
+40,170,60,2022,Forbes,Teaching,316
+41,171,105,2019,Times Higher Education,Innovation,317
+41,171,42,2018,Times Higher Education,Research,318
+41,172,111,2019,Forbes,Teaching,319
+41,172,93,2018,US News,Employability,320
+41,173,76,2024,Forbes,Overall,321
+41,174,16,2021,QS World University,Employability,322
+41,175,179,2021,QS World University,Employability,323
+41,175,61,2019,US News,Teaching,324
+41,175,91,2020,QS World University,Research,325
+42,176,42,2018,US News,Teaching,326
+42,176,124,2023,Times Higher Education,Overall,327
+42,176,179,2022,QS World University,Innovation,328
+42,177,113,2019,US News,Innovation,329
+42,177,105,2018,US News,Innovation,330
+42,178,78,2022,Forbes,Innovation,331
+42,178,30,2023,Times Higher Education,Employability,332
+42,178,103,2018,US News,Teaching,333
+43,179,5,2018,US News,Innovation,334
+43,180,102,2021,QS World University,Research,335
+43,180,31,2023,QS World University,Teaching,336
+43,180,29,2023,Princeton Review,Overall,337
+43,181,174,2023,Princeton Review,Teaching,338
+43,181,81,2022,QS World University,Research,339
+43,181,191,2023,US News,Teaching,340
+43,182,101,2019,Times Higher Education,Innovation,341
+43,182,43,2023,Princeton Review,Teaching,342
+43,183,160,2023,US News,Research,343
+43,183,188,2021,Forbes,Research,344
+44,184,137,2022,QS World University,Research,345
+44,185,33,2018,QS World University,Employability,346
+44,185,21,2024,US News,Overall,347
+44,186,58,2019,US News,Employability,348
+44,186,80,2021,Times Higher Education,Overall,349
+44,187,118,2018,Times Higher Education,Overall,350
+44,187,147,2024,Times Higher Education,Overall,351
+44,187,28,2018,Princeton Review,Teaching,352
+44,188,25,2018,US News,Overall,353
+44,188,113,2024,Times Higher Education,Employability,354
+45,189,186,2023,US News,Employability,355
+45,189,84,2024,Times Higher Education,Innovation,356
+45,189,114,2019,Forbes,Overall,357
+45,190,30,2021,Princeton Review,Teaching,358
+45,190,140,2019,Princeton Review,Innovation,359
+45,190,151,2023,Princeton Review,Innovation,360
+45,191,165,2020,QS World University,Research,361
+45,191,78,2020,Forbes,Innovation,362
+46,192,176,2019,Times Higher Education,Research,363
+46,192,174,2022,US News,Teaching,364
+46,192,16,2019,Forbes,Innovation,365
+46,193,151,2020,US News,Overall,366
+46,194,112,2018,US News,Teaching,367
+46,194,39,2020,Forbes,Research,368
+47,195,134,2023,Times Higher Education,Overall,369
+47,195,5,2022,Forbes,Research,370
+47,196,133,2024,Times Higher Education,Teaching,371
+47,196,113,2021,Princeton Review,Overall,372
+47,197,100,2021,Princeton Review,Employability,373
+47,198,170,2019,Forbes,Innovation,374
+47,199,20,2024,QS World University,Research,375
+47,199,112,2018,US News,Employability,376
+47,199,4,2020,US News,Research,377
+48,200,25,2023,Princeton Review,Innovation,378
+48,200,115,2022,QS World University,Overall,379
+48,200,39,2019,Princeton Review,Employability,380
+48,201,129,2024,US News,Teaching,381
+48,201,111,2022,Princeton Review,Employability,382
+48,202,27,2018,Times Higher Education,Teaching,383
+48,202,13,2019,QS World University,Employability,384
+48,203,109,2018,QS World University,Teaching,385
+48,203,158,2021,QS World University,Teaching,386
+48,203,137,2020,Times Higher Education,Research,387
+49,204,187,2021,Times Higher Education,Innovation,388
+49,205,138,2024,Princeton Review,Overall,389
+49,205,133,2023,Forbes,Innovation,390
+49,206,10,2021,Princeton Review,Employability,391
+49,206,75,2021,QS World University,Innovation,392
+49,206,68,2024,Forbes,Employability,393
+49,207,130,2018,QS World University,Teaching,394
+49,207,189,2019,US News,Teaching,395
+50,208,182,2018,Princeton Review,Research,396
+50,208,14,2024,QS World University,Research,397
+50,209,11,2024,Princeton Review,Innovation,398
+50,210,159,2020,Forbes,Innovation,399
+50,210,78,2022,US News,Innovation,400
+50,210,161,2021,Times Higher Education,Research,401
+51,211,89,2021,Forbes,Employability,402
+51,211,109,2021,US News,Research,403
+51,212,123,2021,QS World University,Teaching,404
+51,212,103,2024,Princeton Review,Employability,405
+51,213,49,2022,Princeton Review,Innovation,406
+51,213,70,2019,Forbes,Employability,407
+52,214,174,2021,QS World University,Overall,408
+52,214,66,2024,US News,Employability,409
+52,214,123,2023,Forbes,Employability,410
+52,215,162,2020,US News,Research,411
+52,216,197,2021,QS World University,Research,412
+52,216,30,2018,Times Higher Education,Research,413
+52,217,98,2019,QS World University,Teaching,414
+52,217,128,2024,QS World University,Overall,415
+52,217,122,2018,Forbes,Research,416
+53,218,30,2019,US News,Employability,417
+53,219,85,2020,QS World University,Innovation,418
+53,220,56,2020,QS World University,Overall,419
+54,221,88,2020,Times Higher Education,Innovation,420
+54,221,53,2019,Times Higher Education,Employability,421
+54,222,177,2020,Forbes,Research,422
+54,222,197,2020,Times Higher Education,Employability,423
+54,222,131,2020,Princeton Review,Innovation,424
+54,223,27,2022,Forbes,Innovation,425
+54,223,190,2018,Forbes,Overall,426
+54,223,146,2023,Princeton Review,Teaching,427
+55,224,56,2019,Times Higher Education,Teaching,428
+55,224,60,2022,Princeton Review,Employability,429
+55,225,193,2024,QS World University,Teaching,430
+55,225,153,2018,QS World University,Teaching,431
+55,226,41,2021,Times Higher Education,Research,432
+55,226,38,2024,Forbes,Innovation,433
+55,227,117,2019,QS World University,Innovation,434
+55,227,62,2018,Princeton Review,Teaching,435
+55,228,30,2020,US News,Employability,436
+56,229,87,2020,US News,Teaching,437
+56,229,104,2024,Forbes,Teaching,438
+56,230,32,2024,Times Higher Education,Teaching,439
+56,231,123,2020,QS World University,Employability,440
+56,232,129,2020,QS World University,Teaching,441
+56,232,85,2019,Times Higher Education,Research,442
+57,233,147,2021,Princeton Review,Research,443
+57,233,158,2023,Princeton Review,Research,444
+57,234,101,2022,Princeton Review,Innovation,445
+57,235,131,2024,QS World University,Innovation,446
+58,236,153,2024,Forbes,Employability,447
+58,237,104,2023,Forbes,Research,448
+58,237,154,2024,US News,Teaching,449
+58,237,150,2018,Times Higher Education,Employability,450
+58,238,174,2020,Times Higher Education,Overall,451
+58,238,21,2022,Forbes,Innovation,452
+58,239,141,2019,QS World University,Overall,453
+58,239,15,2024,Forbes,Employability,454
+58,240,172,2018,Times Higher Education,Innovation,455
+58,240,189,2024,QS World University,Innovation,456
+58,240,75,2020,Forbes,Employability,457
+59,241,22,2022,Princeton Review,Employability,458
+59,241,91,2021,Times Higher Education,Teaching,459
+59,241,25,2019,Princeton Review,Overall,460
+59,242,104,2022,Forbes,Employability,461
+59,243,7,2019,Forbes,Teaching,462
+59,244,147,2022,Times Higher Education,Innovation,463
+60,245,26,2023,Forbes,Research,464
+60,245,85,2019,Princeton Review,Innovation,465
+60,246,186,2020,US News,Employability,466
+60,247,93,2024,Forbes,Employability,467
+60,248,197,2019,Forbes,Teaching,468
+60,248,155,2023,US News,Teaching,469
+60,248,177,2023,Princeton Review,Employability,470
+61,249,76,2018,Times Higher Education,Innovation,471
+61,249,31,2022,Times Higher Education,Employability,472
+61,250,45,2020,Princeton Review,Research,473
+61,250,52,2023,Forbes,Research,474
+61,250,67,2022,Forbes,Innovation,475
+61,251,174,2024,US News,Overall,476
+61,252,130,2023,Times Higher Education,Overall,477
+61,253,115,2020,QS World University,Research,478
+61,253,25,2022,QS World University,Research,479
+61,253,197,2018,US News,Employability,480
+62,254,107,2023,Princeton Review,Research,481
+62,254,176,2020,QS World University,Teaching,482
+62,255,128,2020,QS World University,Innovation,483
+62,255,26,2019,Times Higher Education,Employability,484
+62,256,153,2019,QS World University,Overall,485
+62,257,98,2024,QS World University,Employability,486
+62,257,117,2022,QS World University,Research,487
+63,258,62,2018,Princeton Review,Research,488
+63,258,29,2023,Forbes,Teaching,489
+63,258,53,2023,Times Higher Education,Teaching,490
+63,259,121,2021,Times Higher Education,Innovation,491
+63,259,81,2023,Times Higher Education,Employability,492
+63,259,49,2024,QS World University,Innovation,493
+63,260,142,2018,Times Higher Education,Research,494
+64,261,166,2022,QS World University,Research,495
+64,261,191,2021,Forbes,Overall,496
+64,262,83,2022,QS World University,Research,497
+64,262,128,2021,Times Higher Education,Research,498
+64,263,120,2023,US News,Innovation,499
+64,263,113,2022,QS World University,Overall,500
+64,264,61,2020,Princeton Review,Employability,501
+64,264,23,2020,Forbes,Research,502
+64,265,154,2022,Forbes,Employability,503
+64,265,186,2019,Princeton Review,Innovation,504
+65,266,11,2021,Princeton Review,Overall,505
+65,267,53,2020,Princeton Review,Research,506
+65,267,11,2024,Princeton Review,Research,507
+65,267,182,2020,US News,Overall,508
+65,268,134,2024,QS World University,Innovation,509
+65,269,45,2018,Times Higher Education,Employability,510
+65,269,115,2019,Forbes,Teaching,511
+65,269,153,2023,Princeton Review,Teaching,512
+66,270,192,2020,QS World University,Innovation,513
+66,270,138,2023,Times Higher Education,Research,514
+66,271,57,2020,QS World University,Innovation,515
+66,271,114,2018,Times Higher Education,Research,516
+66,272,72,2021,QS World University,Employability,517
+66,272,37,2021,US News,Employability,518
+66,272,46,2018,Times Higher Education,Employability,519
+67,273,4,2019,QS World University,Teaching,520
+67,273,14,2020,US News,Teaching,521
+67,273,129,2021,Times Higher Education,Employability,522
+67,274,134,2023,US News,Overall,523
+67,274,90,2023,Princeton Review,Overall,524
+67,275,115,2024,Forbes,Teaching,525
+68,276,176,2020,Princeton Review,Teaching,526
+68,276,108,2024,Princeton Review,Teaching,527
+68,277,2,2019,Times Higher Education,Overall,528
+68,278,143,2020,US News,Research,529
+68,279,73,2022,QS World University,Research,530
+68,280,141,2021,QS World University,Teaching,531
+68,280,44,2018,QS World University,Innovation,532
+68,280,3,2022,US News,Innovation,533
+69,281,181,2023,Princeton Review,Employability,534
+69,281,114,2019,Forbes,Overall,535
+69,281,87,2022,QS World University,Research,536
+69,282,133,2023,Times Higher Education,Overall,537
+69,282,95,2023,Times Higher Education,Overall,538
+69,282,101,2018,Forbes,Employability,539
+69,283,34,2024,US News,Research,540
+70,284,99,2021,Times Higher Education,Overall,541
+70,284,130,2024,US News,Employability,542
+70,285,19,2021,Forbes,Employability,543
+70,285,129,2020,US News,Overall,544
+70,285,90,2021,US News,Overall,545
+70,286,60,2019,QS World University,Employability,546
+70,286,126,2021,Princeton Review,Research,547
+70,287,121,2024,Times Higher Education,Research,548
+70,287,17,2023,Forbes,Research,549
+71,288,84,2019,QS World University,Overall,550
+71,288,191,2019,US News,Overall,551
+71,289,184,2020,Times Higher Education,Innovation,552
+71,289,42,2020,Princeton Review,Teaching,553
+71,289,173,2019,Forbes,Teaching,554
+71,290,75,2024,QS World University,Innovation,555
+71,290,40,2024,US News,Research,556
+71,290,20,2019,Forbes,Employability,557
+72,291,138,2024,QS World University,Teaching,558
+72,291,125,2019,US News,Innovation,559
+72,292,31,2023,QS World University,Teaching,560
+72,292,120,2023,Princeton Review,Innovation,561
+72,292,39,2018,Forbes,Research,562
+72,293,137,2022,Forbes,Research,563
+72,293,178,2022,Forbes,Teaching,564
+72,293,75,2018,Times Higher Education,Innovation,565
+73,294,120,2022,Forbes,Teaching,566
+73,295,196,2018,QS World University,Research,567
+73,295,72,2022,Princeton Review,Employability,568
+73,295,190,2024,Forbes,Overall,569
+73,296,97,2022,Princeton Review,Research,570
+73,297,20,2020,Times Higher Education,Teaching,571
+73,297,193,2024,Forbes,Teaching,572
+73,297,121,2021,US News,Overall,573
+74,298,117,2024,QS World University,Employability,574
+74,298,11,2023,Forbes,Employability,575
+74,298,80,2020,Princeton Review,Teaching,576
+74,299,109,2018,Forbes,Innovation,577
+74,299,74,2024,Princeton Review,Teaching,578
+74,300,45,2021,US News,Teaching,579
+74,300,65,2023,QS World University,Research,580
+74,301,157,2022,Times Higher Education,Overall,581
+74,301,154,2022,QS World University,Research,582
+75,302,132,2021,Forbes,Overall,583
+75,302,57,2024,QS World University,Employability,584
+75,303,81,2023,QS World University,Employability,585
+75,304,13,2018,US News,Research,586
+75,304,139,2019,Forbes,Innovation,587
+75,304,46,2023,Forbes,Employability,588
+75,305,134,2021,Forbes,Employability,589
+75,305,118,2022,QS World University,Overall,590
+75,305,173,2022,QS World University,Overall,591
+75,306,138,2024,Times Higher Education,Teaching,592
+75,306,161,2023,Times Higher Education,Research,593
+75,306,186,2020,Forbes,Research,594
+76,307,60,2020,US News,Employability,595
+76,307,105,2024,US News,Innovation,596
+76,308,171,2021,QS World University,Innovation,597
+76,308,124,2019,Princeton Review,Research,598
+76,309,46,2019,Times Higher Education,Innovation,599
+76,309,73,2024,US News,Teaching,600
+76,310,186,2020,Forbes,Teaching,601
+76,310,125,2024,US News,Overall,602
+76,311,22,2018,Forbes,Innovation,603
+77,312,19,2021,Times Higher Education,Employability,604
+77,312,105,2024,QS World University,Innovation,605
+77,312,54,2023,Princeton Review,Teaching,606
+77,313,194,2018,Princeton Review,Employability,607
+77,313,168,2023,QS World University,Overall,608
+77,314,132,2023,Times Higher Education,Innovation,609
+77,314,195,2022,Forbes,Teaching,610
+77,315,199,2018,Times Higher Education,Employability,611
+77,315,110,2022,Forbes,Teaching,612
+77,315,133,2020,US News,Overall,613
+78,316,52,2018,Times Higher Education,Teaching,614
+78,317,182,2023,Times Higher Education,Teaching,615
+78,317,67,2018,Princeton Review,Research,616
+78,318,117,2018,Forbes,Innovation,617
+79,319,109,2024,Times Higher Education,Employability,618
+79,320,162,2021,Forbes,Employability,619
+79,320,81,2021,Forbes,Innovation,620
+79,321,58,2018,Princeton Review,Research,621
+80,322,57,2019,US News,Teaching,622
+80,322,125,2019,US News,Research,623
+80,322,61,2019,US News,Innovation,624
+80,323,164,2022,QS World University,Teaching,625
+80,323,85,2022,Forbes,Employability,626
+80,324,23,2023,Princeton Review,Research,627
+80,324,190,2019,US News,Overall,628
+80,324,86,2024,QS World University,Employability,629
+80,325,23,2024,QS World University,Research,630
+80,325,63,2018,Princeton Review,Innovation,631
+80,326,10,2019,Forbes,Employability,632
+81,327,168,2021,US News,Research,633
+81,328,7,2024,Times Higher Education,Research,634
+81,328,106,2018,QS World University,Research,635
+81,328,82,2018,US News,Innovation,636
+81,329,12,2018,Princeton Review,Teaching,637
+81,329,97,2022,US News,Employability,638
+81,329,46,2019,QS World University,Innovation,639
+81,330,33,2018,QS World University,Research,640
+82,331,197,2023,Princeton Review,Innovation,641
+82,331,44,2020,Forbes,Employability,642
+82,332,85,2019,US News,Overall,643
+82,333,121,2024,QS World University,Employability,644
+82,333,114,2023,Princeton Review,Employability,645
+82,333,191,2019,QS World University,Employability,646
+83,334,58,2023,US News,Overall,647
+83,334,3,2023,QS World University,Overall,648
+83,334,126,2024,Princeton Review,Research,649
+83,335,62,2021,US News,Employability,650
+83,336,149,2020,Forbes,Employability,651
+83,336,200,2022,Times Higher Education,Employability,652
+83,336,148,2022,QS World University,Research,653
+83,337,31,2021,US News,Teaching,654
+83,337,191,2022,US News,Teaching,655
+83,338,93,2020,Forbes,Teaching,656
+83,338,157,2019,US News,Teaching,657
+84,339,136,2021,Times Higher Education,Innovation,658
+84,339,98,2024,Times Higher Education,Research,659
+84,339,158,2020,Times Higher Education,Employability,660
+84,340,14,2021,QS World University,Overall,661
+84,340,38,2019,US News,Research,662
+84,341,14,2020,QS World University,Research,663
+85,342,117,2021,US News,Employability,664
+85,343,50,2019,US News,Teaching,665
+85,344,124,2018,Forbes,Innovation,666
+85,344,94,2019,US News,Innovation,667
+85,344,4,2021,QS World University,Teaching,668
+85,345,22,2022,Princeton Review,Research,669
+85,346,9,2022,US News,Research,670
+86,347,119,2020,QS World University,Teaching,671
+86,347,102,2023,Princeton Review,Overall,672
+86,348,43,2019,US News,Teaching,673
+86,348,188,2019,Princeton Review,Teaching,674
+86,348,200,2023,Princeton Review,Overall,675
+86,349,91,2020,Times Higher Education,Research,676
+86,349,183,2020,Forbes,Research,677
+86,350,77,2022,US News,Teaching,678
+86,351,21,2019,Forbes,Research,679
+86,351,130,2018,Forbes,Overall,680
+87,352,28,2023,Forbes,Overall,681
+87,352,130,2022,Forbes,Teaching,682
+87,352,175,2020,Forbes,Research,683
+87,353,138,2020,Times Higher Education,Overall,684
+87,353,79,2024,US News,Innovation,685
+87,354,30,2022,Times Higher Education,Innovation,686
+87,354,60,2023,Princeton Review,Overall,687
+87,355,70,2022,Times Higher Education,Teaching,688
+87,355,66,2021,QS World University,Overall,689
+87,355,148,2018,QS World University,Innovation,690
+88,356,3,2022,QS World University,Innovation,691
+88,356,42,2019,US News,Innovation,692
+88,357,28,2023,Times Higher Education,Innovation,693
+88,358,103,2021,Times Higher Education,Teaching,694
+88,359,170,2020,Times Higher Education,Research,695
+88,359,118,2020,Forbes,Teaching,696
+88,359,83,2019,US News,Research,697
+89,360,15,2023,QS World University,Overall,698
+89,360,66,2024,Forbes,Employability,699
+89,361,33,2020,US News,Innovation,700
+89,361,93,2020,Princeton Review,Employability,701
+89,361,149,2020,US News,Research,702
+89,362,63,2019,QS World University,Innovation,703
+89,363,149,2022,Times Higher Education,Research,704
+90,364,133,2022,Times Higher Education,Overall,705
+90,365,164,2024,QS World University,Employability,706
+90,366,152,2021,QS World University,Teaching,707
+90,366,128,2020,Times Higher Education,Innovation,708
+91,367,120,2023,Princeton Review,Teaching,709
+91,367,122,2020,QS World University,Employability,710
+91,367,75,2018,Princeton Review,Teaching,711
+91,368,107,2020,Forbes,Innovation,712
+91,368,122,2024,QS World University,Teaching,713
+91,369,26,2019,Princeton Review,Research,714
+91,369,53,2024,Forbes,Research,715
+91,370,200,2023,Times Higher Education,Teaching,716
+91,370,65,2023,US News,Research,717
+91,370,62,2023,QS World University,Research,718
+91,371,9,2024,US News,Employability,719
+91,371,43,2021,Times Higher Education,Teaching,720
+91,371,147,2022,QS World University,Innovation,721
+92,372,146,2019,US News,Overall,722
+92,373,30,2018,Princeton Review,Employability,723
+92,373,94,2020,US News,Overall,724
+92,374,173,2018,QS World University,Employability,725
+92,375,155,2018,QS World University,Overall,726
+92,375,111,2020,Forbes,Teaching,727
+92,376,178,2020,Forbes,Research,728
+92,376,189,2021,Times Higher Education,Teaching,729
+93,377,86,2019,QS World University,Overall,730
+93,377,91,2022,Times Higher Education,Overall,731
+93,377,154,2018,Forbes,Overall,732
+93,378,75,2019,Princeton Review,Research,733
+93,379,47,2023,US News,Overall,734
+93,379,122,2021,Times Higher Education,Research,735
+93,380,115,2019,US News,Employability,736
+93,380,18,2021,US News,Research,737
+93,380,115,2020,Forbes,Innovation,738
+93,381,164,2021,Forbes,Overall,739
+94,382,177,2021,US News,Research,740
+94,382,99,2022,Times Higher Education,Teaching,741
+94,382,172,2022,US News,Overall,742
+94,383,129,2024,Times Higher Education,Innovation,743
+94,384,149,2019,QS World University,Innovation,744
+94,384,63,2021,Forbes,Employability,745
+95,385,152,2019,US News,Overall,746
+95,385,42,2024,QS World University,Innovation,747
+95,385,73,2019,Princeton Review,Innovation,748
+95,386,145,2024,Times Higher Education,Research,749
+95,387,44,2023,Princeton Review,Innovation,750
+95,387,185,2022,US News,Employability,751
+95,387,117,2018,Times Higher Education,Research,752
+95,388,68,2018,Princeton Review,Employability,753
+95,388,16,2019,QS World University,Overall,754
+95,388,70,2020,Princeton Review,Innovation,755
+96,389,198,2024,Times Higher Education,Employability,756
+96,389,6,2021,Times Higher Education,Innovation,757
+96,389,43,2020,US News,Teaching,758
+96,390,62,2023,Forbes,Overall,759
+96,390,25,2023,Forbes,Research,760
+96,390,92,2022,Princeton Review,Innovation,761
+96,391,82,2024,US News,Innovation,762
+97,392,83,2023,US News,Teaching,763
+97,393,179,2019,US News,Employability,764
+97,393,25,2018,US News,Innovation,765
+97,393,169,2020,US News,Teaching,766
+97,394,12,2022,QS World University,Teaching,767
+97,395,191,2021,QS World University,Innovation,768
+98,396,98,2020,Forbes,Overall,769
+98,397,29,2024,Princeton Review,Research,770
+98,398,54,2021,Times Higher Education,Research,771
+98,398,180,2018,Forbes,Employability,772
+98,398,13,2018,Princeton Review,Research,773
+98,399,48,2024,Times Higher Education,Overall,774
+98,399,47,2022,QS World University,Overall,775
+99,400,199,2023,Princeton Review,Overall,776
+99,401,196,2024,US News,Overall,777
+99,401,157,2020,Forbes,Teaching,778
+99,402,134,2019,QS World University,Teaching,779
+99,402,64,2024,Times Higher Education,Overall,780
+99,402,44,2022,QS World University,Overall,781
+100,403,172,2021,US News,Teaching,782
+100,403,51,2018,Princeton Review,Teaching,783
+100,404,138,2021,Times Higher Education,Employability,784
+100,404,176,2024,US News,Teaching,785
+100,404,64,2023,Times Higher Education,Innovation,786
+100,405,66,2019,QS World University,Innovation,787
+100,406,56,2019,QS World University,Research,788
+100,406,18,2019,Times Higher Education,Innovation,789
+100,406,154,2021,Princeton Review,Employability,790
+101,407,45,2024,Times Higher Education,Innovation,791
+101,407,66,2022,Princeton Review,Innovation,792
+101,408,194,2018,Princeton Review,Innovation,793
+101,408,21,2022,QS World University,Employability,794
+101,408,158,2022,QS World University,Teaching,795
+101,409,119,2021,Forbes,Innovation,796
+101,409,149,2022,Forbes,Overall,797
+101,410,75,2023,US News,Research,798
+101,410,46,2018,Forbes,Innovation,799
+102,411,150,2020,Forbes,Innovation,800
+102,411,22,2018,Times Higher Education,Overall,801
+102,412,63,2024,Princeton Review,Employability,802
+102,412,109,2021,Times Higher Education,Overall,803
+102,412,60,2024,QS World University,Teaching,804
+102,413,51,2018,Times Higher Education,Employability,805
+102,413,126,2024,QS World University,Innovation,806
+102,413,153,2022,Times Higher Education,Research,807
+102,414,37,2019,Princeton Review,Research,808
+103,415,86,2023,QS World University,Overall,809
+103,415,45,2018,Princeton Review,Employability,810
+103,416,57,2018,Princeton Review,Employability,811
+103,416,99,2023,QS World University,Teaching,812
+103,416,77,2019,Forbes,Teaching,813
+103,417,113,2024,Forbes,Employability,814
+103,418,114,2018,QS World University,Overall,815
+103,418,75,2021,Times Higher Education,Innovation,816
+103,418,179,2018,Forbes,Research,817
+103,419,120,2022,Times Higher Education,Innovation,818
+103,419,188,2022,Times Higher Education,Teaching,819
+104,420,108,2024,Times Higher Education,Overall,820
+104,420,142,2019,Times Higher Education,Teaching,821
+104,420,84,2019,QS World University,Research,822
+104,421,184,2021,QS World University,Innovation,823
+104,421,162,2020,US News,Teaching,824
+104,422,166,2018,Times Higher Education,Research,825
+104,422,147,2022,Times Higher Education,Employability,826
+104,423,40,2024,US News,Overall,827
+105,424,50,2024,QS World University,Employability,828
+105,424,97,2019,Forbes,Research,829
+105,424,163,2023,Forbes,Teaching,830
+105,425,2,2021,QS World University,Innovation,831
+105,425,162,2024,QS World University,Employability,832
+105,425,32,2023,Forbes,Employability,833
+105,426,1,2020,Times Higher Education,Teaching,834
+105,426,53,2024,US News,Innovation,835
+105,426,85,2018,Times Higher Education,Research,836
+106,427,58,2023,US News,Research,837
+106,428,58,2023,QS World University,Research,838
+106,428,70,2020,Forbes,Research,839
+106,429,117,2019,Times Higher Education,Research,840
+106,430,20,2023,Times Higher Education,Teaching,841
+106,430,89,2023,Times Higher Education,Overall,842
+106,430,31,2022,Princeton Review,Employability,843
+107,431,26,2019,Forbes,Teaching,844
+107,432,36,2024,Forbes,Teaching,845
+107,432,28,2021,US News,Employability,846
+107,433,114,2019,US News,Teaching,847
+107,433,168,2022,Times Higher Education,Teaching,848
+107,433,52,2018,US News,Research,849
+108,434,107,2024,Times Higher Education,Employability,850
+108,434,127,2019,Princeton Review,Employability,851
+108,434,6,2021,Princeton Review,Employability,852
+108,435,174,2021,Times Higher Education,Research,853
+108,436,27,2018,QS World University,Research,854
+108,437,121,2022,Forbes,Overall,855
+109,438,179,2020,Times Higher Education,Employability,856
+109,438,117,2023,QS World University,Overall,857
+109,438,123,2021,US News,Employability,858
+109,439,139,2019,US News,Overall,859
+109,439,31,2019,Princeton Review,Teaching,860
+109,440,140,2019,US News,Research,861
+109,440,85,2023,US News,Research,862
+109,441,102,2020,US News,Research,863
+109,441,148,2023,Princeton Review,Teaching,864
+110,442,75,2024,Princeton Review,Overall,865
+110,442,158,2018,Times Higher Education,Research,866
+110,442,3,2024,Times Higher Education,Research,867
+110,443,88,2018,US News,Teaching,868
+110,443,112,2021,Times Higher Education,Employability,869
+110,443,75,2021,US News,Employability,870
+110,444,46,2019,Princeton Review,Innovation,871
+110,444,30,2020,US News,Teaching,872
+110,444,161,2023,Princeton Review,Teaching,873
+110,445,117,2024,US News,Teaching,874
+110,445,158,2021,Princeton Review,Research,875
+110,445,22,2024,QS World University,Teaching,876
+110,446,24,2022,QS World University,Research,877
+111,447,54,2022,Times Higher Education,Teaching,878
+111,448,195,2022,Forbes,Overall,879
+111,448,189,2018,US News,Research,880
+111,448,42,2018,Princeton Review,Research,881
+111,449,129,2021,Times Higher Education,Employability,882
+111,450,145,2022,Princeton Review,Research,883
+111,450,7,2023,QS World University,Innovation,884
+111,450,178,2022,US News,Research,885
+111,451,66,2019,Times Higher Education,Employability,886
+111,451,82,2024,Forbes,Employability,887
+112,452,5,2018,US News,Overall,888
+112,452,85,2023,Princeton Review,Teaching,889
+112,452,14,2020,QS World University,Employability,890
+112,453,58,2018,Princeton Review,Teaching,891
+112,453,104,2018,US News,Research,892
+112,454,62,2019,Forbes,Teaching,893
+112,454,56,2019,Princeton Review,Teaching,894
+112,454,127,2018,Times Higher Education,Innovation,895
+113,455,52,2018,Princeton Review,Innovation,896
+113,455,187,2022,Princeton Review,Overall,897
+113,455,188,2023,QS World University,Innovation,898
+113,456,173,2024,QS World University,Research,899
+113,456,185,2023,Princeton Review,Employability,900
+113,456,150,2020,Princeton Review,Research,901
+113,457,98,2020,US News,Overall,902
+113,457,142,2022,Times Higher Education,Overall,903
+113,457,179,2019,Forbes,Overall,904
+114,458,191,2023,Times Higher Education,Employability,905
+114,458,95,2021,Princeton Review,Innovation,906
+114,459,76,2019,Forbes,Overall,907
+114,460,140,2022,Times Higher Education,Research,908
+115,461,39,2022,Times Higher Education,Innovation,909
+115,461,111,2024,Times Higher Education,Teaching,910
+115,461,172,2022,Forbes,Innovation,911
+115,462,120,2019,Times Higher Education,Teaching,912
+115,462,168,2019,Forbes,Overall,913
+115,462,19,2024,Princeton Review,Employability,914
+115,463,2,2021,Forbes,Teaching,915
+115,463,32,2018,US News,Employability,916
+116,464,165,2018,Forbes,Research,917
+116,464,14,2021,Forbes,Research,918
+116,465,129,2021,QS World University,Innovation,919
+116,465,58,2023,Times Higher Education,Research,920
+116,465,56,2021,QS World University,Overall,921
+116,466,172,2020,Times Higher Education,Innovation,922
+116,466,110,2024,QS World University,Teaching,923
+116,467,3,2021,QS World University,Overall,924
+117,468,9,2018,Princeton Review,Teaching,925
+117,468,48,2024,US News,Teaching,926
+117,468,155,2023,QS World University,Teaching,927
+117,469,15,2020,QS World University,Teaching,928
+117,470,130,2019,QS World University,Employability,929
+117,470,156,2023,Princeton Review,Overall,930
+117,471,42,2024,US News,Innovation,931
+117,471,34,2021,Forbes,Overall,932
+117,471,124,2021,Forbes,Innovation,933
+118,472,58,2019,Forbes,Employability,934
+118,472,65,2020,US News,Employability,935
+118,472,129,2024,US News,Research,936
+118,473,58,2022,Forbes,Research,937
+118,473,75,2021,QS World University,Employability,938
+118,473,78,2023,Times Higher Education,Teaching,939
+118,474,121,2022,Forbes,Research,940
+118,474,42,2022,Forbes,Research,941
+118,475,2,2024,US News,Employability,942
+118,475,5,2022,Times Higher Education,Teaching,943
+118,476,146,2018,US News,Overall,944
+118,476,49,2021,Forbes,Teaching,945
+119,477,115,2020,Forbes,Overall,946
+119,478,109,2022,QS World University,Research,947
+119,478,91,2022,Forbes,Employability,948
+119,479,9,2018,Forbes,Employability,949
+119,480,94,2022,Times Higher Education,Overall,950
+119,480,24,2020,QS World University,Teaching,951
+119,480,28,2021,Princeton Review,Employability,952
+120,481,23,2024,QS World University,Teaching,953
+120,481,68,2019,Princeton Review,Teaching,954
+120,482,164,2021,Princeton Review,Employability,955
+120,482,78,2022,Princeton Review,Research,956
+120,483,65,2024,Forbes,Innovation,957
+121,484,91,2021,US News,Innovation,958
+121,484,124,2024,US News,Employability,959
+121,484,99,2021,QS World University,Employability,960
+121,485,85,2022,Princeton Review,Employability,961
+121,486,15,2024,QS World University,Research,962
+121,486,138,2021,US News,Employability,963
+121,486,127,2023,Forbes,Innovation,964
+122,487,26,2024,Forbes,Research,965
+122,488,79,2018,Forbes,Innovation,966
+122,488,33,2020,Forbes,Research,967
+122,488,109,2022,Forbes,Overall,968
+122,489,173,2021,Princeton Review,Employability,969
+122,489,193,2021,Forbes,Employability,970
+122,489,120,2022,Princeton Review,Overall,971
+123,490,112,2019,QS World University,Teaching,972
+123,491,136,2023,QS World University,Overall,973
+123,491,140,2021,Times Higher Education,Research,974
+123,491,199,2024,Times Higher Education,Teaching,975
+123,492,90,2019,Forbes,Innovation,976
+123,492,35,2019,QS World University,Teaching,977
+123,492,132,2023,Princeton Review,Overall,978
+123,493,34,2021,Princeton Review,Innovation,979
+124,494,65,2019,US News,Employability,980
+124,494,101,2022,QS World University,Innovation,981
+124,495,52,2023,US News,Overall,982
+124,495,70,2018,Princeton Review,Innovation,983
+124,495,180,2021,Princeton Review,Innovation,984
+124,496,26,2020,QS World University,Research,985
+124,496,30,2020,Princeton Review,Research,986
+124,497,39,2022,Princeton Review,Research,987
+124,497,137,2023,Forbes,Overall,988
+124,497,51,2023,Princeton Review,Teaching,989
+124,498,199,2024,Times Higher Education,Research,990
+125,499,80,2022,Princeton Review,Teaching,991
+125,499,120,2021,QS World University,Employability,992
+125,499,196,2020,Forbes,Innovation,993
+125,500,37,2022,US News,Employability,994
+125,500,7,2021,Times Higher Education,Overall,995
+125,501,97,2018,Times Higher Education,Research,996
+125,501,149,2018,Times Higher Education,Research,997
+125,502,192,2021,Times Higher Education,Teaching,998
+125,502,193,2022,Times Higher Education,Research,999
+125,502,54,2020,US News,Innovation,1000
+126,503,188,2023,Princeton Review,Employability,1001
+126,503,25,2024,Times Higher Education,Teaching,1002
+126,504,89,2018,QS World University,Employability,1003
+126,504,76,2018,US News,Teaching,1004
+126,505,65,2023,Times Higher Education,Innovation,1005
+126,505,190,2018,Princeton Review,Teaching,1006
+127,506,200,2021,Times Higher Education,Teaching,1007
+127,506,5,2021,QS World University,Innovation,1008
+127,507,69,2022,Forbes,Innovation,1009
+127,508,127,2022,Times Higher Education,Employability,1010
+128,509,69,2023,Times Higher Education,Employability,1011
+128,510,109,2022,Princeton Review,Overall,1012
+128,511,163,2024,Forbes,Employability,1013
+128,511,170,2023,US News,Overall,1014
+128,512,33,2021,Forbes,Overall,1015
+129,513,199,2023,Forbes,Overall,1016
+129,514,50,2023,Times Higher Education,Employability,1017
+129,514,23,2020,Times Higher Education,Research,1018
+129,515,168,2022,Forbes,Employability,1019
+129,515,136,2022,Times Higher Education,Innovation,1020
+129,515,193,2022,Times Higher Education,Employability,1021
+129,516,140,2022,QS World University,Teaching,1022
+129,516,120,2020,Forbes,Employability,1023
+130,517,64,2019,Princeton Review,Employability,1024
+130,518,162,2023,Princeton Review,Innovation,1025
+130,519,91,2023,US News,Research,1026
+130,519,13,2018,Times Higher Education,Teaching,1027
+130,519,43,2018,QS World University,Research,1028
+131,520,144,2021,Times Higher Education,Research,1029
+131,520,76,2022,QS World University,Innovation,1030
+131,521,62,2023,Times Higher Education,Overall,1031
+131,522,17,2022,Princeton Review,Innovation,1032
+131,522,46,2020,Forbes,Innovation,1033
+131,523,183,2022,Forbes,Employability,1034
+131,523,71,2020,QS World University,Research,1035
+131,523,193,2021,Princeton Review,Overall,1036
+132,524,37,2022,Princeton Review,Teaching,1037
+132,525,141,2020,Princeton Review,Overall,1038
+132,525,175,2023,Times Higher Education,Employability,1039
+132,525,122,2022,Times Higher Education,Research,1040
+132,526,3,2019,Forbes,Employability,1041
+132,526,148,2022,Princeton Review,Overall,1042
+132,526,56,2022,Princeton Review,Innovation,1043
+132,527,25,2022,Princeton Review,Innovation,1044
+132,527,183,2018,Forbes,Employability,1045
+132,527,162,2020,Princeton Review,Research,1046
+133,528,182,2018,US News,Innovation,1047
+133,528,93,2019,Forbes,Employability,1048
+133,529,192,2020,US News,Overall,1049
+133,529,9,2023,US News,Overall,1050
+133,530,34,2021,Princeton Review,Research,1051
+133,530,158,2018,Princeton Review,Innovation,1052
+133,530,85,2022,US News,Employability,1053
+134,531,42,2021,QS World University,Innovation,1054
+134,531,145,2021,US News,Innovation,1055
+134,531,127,2024,Princeton Review,Teaching,1056
+134,532,179,2020,Princeton Review,Employability,1057
+134,532,44,2020,Forbes,Innovation,1058
+134,533,117,2023,US News,Teaching,1059
+134,533,158,2019,Forbes,Research,1060
+134,533,18,2020,Princeton Review,Teaching,1061
+134,534,86,2021,Princeton Review,Research,1062
+134,534,13,2023,Princeton Review,Research,1063
+134,535,31,2019,Times Higher Education,Innovation,1064
+135,536,15,2018,US News,Overall,1065
+135,537,10,2021,US News,Overall,1066
+135,537,136,2019,Princeton Review,Overall,1067
+135,538,67,2024,US News,Employability,1068
+135,538,68,2024,US News,Teaching,1069
+135,539,79,2018,Princeton Review,Overall,1070
+135,539,54,2022,QS World University,Employability,1071
+135,540,25,2024,Forbes,Employability,1072
+136,541,89,2020,QS World University,Overall,1073
+136,541,80,2018,US News,Employability,1074
+136,541,135,2019,QS World University,Innovation,1075
+136,542,170,2024,Forbes,Teaching,1076
+136,542,132,2020,US News,Employability,1077
+136,543,93,2023,Times Higher Education,Overall,1078
+136,544,33,2022,US News,Research,1079
+136,544,33,2022,US News,Employability,1080
+136,544,107,2022,Princeton Review,Employability,1081
+137,545,182,2024,QS World University,Research,1082
+137,545,3,2024,QS World University,Teaching,1083
+137,546,196,2024,QS World University,Overall,1084
+137,547,20,2023,Forbes,Innovation,1085
+137,547,119,2023,Times Higher Education,Employability,1086
+137,547,151,2024,US News,Employability,1087
+137,548,56,2019,US News,Employability,1088
+137,548,144,2022,US News,Teaching,1089
+137,549,132,2018,Princeton Review,Innovation,1090
+138,550,145,2019,Princeton Review,Employability,1091
+138,550,179,2023,Times Higher Education,Innovation,1092
+138,550,124,2019,QS World University,Teaching,1093
+138,551,164,2023,US News,Teaching,1094
+138,551,193,2018,QS World University,Overall,1095
+138,551,110,2024,US News,Innovation,1096
+138,552,41,2023,US News,Innovation,1097
+138,553,91,2021,US News,Innovation,1098
+138,553,75,2018,Princeton Review,Employability,1099
+138,553,90,2023,Forbes,Research,1100
+138,554,41,2023,Princeton Review,Research,1101
+139,555,191,2024,Forbes,Employability,1102
+139,556,72,2019,US News,Innovation,1103
+139,556,84,2019,Times Higher Education,Overall,1104
+139,556,161,2018,US News,Employability,1105
+139,557,50,2018,Princeton Review,Research,1106
+139,557,70,2022,US News,Employability,1107
+139,558,139,2019,Forbes,Employability,1108
+139,559,98,2021,US News,Research,1109
+139,559,128,2018,US News,Innovation,1110
+139,559,86,2023,Times Higher Education,Teaching,1111
+140,560,131,2022,US News,Research,1112
+140,560,101,2024,Forbes,Innovation,1113
+140,561,29,2018,Princeton Review,Innovation,1114
+140,561,46,2022,Forbes,Teaching,1115
+140,561,8,2022,Times Higher Education,Teaching,1116
+140,562,105,2019,Princeton Review,Innovation,1117
+140,562,4,2019,US News,Research,1118
+140,562,116,2021,Forbes,Innovation,1119
+140,563,85,2021,Forbes,Research,1120
+140,563,86,2020,QS World University,Teaching,1121
+140,563,83,2024,US News,Research,1122
+140,564,76,2019,Forbes,Innovation,1123
+141,565,141,2021,Princeton Review,Overall,1124
+141,565,56,2021,US News,Overall,1125
+141,566,145,2018,Forbes,Innovation,1126
+141,566,77,2022,US News,Overall,1127
+141,566,178,2023,Times Higher Education,Overall,1128
+141,567,66,2021,US News,Overall,1129
+141,567,43,2018,QS World University,Innovation,1130
+141,567,90,2020,Princeton Review,Teaching,1131
+141,568,152,2022,Princeton Review,Teaching,1132
+141,568,195,2018,Princeton Review,Employability,1133
+142,569,114,2020,Princeton Review,Teaching,1134
+142,570,168,2018,Times Higher Education,Research,1135
+142,570,132,2019,QS World University,Teaching,1136
+142,570,177,2021,Times Higher Education,Innovation,1137
+142,571,22,2024,Forbes,Employability,1138
+142,571,200,2022,US News,Research,1139
+143,572,92,2021,Forbes,Innovation,1140
+143,572,63,2021,QS World University,Overall,1141
+143,572,50,2023,QS World University,Teaching,1142
+143,573,193,2018,QS World University,Overall,1143
+143,573,3,2022,Times Higher Education,Employability,1144
+143,573,103,2018,Princeton Review,Overall,1145
+143,574,121,2020,QS World University,Employability,1146
+143,574,160,2021,Times Higher Education,Employability,1147
+143,574,163,2019,Princeton Review,Teaching,1148
+143,575,62,2021,US News,Overall,1149
+143,575,14,2024,Forbes,Innovation,1150
+143,576,47,2024,Forbes,Employability,1151
+143,576,62,2022,Times Higher Education,Overall,1152
+144,577,81,2020,US News,Overall,1153
+144,577,162,2024,Forbes,Innovation,1154
+144,578,174,2023,Times Higher Education,Employability,1155
+144,578,102,2020,Times Higher Education,Innovation,1156
+144,578,48,2021,Forbes,Teaching,1157
+144,579,10,2022,US News,Innovation,1158
+144,580,155,2018,Princeton Review,Employability,1159
+144,581,55,2021,QS World University,Teaching,1160
+145,582,30,2022,US News,Innovation,1161
+145,582,193,2018,Princeton Review,Overall,1162
+145,582,57,2022,Forbes,Overall,1163
+145,583,71,2019,Times Higher Education,Innovation,1164
+145,583,29,2021,Times Higher Education,Teaching,1165
+145,584,37,2022,Forbes,Employability,1166
+145,584,23,2024,QS World University,Teaching,1167
+146,585,140,2019,US News,Overall,1168
+146,586,123,2024,Princeton Review,Employability,1169
+146,586,21,2024,Forbes,Overall,1170
+146,586,196,2018,US News,Employability,1171
+146,587,7,2022,Princeton Review,Research,1172
+146,587,23,2022,Times Higher Education,Teaching,1173
+146,588,39,2022,Forbes,Research,1174
+146,588,17,2023,Times Higher Education,Teaching,1175
+146,588,113,2021,QS World University,Overall,1176
+146,589,107,2019,Times Higher Education,Research,1177
+146,589,65,2021,QS World University,Innovation,1178
+147,590,14,2018,Times Higher Education,Innovation,1179
+147,591,52,2024,Forbes,Overall,1180
+147,591,68,2018,Times Higher Education,Employability,1181
+147,591,58,2019,Forbes,Innovation,1182
+147,592,139,2022,QS World University,Employability,1183
+147,592,55,2022,Times Higher Education,Employability,1184
+147,592,74,2020,Princeton Review,Research,1185
+147,593,198,2020,Forbes,Overall,1186
+148,594,47,2022,QS World University,Overall,1187
+148,595,36,2020,Forbes,Employability,1188
+148,595,122,2023,Times Higher Education,Teaching,1189
+148,596,195,2018,Times Higher Education,Employability,1190
+148,596,196,2018,Times Higher Education,Teaching,1191
+149,597,46,2020,Forbes,Teaching,1192
+149,597,161,2024,Times Higher Education,Innovation,1193
+149,597,31,2024,Times Higher Education,Innovation,1194
+149,598,145,2019,QS World University,Research,1195
+149,598,183,2022,Forbes,Innovation,1196
+149,599,195,2023,US News,Innovation,1197
+149,599,166,2019,Princeton Review,Innovation,1198
+149,600,181,2022,Forbes,Teaching,1199
+149,600,119,2022,QS World University,Overall,1200
+149,600,42,2019,Princeton Review,Employability,1201
+149,601,101,2020,Princeton Review,Innovation,1202
+149,601,111,2019,US News,Overall,1203
+149,601,14,2021,Princeton Review,Employability,1204
+150,602,107,2022,QS World University,Teaching,1205
+150,603,111,2018,Times Higher Education,Overall,1206
+150,604,134,2019,Princeton Review,Innovation,1207
+150,604,41,2022,Princeton Review,Overall,1208
+151,605,148,2020,Princeton Review,Innovation,1209
+151,605,35,2018,QS World University,Teaching,1210
+151,605,112,2024,Princeton Review,Innovation,1211
+151,606,142,2021,Princeton Review,Innovation,1212
+151,606,156,2022,Princeton Review,Teaching,1213
+151,607,80,2020,US News,Employability,1214
+151,608,155,2024,US News,Research,1215
+152,609,137,2020,Times Higher Education,Research,1216
+152,610,25,2024,US News,Innovation,1217
+152,610,93,2020,Forbes,Employability,1218
+152,610,64,2021,Forbes,Innovation,1219
+152,611,158,2021,Princeton Review,Innovation,1220
+152,611,6,2023,QS World University,Research,1221
+153,612,180,2019,QS World University,Innovation,1222
+153,612,129,2018,US News,Overall,1223
+153,613,120,2023,Princeton Review,Overall,1224
+153,614,68,2018,Princeton Review,Overall,1225
+153,614,79,2020,QS World University,Research,1226
+153,614,147,2021,Princeton Review,Teaching,1227
+153,615,180,2018,US News,Innovation,1228
+153,615,122,2021,Forbes,Employability,1229
+153,615,10,2018,Princeton Review,Employability,1230
+154,616,108,2022,QS World University,Overall,1231
+154,616,140,2019,Forbes,Employability,1232
+154,616,75,2018,Princeton Review,Innovation,1233
+154,617,96,2020,Forbes,Innovation,1234
+154,617,41,2018,QS World University,Innovation,1235
+154,618,114,2024,QS World University,Employability,1236
+154,618,127,2023,QS World University,Teaching,1237
+154,618,37,2021,US News,Employability,1238
+154,619,144,2019,US News,Teaching,1239
+154,619,84,2024,Forbes,Teaching,1240
+155,620,96,2023,Times Higher Education,Teaching,1241
+155,620,173,2023,QS World University,Teaching,1242
+155,620,89,2023,Princeton Review,Teaching,1243
+155,621,109,2022,QS World University,Employability,1244
+155,621,182,2021,US News,Employability,1245
+155,621,135,2020,US News,Teaching,1246
+155,622,128,2019,Forbes,Innovation,1247
+155,623,131,2024,Times Higher Education,Teaching,1248
+155,623,177,2023,QS World University,Teaching,1249
+155,623,52,2023,Princeton Review,Research,1250
+155,624,2,2021,Times Higher Education,Overall,1251
+155,624,131,2020,QS World University,Employability,1252
+156,625,170,2023,Times Higher Education,Overall,1253
+156,625,60,2023,Forbes,Research,1254
+156,626,24,2021,Forbes,Teaching,1255
+156,626,73,2020,Forbes,Overall,1256
+156,626,48,2020,Princeton Review,Teaching,1257
+156,627,20,2021,Times Higher Education,Teaching,1258
+157,628,9,2021,US News,Employability,1259
+157,628,81,2018,QS World University,Overall,1260
+157,629,53,2019,Princeton Review,Research,1261
+157,629,96,2021,Times Higher Education,Teaching,1262
+157,629,121,2021,Forbes,Teaching,1263
+157,630,148,2019,US News,Overall,1264
+157,631,43,2023,Forbes,Research,1265
+157,631,116,2022,US News,Research,1266
+157,632,44,2024,Forbes,Research,1267
+158,633,59,2023,QS World University,Innovation,1268
+158,633,75,2018,Princeton Review,Overall,1269
+158,633,60,2019,Forbes,Teaching,1270
+158,634,168,2023,Forbes,Employability,1271
+158,634,73,2019,US News,Overall,1272
+158,634,25,2018,US News,Teaching,1273
+158,635,189,2020,US News,Innovation,1274
+158,635,96,2019,Forbes,Innovation,1275
+158,636,108,2023,Forbes,Teaching,1276
+158,636,43,2019,QS World University,Employability,1277
+158,637,15,2023,Princeton Review,Innovation,1278
+158,637,86,2018,Princeton Review,Employability,1279
+159,638,99,2022,Times Higher Education,Innovation,1280
+159,638,141,2020,Forbes,Innovation,1281
+159,639,142,2018,QS World University,Research,1282
+159,640,79,2020,Princeton Review,Employability,1283
+159,640,181,2018,Princeton Review,Overall,1284
+159,640,16,2019,Times Higher Education,Research,1285
+160,641,79,2022,US News,Overall,1286
+160,642,183,2020,Forbes,Overall,1287
+160,642,122,2022,Forbes,Teaching,1288
+160,642,159,2020,Princeton Review,Teaching,1289
+160,643,88,2019,Times Higher Education,Employability,1290
+160,643,187,2024,US News,Employability,1291
+160,643,18,2020,Princeton Review,Innovation,1292
+161,644,133,2021,Princeton Review,Overall,1293
+161,644,2,2018,Times Higher Education,Overall,1294
+161,645,166,2023,Princeton Review,Overall,1295
+161,645,56,2024,QS World University,Overall,1296
+161,645,68,2022,Times Higher Education,Teaching,1297
+161,646,105,2023,Princeton Review,Employability,1298
+161,646,60,2023,Times Higher Education,Teaching,1299
+161,646,187,2022,Times Higher Education,Teaching,1300
+161,647,93,2021,Forbes,Innovation,1301
+161,647,30,2022,Princeton Review,Overall,1302
+161,648,58,2018,QS World University,Employability,1303
+161,648,104,2019,Princeton Review,Overall,1304
+161,648,154,2024,Times Higher Education,Employability,1305
+162,649,32,2018,Forbes,Innovation,1306
+162,649,38,2024,QS World University,Overall,1307
+162,650,64,2019,Forbes,Teaching,1308
+162,651,16,2020,QS World University,Employability,1309
+162,651,140,2021,Forbes,Innovation,1310
+162,651,93,2018,US News,Teaching,1311
+163,652,85,2022,Times Higher Education,Research,1312
+163,652,25,2021,Forbes,Teaching,1313
+163,653,111,2022,Times Higher Education,Research,1314
+163,653,60,2021,Times Higher Education,Innovation,1315
+163,653,6,2019,Princeton Review,Teaching,1316
+163,654,9,2022,US News,Innovation,1317
+163,654,102,2021,Times Higher Education,Teaching,1318
+163,654,134,2024,Forbes,Innovation,1319
+164,655,44,2018,Forbes,Innovation,1320
+164,655,127,2020,QS World University,Teaching,1321
+164,656,125,2018,Times Higher Education,Research,1322
+164,656,143,2024,Princeton Review,Innovation,1323
+164,657,134,2022,Times Higher Education,Innovation,1324
+164,657,92,2023,Forbes,Teaching,1325
+164,657,168,2019,Times Higher Education,Research,1326
+165,658,98,2023,Forbes,Employability,1327
+165,658,31,2022,QS World University,Employability,1328
+165,659,30,2019,US News,Teaching,1329
+165,659,32,2021,Princeton Review,Teaching,1330
+165,659,109,2020,QS World University,Teaching,1331
+165,660,184,2023,Times Higher Education,Research,1332
+165,660,157,2019,Forbes,Innovation,1333
+166,661,129,2024,Princeton Review,Overall,1334
+166,661,139,2022,US News,Employability,1335
+166,661,129,2022,US News,Research,1336
+166,662,145,2019,Princeton Review,Research,1337
+166,662,198,2021,Princeton Review,Research,1338
+166,663,97,2019,Times Higher Education,Innovation,1339
+166,664,158,2018,Times Higher Education,Innovation,1340
+166,664,171,2022,Times Higher Education,Innovation,1341
+166,664,24,2020,Princeton Review,Teaching,1342
+166,665,196,2019,Times Higher Education,Overall,1343
+167,666,32,2021,US News,Teaching,1344
+167,666,180,2018,Times Higher Education,Innovation,1345
+167,667,141,2023,Princeton Review,Employability,1346
+167,668,55,2022,Princeton Review,Innovation,1347
+167,668,126,2023,QS World University,Overall,1348
+167,668,35,2024,Forbes,Overall,1349
+168,669,193,2022,US News,Research,1350
+168,669,180,2021,QS World University,Innovation,1351
+168,670,56,2021,Princeton Review,Employability,1352
+168,670,42,2023,Times Higher Education,Teaching,1353
+168,670,156,2022,Forbes,Teaching,1354
+168,671,57,2021,US News,Research,1355
+168,671,106,2021,Forbes,Innovation,1356
+168,671,81,2023,US News,Innovation,1357
+168,672,64,2024,Princeton Review,Employability,1358
+168,672,72,2020,US News,Research,1359
+168,673,83,2018,US News,Research,1360
+168,673,194,2021,Times Higher Education,Innovation,1361
+169,674,29,2023,US News,Employability,1362
+169,675,88,2018,Forbes,Innovation,1363
+169,675,40,2023,Forbes,Research,1364
+169,675,132,2021,QS World University,Teaching,1365
+169,676,125,2019,QS World University,Teaching,1366
+170,677,63,2021,Times Higher Education,Employability,1367
+170,677,178,2024,Forbes,Research,1368
+170,677,182,2022,US News,Research,1369
+170,678,116,2021,QS World University,Overall,1370
+170,678,136,2020,QS World University,Teaching,1371
+170,679,100,2023,Princeton Review,Research,1372
+170,680,131,2019,QS World University,Overall,1373
+170,680,184,2020,US News,Research,1374
+170,680,106,2018,Forbes,Teaching,1375
+171,681,3,2022,US News,Teaching,1376
+171,681,164,2023,QS World University,Research,1377
+171,682,34,2018,Princeton Review,Research,1378
+171,683,77,2022,Forbes,Teaching,1379
+171,683,116,2021,QS World University,Employability,1380
+171,684,19,2022,US News,Employability,1381
+171,684,197,2019,Forbes,Teaching,1382
+171,684,31,2020,QS World University,Teaching,1383
+171,685,111,2020,US News,Innovation,1384
+171,685,47,2024,Times Higher Education,Teaching,1385
+171,685,143,2018,Princeton Review,Innovation,1386
+172,686,154,2020,Forbes,Overall,1387
+172,687,200,2020,Times Higher Education,Overall,1388
+172,687,34,2024,US News,Innovation,1389
+172,687,172,2023,QS World University,Innovation,1390
+172,688,60,2023,Forbes,Research,1391
+172,689,147,2020,Princeton Review,Overall,1392
+172,689,126,2022,Forbes,Teaching,1393
+172,690,180,2022,Times Higher Education,Research,1394
+173,691,148,2022,US News,Teaching,1395
+173,691,44,2022,Times Higher Education,Overall,1396
+173,691,120,2023,US News,Employability,1397
+173,692,56,2021,QS World University,Innovation,1398
+173,692,33,2018,Times Higher Education,Innovation,1399
+173,693,173,2019,QS World University,Teaching,1400
+173,693,38,2018,Forbes,Research,1401
+173,693,63,2022,Forbes,Teaching,1402
+173,694,125,2020,Times Higher Education,Research,1403
+174,695,113,2020,Princeton Review,Overall,1404
+174,695,160,2024,Princeton Review,Teaching,1405
+174,696,189,2022,Times Higher Education,Overall,1406
+174,697,171,2022,QS World University,Innovation,1407
+175,698,175,2018,US News,Employability,1408
+175,699,25,2024,Princeton Review,Teaching,1409
+175,699,86,2024,Princeton Review,Teaching,1410
+175,700,137,2019,Forbes,Overall,1411
+176,701,52,2018,Princeton Review,Overall,1412
+176,701,10,2021,Princeton Review,Teaching,1413
+176,702,57,2018,QS World University,Overall,1414
+176,702,19,2022,US News,Overall,1415
+176,702,83,2020,Princeton Review,Employability,1416
+176,703,79,2020,Times Higher Education,Overall,1417
+176,703,164,2019,Princeton Review,Innovation,1418
+176,704,182,2018,QS World University,Innovation,1419
+177,705,83,2021,US News,Teaching,1420
+177,705,16,2023,QS World University,Research,1421
+177,706,118,2022,Forbes,Innovation,1422
+177,706,2,2020,Forbes,Innovation,1423
+177,706,50,2020,Princeton Review,Teaching,1424
+177,707,39,2021,QS World University,Overall,1425
+177,707,196,2023,US News,Overall,1426
+177,708,80,2023,US News,Overall,1427
+177,709,12,2021,QS World University,Research,1428
+177,709,20,2020,QS World University,Research,1429
+178,710,140,2018,Princeton Review,Innovation,1430
+178,711,196,2021,Times Higher Education,Employability,1431
+178,712,124,2024,Princeton Review,Overall,1432
+178,712,179,2023,Times Higher Education,Research,1433
+178,712,200,2022,Forbes,Overall,1434
+178,713,159,2024,Forbes,Research,1435
+178,713,170,2023,QS World University,Innovation,1436
+179,714,18,2024,Forbes,Research,1437
+179,714,7,2018,Forbes,Innovation,1438
+179,714,145,2024,QS World University,Employability,1439
+179,715,31,2019,Forbes,Overall,1440
+179,716,55,2021,QS World University,Overall,1441
+179,717,103,2021,QS World University,Research,1442
+179,718,104,2020,US News,Research,1443
+179,718,152,2018,US News,Employability,1444
+179,718,134,2020,Times Higher Education,Employability,1445
+180,719,85,2023,Times Higher Education,Overall,1446
+180,719,189,2020,Princeton Review,Innovation,1447
+180,720,33,2020,US News,Innovation,1448
+180,720,141,2020,Times Higher Education,Overall,1449
+180,720,101,2022,Forbes,Research,1450
+180,721,95,2021,QS World University,Overall,1451
+180,721,178,2023,QS World University,Employability,1452
+180,722,6,2019,US News,Overall,1453
+180,722,39,2024,Times Higher Education,Overall,1454
+180,722,12,2020,QS World University,Employability,1455
+180,723,191,2023,US News,Employability,1456
+180,723,86,2022,US News,Teaching,1457
+180,723,20,2022,Princeton Review,Innovation,1458
+181,724,17,2019,Times Higher Education,Teaching,1459
+181,725,84,2019,Forbes,Employability,1460
+181,726,42,2019,QS World University,Teaching,1461
+181,726,118,2022,Forbes,Employability,1462
+181,726,106,2019,US News,Teaching,1463
+181,727,141,2019,QS World University,Innovation,1464
+181,727,31,2019,US News,Overall,1465
+181,728,189,2018,US News,Teaching,1466
+181,728,137,2021,Forbes,Teaching,1467
+182,729,135,2023,US News,Overall,1468
+182,730,22,2024,Times Higher Education,Innovation,1469
+182,730,157,2019,US News,Overall,1470
+182,731,115,2021,Forbes,Research,1471
+182,732,52,2018,Times Higher Education,Research,1472
+182,732,65,2020,QS World University,Research,1473
+183,733,24,2022,Times Higher Education,Research,1474
+183,733,88,2020,Forbes,Employability,1475
+183,734,77,2021,Times Higher Education,Innovation,1476
+183,735,146,2024,Forbes,Research,1477
+183,735,92,2021,US News,Research,1478
+183,735,63,2019,US News,Employability,1479
+183,736,59,2023,Princeton Review,Overall,1480
+183,736,121,2021,QS World University,Research,1481
+183,736,26,2021,QS World University,Innovation,1482
+183,737,83,2018,QS World University,Employability,1483
+184,738,42,2022,Forbes,Employability,1484
+184,738,58,2018,Princeton Review,Overall,1485
+184,738,35,2018,Times Higher Education,Teaching,1486
+184,739,106,2021,US News,Teaching,1487
+184,739,29,2023,US News,Employability,1488
+184,739,146,2018,Princeton Review,Research,1489
+184,740,72,2018,QS World University,Employability,1490
+184,740,142,2019,US News,Overall,1491
+184,740,115,2019,QS World University,Overall,1492
+185,741,159,2021,Forbes,Innovation,1493
+185,741,162,2018,US News,Overall,1494
+185,741,174,2019,Forbes,Research,1495
+185,742,60,2018,QS World University,Research,1496
+185,743,181,2023,Forbes,Innovation,1497
+185,743,101,2023,Forbes,Teaching,1498
+185,743,102,2019,Forbes,Research,1499
+186,744,96,2020,Times Higher Education,Innovation,1500
+186,744,63,2022,Times Higher Education,Overall,1501
+186,745,66,2022,Times Higher Education,Research,1502
+186,745,200,2020,Princeton Review,Overall,1503
+186,746,104,2018,QS World University,Innovation,1504
+186,747,139,2023,US News,Research,1505
+186,747,181,2018,Princeton Review,Employability,1506
+186,747,173,2020,Times Higher Education,Research,1507
+187,748,37,2020,Times Higher Education,Employability,1508
+187,749,172,2020,Forbes,Innovation,1509
+187,749,3,2019,QS World University,Innovation,1510
+187,749,197,2024,Princeton Review,Overall,1511
+187,750,42,2018,QS World University,Employability,1512
+187,750,153,2021,Times Higher Education,Research,1513
+187,750,151,2023,US News,Research,1514
+187,751,142,2018,Forbes,Employability,1515
+187,752,130,2024,QS World University,Teaching,1516
+187,752,65,2023,Princeton Review,Research,1517
+187,752,31,2019,QS World University,Overall,1518
+188,753,130,2020,Princeton Review,Teaching,1519
+188,754,183,2023,QS World University,Overall,1520
+188,754,122,2023,Times Higher Education,Research,1521
+188,754,171,2022,Princeton Review,Research,1522
+188,755,119,2018,Princeton Review,Overall,1523
+188,755,94,2018,Princeton Review,Innovation,1524
+188,756,111,2020,US News,Research,1525
+188,756,13,2021,Princeton Review,Teaching,1526
+189,757,60,2021,Times Higher Education,Teaching,1527
+189,757,35,2024,US News,Innovation,1528
+189,757,99,2018,Times Higher Education,Employability,1529
+189,758,32,2018,QS World University,Employability,1530
+189,759,161,2022,Forbes,Employability,1531
+189,759,136,2019,Princeton Review,Employability,1532
+190,760,132,2018,Princeton Review,Employability,1533
+190,761,73,2019,Princeton Review,Overall,1534
+190,761,142,2023,Princeton Review,Innovation,1535
+190,761,12,2020,Times Higher Education,Research,1536
+190,762,85,2019,Forbes,Teaching,1537
+190,763,93,2020,Forbes,Overall,1538
+190,763,54,2020,Times Higher Education,Innovation,1539
+190,764,123,2024,Princeton Review,Employability,1540
+190,764,52,2019,Forbes,Employability,1541
+190,764,42,2021,QS World University,Overall,1542
+191,765,108,2020,Princeton Review,Overall,1543
+191,766,94,2021,QS World University,Teaching,1544
+191,766,2,2022,Princeton Review,Employability,1545
+191,767,192,2019,Princeton Review,Overall,1546
+191,767,183,2020,Princeton Review,Overall,1547
+191,767,171,2018,Princeton Review,Teaching,1548
+192,768,30,2018,Forbes,Employability,1549
+192,768,190,2019,Times Higher Education,Research,1550
+192,768,82,2023,US News,Employability,1551
+192,769,187,2018,Times Higher Education,Innovation,1552
+192,769,124,2021,US News,Employability,1553
+192,770,23,2024,US News,Teaching,1554
+192,771,53,2023,Forbes,Research,1555
+193,772,167,2022,US News,Research,1556
+193,772,160,2019,Times Higher Education,Innovation,1557
+193,772,104,2022,US News,Overall,1558
+193,773,86,2020,Forbes,Research,1559
+193,774,58,2021,Princeton Review,Employability,1560
+193,774,87,2021,Times Higher Education,Employability,1561
+193,774,161,2021,QS World University,Teaching,1562
+194,775,33,2023,Times Higher Education,Teaching,1563
+194,775,57,2020,Princeton Review,Innovation,1564
+194,776,166,2024,Princeton Review,Research,1565
+194,777,97,2018,Forbes,Teaching,1566
+194,777,118,2022,Times Higher Education,Teaching,1567
+194,777,47,2020,Princeton Review,Employability,1568
+194,778,101,2019,Forbes,Teaching,1569
+194,778,170,2021,Princeton Review,Research,1570
+195,779,42,2022,US News,Teaching,1571
+195,780,23,2019,US News,Innovation,1572
+195,780,49,2019,Princeton Review,Research,1573
+195,780,78,2018,US News,Overall,1574
+195,781,108,2024,US News,Research,1575
+195,781,105,2020,Times Higher Education,Overall,1576
+196,782,49,2018,Times Higher Education,Teaching,1577
+196,782,77,2019,Princeton Review,Teaching,1578
+196,783,140,2023,US News,Innovation,1579
+196,783,109,2021,Princeton Review,Research,1580
+196,784,9,2024,Forbes,Teaching,1581
+196,784,39,2024,Forbes,Overall,1582
+196,784,10,2022,QS World University,Innovation,1583
+196,785,82,2024,QS World University,Innovation,1584
+196,785,108,2022,US News,Innovation,1585
+196,785,171,2018,Times Higher Education,Innovation,1586
+196,786,112,2020,Times Higher Education,Teaching,1587
+196,786,172,2022,Forbes,Overall,1588
+197,787,173,2024,US News,Overall,1589
+197,788,76,2018,Forbes,Research,1590
+197,788,38,2022,US News,Research,1591
+197,789,171,2020,US News,Teaching,1592
+197,789,186,2019,US News,Innovation,1593
+197,790,63,2020,Times Higher Education,Employability,1594
+198,791,195,2022,US News,Teaching,1595
+198,791,149,2020,Times Higher Education,Overall,1596
+198,791,101,2020,QS World University,Research,1597
+198,792,22,2018,QS World University,Employability,1598
+198,792,73,2022,US News,Employability,1599
+198,793,29,2019,Princeton Review,Overall,1600
+198,793,197,2022,QS World University,Employability,1601
+199,794,137,2019,Times Higher Education,Teaching,1602
+199,794,118,2019,Forbes,Overall,1603
+199,794,99,2021,US News,Employability,1604
+199,795,184,2023,QS World University,Teaching,1605
+199,795,89,2023,Times Higher Education,Innovation,1606
+199,795,74,2019,Times Higher Education,Research,1607
+199,796,73,2018,Times Higher Education,Innovation,1608
+199,796,168,2019,QS World University,Employability,1609
+199,796,87,2021,Princeton Review,Overall,1610
+199,797,178,2018,Princeton Review,Overall,1611
+199,797,23,2020,Princeton Review,Overall,1612
+200,798,161,2024,Forbes,Teaching,1613
+200,799,32,2022,Princeton Review,Research,1614
+200,799,124,2022,QS World University,Employability,1615
+200,799,164,2018,QS World University,Innovation,1616
+200,800,137,2021,Forbes,Research,1617
