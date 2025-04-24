@@ -10,7 +10,7 @@ from selenium.common.exceptions import (
 import time
 import logging
 import pandas as pd
-from data_scraping.config.credentials import Credentials
+from config.credentials import Credentials
 import os 
 
 class YMGradLogin:
