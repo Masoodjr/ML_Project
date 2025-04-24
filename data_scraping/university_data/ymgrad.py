@@ -29,6 +29,7 @@ def main():
     string_constants = StringConstants()
     
     driver = None
+
     try:
         # Initialize WebDriver
         driver = webdriver.Chrome(
