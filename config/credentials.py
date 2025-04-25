@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Credentials:
-    email = os.getenv("email")
-    password = os.getenv("password")
+    EMAIL = os.getenv("email")
+    PASSWORD = os.getenv("password")
 
 class Settings:
     MAX_PROFILES = 100000
