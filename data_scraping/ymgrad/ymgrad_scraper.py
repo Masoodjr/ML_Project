@@ -3,11 +3,10 @@ import random
 import pandas as pd
 from datetime import datetime
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class ProfileScraper:
+class YMGradScraper:
     def __init__(self, driver, logger, parser, website_name):
         self.driver = driver
         self.logger = logger

@@ -4,7 +4,6 @@ from config.admit_reject_platform_config import PLATFORM_CONFIG
 from utils.logger import Logger
 from config.login_page_config import LOGIN_CONFIGS
 from config.website_name import WebsiteName
-from the_grad_cafe.the_grad_cafe_scraper import TheGradCafeScraper
 
 def main():
     logger = Logger()
@@ -13,13 +12,12 @@ def main():
     try:
         driver = browser_manager.get_driver()
         # Platform independant
-        bot = TaskRunnerBot(driver, logger, login_url= PLATFORM_CONFIG['ymgrad']['login_url'], admit_reject_url= PLATFORM_CONFIG['ymgrad']['admit_reject_url'], website_name=WebsiteName.YMGRAD, login_config=LOGIN_CONFIGS.LOGIN_CONFIG_FOR_YMGRAD, scraper=TheGradCafeScraper)
-
+        bot = TaskRunnerBot(driver, logger, login_url= PLATFORM_CONFIG['gradcafe']['login_url'], admit_reject_url= PLATFORM_CONFIG['gradcafe']['admit_reject_url'], website_name=WebsiteName.THEGRADCAFE, login_config=LOGIN_CONFIGS.LOGIN_CONFIG_FOR_THEGRADCAFE)
         if bot.run():
             logger.info("Scraping completed successfully!")
         else:
             logger.warning("Scraping completed with some issues")
-            
+
     except Exception as e:
         logger.error(f"Fatal error: {str(e)}", exc_info=True)
     finally:
