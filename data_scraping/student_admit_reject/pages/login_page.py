@@ -6,11 +6,13 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 class LoginPage(BasePage):
-    USERNAME_FIELD = (By.XPATH, "//input[@id='id_username']")
-    PASSWORD_FIELD = (By.XPATH, "//input[@id='id_password']")
-    LOGIN_BUTTON = (By.XPATH, "//input[@type='submit' and @value='Login']")
-    LOGGED_IN_INDICATOR = (By.XPATH, "//*[contains(text(), 'Welcome') or contains(text(), 'Dashboard')]")
-    LOGIN_TIMEOUT = 30  # seconds
+    def __init__(self, driver, username_field, password_field, login_button, logged_in_indicator, login_timeout=30):
+        super().__init__(driver)
+        self.USERNAME_FIELD = username_field
+        self.PASSWORD_FIELD = password_field
+        self.LOGIN_BUTTON = login_button
+        self.LOGGED_IN_INDICATOR = logged_in_indicator
+        self.LOGIN_TIMEOUT = login_timeout
 
     def open_login_page(self, url):
         self.driver.get(url)

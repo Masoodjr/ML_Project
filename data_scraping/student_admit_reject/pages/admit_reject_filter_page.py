@@ -1,7 +1,7 @@
-from data_scraping.ymgrad.student_admit_reject.pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
+from pages.base_page import BasePage
 from selenium.webdriver.support import expected_conditions as EC
 import time
 

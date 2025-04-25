@@ -8,14 +8,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class ProfileScraper:
-    def __init__(self, driver, logger, parser):
+    def __init__(self, driver, logger, parser, website_name):
         self.driver = driver
         self.logger = logger
         self.parser = parser
+        self.website_name = website_name
         self.seen_ids = set()
         self.profiles = []
 
-    def scrape_100k_profiles(self, output_file="profiles_100k.xlsx"):
+    def scrape_profile_and_save_data(self):
+        output_file=f"historical_data_{self.website_name}.xlsx"
         """Scroll continuously and scrape until 100,000 profiles are collected"""
         try:
             # Initialize variables

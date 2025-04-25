@@ -1,5 +1,5 @@
 from data_scraping.browser_manager import BrowserManager
-from data_scraping.admit_reject_bot import AdmitRejectBot
+from data_scraping.task_runner_bot import TaskRunnerBot
 from config.admit_reject_platform_config import PLATFORM_CONFIG
 from utils.logger import Logger
 
@@ -9,9 +9,10 @@ def main():
     
     try:
         driver = browser_manager.get_driver()
+        # Platform independant
         # bot = AdmitRejectBot(driver, logger, login_url= PLATFORM_CONFIG['ymgrad']['login_url'], admit_reject_url= PLATFORM_CONFIG['ymgrad']['admit_reject_url'])
-        # bot = AdmitRejectBot(driver, logger, login_url= PLATFORM_CONFIG['yocket']['login_url'], admit_reject_url= PLATFORM_CONFIG['yocket']['admit_reject_url'])
-        bot = AdmitRejectBot(driver, logger, login_url= PLATFORM_CONFIG['gradcafe']['login_url'], admit_reject_url= PLATFORM_CONFIG['gradcafe']['admit_reject_url'])
+        bot = TaskRunnerBot(driver, logger, login_url= PLATFORM_CONFIG['yocket']['login_url'], admit_reject_url= PLATFORM_CONFIG['yocket']['admit_reject_url'])
+        # bot = AdmitRejectBot(driver, logger, login_url= PLATFORM_CONFIG['gradcafe']['login_url'], admit_reject_url= PLATFORM_CONFIG['gradcafe']['admit_reject_url'])
 
         if bot.run():
             logger.info("Scraping completed successfully!")
