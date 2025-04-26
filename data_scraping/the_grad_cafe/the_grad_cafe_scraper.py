@@ -12,7 +12,7 @@ class TheGradCafeScraper:
         self.website_name = website_name
         self.seen_ids = set()
         self.profiles = []
-        self.LOGIN_TIMEOUT = 30  # You can set this when initializing the object too
+        self.LOGIN_TIMEOUT = 5  # You can set this when initializing the object too
         self.last_page_file = "last_page.txt"
         self.data_file = "scraped_profiles.xlsx"
 

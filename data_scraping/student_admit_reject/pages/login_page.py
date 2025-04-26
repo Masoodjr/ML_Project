@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 class LoginPage(BasePage):
-    def __init__(self, logger, driver, username_field, password_field, login_button, logged_in_indicator, login_timeout=30):
+    def __init__(self, logger, driver, username_field, password_field, login_button, logged_in_indicator, login_timeout=5):
         super().__init__(driver, logger)
         self.logger = logger
         self.USERNAME_FIELD = username_field
@@ -26,10 +26,10 @@ class LoginPage(BasePage):
         self.logger.info(f"Attempting to enter credentials...")
         try:
             username_field = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
-                EC.element_to_be_clickable(self.USERNAME_FIELD)
+                EC.visibility_of_element_located(self.USERNAME_FIELD)
             )
             password_field = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
-                EC.element_to_be_clickable(self.PASSWORD_FIELD)
+                EC.visibility_of_element_located(self.PASSWORD_FIELD)
             )
 
             username_field.clear()
