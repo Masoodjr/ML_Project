@@ -33,5 +33,5 @@ class TaskRunnerBot:
         self.login_page.verify_login()
         self.driver.get(self.admit_reject_url)
         if self.website_name == WebsiteName.THEGRADCAFE:
-            self.scraper.start_scraping
+            self.scraper.start_scraping()
         random_wait(1.0, 4.0)

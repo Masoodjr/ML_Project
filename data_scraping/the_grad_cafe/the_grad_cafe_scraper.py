@@ -152,10 +152,17 @@ class TheGradCafeScraper:
                 return int(f.read().strip())
         return 1
 
-    def start_scraping(self):
+    def start_scraping(self, resume = False):
         """Complete scraping workflow across all pages."""
         try:
-            current_page = self.load_last_page()
+            if resume:
+                current_page = self.load_last_page()
+                self.logger.info(f"Resuming from saved page {current_page}")
+
+            else:
+                current_page = 1
+                self.logger.info("Starting fresh from page 1")
+               
             self.go_to_page(current_page)
 
             while True:
