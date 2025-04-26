@@ -6,10 +6,9 @@ import pandas as pd
 import os
 
 class TheGradCafeScraper:
-    def __init__(self, driver, logger, parser, website_name):
+    def __init__(self, driver, logger, website_name):
         self.driver = driver
         self.logger = logger
-        self.parser = parser
         self.website_name = website_name
         self.seen_ids = set()
         self.profiles = []

@@ -6,8 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 class LoginPage(BasePage):
-    def __init__(self, driver, username_field, password_field, login_button, logged_in_indicator, login_timeout=30):
-        super().__init__(driver)
+    def __init__(self, logger, driver, username_field, password_field, login_button, logged_in_indicator, login_timeout=30):
+        super().__init__(driver, logger)
+        self.logger = logger
         self.USERNAME_FIELD = username_field
         self.PASSWORD_FIELD = password_field
         self.LOGIN_BUTTON = login_button
@@ -16,6 +17,7 @@ class LoginPage(BasePage):
 
     def open_login_page(self, url):
         self.driver.get(url)
+        print(f"URL LINK : {url}")
         self.wait_for_element(self.USERNAME_FIELD)
         self.logger.info("Login page loaded")
 

@@ -7,10 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class YMGradScraper:
-    def __init__(self, driver, logger, parser, website_name):
+    def __init__(self, driver, logger, website_name):
         self.driver = driver
         self.logger = logger
-        self.parser = parser
         self.website_name = website_name
         self.seen_ids = set()
         self.profiles = []

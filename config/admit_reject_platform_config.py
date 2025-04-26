@@ -8,7 +8,7 @@ PLATFORM_CONFIG = {
         'admit_reject_url': 'https://yocket.com/admits',
     },
     'gradcafe': {
-        'login_url': 'https://www.thegradcafe.com/login',
+        'login_url': 'https://www.thegradcafe.com/signin/',
         'admit_reject_url': 'https://www.thegradcafe.com/survey/',
     }
 }

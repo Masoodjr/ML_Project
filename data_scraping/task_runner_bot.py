@@ -9,7 +9,7 @@ from data_scraping.yocket.yocket_scraper import YocketScraper
 from data_scraping.ymgrad.ymgrad_scraper import YMGradScraper
 
 class TaskRunnerBot:
-    def __init__(self, driver, logger, login_url, admit_reject_url, website_name, login_config, scraper):
+    def __init__(self, driver, logger, login_url, admit_reject_url, website_name, login_config):
         self.driver = driver
         self.logger = logger
         self.login_url = login_url
@@ -17,18 +17,15 @@ class TaskRunnerBot:
         self.website_name = website_name
         self.login_config = login_config
         if self.website_name == WebsiteName.YMGRAD:
-            self.scraper = YMGradScraper()
+            self.scraper = YMGradScraper(driver, logger, website_name)
         elif self.website_name == WebsiteName.YOCKET:
             self.scraper = YocketScraper()
         elif self.website_name == WebsiteName.THEGRADCAFE:
-            self.scraper = TheGradCafeScraper()
+            self.scraper = TheGradCafeScraper(driver, logger, website_name)
 
         # DIFFERENT FLAVORS
-        self.login_page = LoginPage(driver, logger, self.login_config)
-        self.parser = ProfileParser(logger)
-        bot = TaskRunnerBot(driver, logger, login_url= PLATFORM_CONFIG['gradcafe']['login_url'], admit_reject_url= PLATFORM_CONFIG['gradcafe']['admit_reject_url'], website_name=WebsiteName.THEGRADCAFE, login_config=LOGIN_CONFIGS.LOGIN_CONFIG_FOR_THEGRADCAFE)
-        bot.run()
-
+        self.login_page = LoginPage(logger=logger, driver=driver,username_field=self.login_config["USERNAME_FIELD"], password_field=self.login_config["PASSWORD_FIELD"], login_button=self.login_config['LOGIN_BUTTON'], logged_in_indicator=self.login_config['LOGGED_IN_INDICATOR'])
+        
     def run(self):
         self.login_page.open_login_page(self.login_url)
         self.login_page.login()

@@ -13,6 +13,7 @@ def main():
         driver = browser_manager.get_driver()
         # Platform independant
         bot = TaskRunnerBot(driver, logger, login_url= PLATFORM_CONFIG['gradcafe']['login_url'], admit_reject_url= PLATFORM_CONFIG['gradcafe']['admit_reject_url'], website_name=WebsiteName.THEGRADCAFE, login_config=LOGIN_CONFIGS.LOGIN_CONFIG_FOR_THEGRADCAFE)
+        bot.run()
         if bot.run():
             logger.info("Scraping completed successfully!")
         else:
