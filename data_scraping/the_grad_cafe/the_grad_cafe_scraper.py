@@ -5,6 +5,7 @@ import time
 import pandas as pd
 import os
 from utils.random_wait import random_wait
+from data_scraping.the_grad_cafe.scrape_profile import ProfileScraper
 
 class TheGradCafeScraper:
     def __init__(self, driver, logger, website_name):
@@ -79,75 +80,63 @@ class TheGradCafeScraper:
 
 
     def scrape_profile(self):
-        """Scrape the currently opened profile page."""
-        profile_data = {}
-        try:
-            url = self.driver.current_url
-            profile_id = url.split("/")[-1]
-            profile_data["ID"] = profile_id
-
-            # Example scraping: Expand as needed
-            try:
-                uni_element = WebDriverWait(self.driver, random_wait(1, 3)).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "h1.tw-text-lg"))
-                )
-                profile_data["University"] = uni_element.text.strip()
-            except Exception:
-                profile_data["University"] = None
-
-            # TODO: Add more parsing here if needed
-        except Exception as e:
-            self.logger.error(f"Failed scraping profile page: {str(e)}")
-
+        scraper = ProfileScraper(self.driver, self.logger)
+        profile_data = scraper.scrape()
         return profile_data
+
 
     def scrape_page_profiles(self):
         """Scrape all profiles on the current page."""
         try:
-            options_buttons = self.driver.find_elements(By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']")
-            if not options_buttons:
+            total_profiles = len(self.driver.find_elements(By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']"))
+            if not total_profiles:
                 self.logger.info("No profiles found on this page.")
                 return
 
-            self.logger.info(f"Found {len(options_buttons)} profiles on this page.")
+            self.logger.info(f"Found {total_profiles} profiles on this page.")
 
-            for idx, button in enumerate(options_buttons):
+            idx = 0
+            while idx < total_profiles:
                 self.logger.info(f"Scraping profile {idx + 1}...")
                 try:
+                    # Refetch fresh list every time
+                    options_buttons = self.driver.find_elements(By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']")
+
+                    button = options_buttons[idx]
                     self.open_options_and_click_see_more(button)
 
-                    # Switch to new tab
-                    self.driver.switch_to.window(self.driver.window_handles[-1])
+                    # Wait until profile page loads (e.g., university title appears)
+                    WebDriverWait(self.driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "h1.tw-text-lg"))
+                    )
+                    time.sleep(1)
 
-                    # Scrape profile
+                    # Scrape the profile
                     profile_data = self.scrape_profile()
                     if profile_data.get("ID") and profile_data["ID"] not in self.seen_ids:
                         self.profiles.append(profile_data)
                         self.seen_ids.add(profile_data["ID"])
 
-                    # Close the new tab and return
-                    self.driver.close()
-                    self.driver.switch_to.window(self.driver.window_handles[0])
+                    # Go back
+                    self.driver.back()
+
+                    # Wait for listing page to load again
+                    WebDriverWait(self.driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']"))
+                    )
+                    time.sleep(1)
+
+                    idx += 1
 
                 except Exception as e:
                     self.logger.error(f"Error scraping a profile: {str(e)}")
-                    if len(self.driver.window_handles) > 1:
-                        self.driver.close()
-                        self.driver.switch_to.window(self.driver.window_handles[0])
+                    # Even if one fails, move to the next profile
+                    idx += 1
                     continue
 
         except Exception as e:
             self.logger.error(f"Error scraping profiles from page: {str(e)}")
 
-    def save_profiles(self):
-        """Save all scraped profiles into an Excel file."""
-        try:
-            if self.profiles:
-                df = pd.DataFrame(self.profiles)
-                df.to_excel(self.data_file, index=False)
-                self.logger.info(f"Saved {len(self.profiles)} profiles into {self.data_file}")
-        except Exception as e:
-            self.logger.error(f"Error saving profiles: {str(e)}")
 
     def save_last_page(self, page_number):
         """Save the last scraped page number."""
