@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import pandas as pd
 import os
+from utils.random_wait import random_wait
 
 class TheGradCafeScraper:
     def __init__(self, driver, logger, website_name):
@@ -24,6 +25,10 @@ class TheGradCafeScraper:
     def go_to_page(self, page_number):
         """Directly go to a given page number."""
         try:
+            if page_number == 1:
+                self.logger.info("Already on page 1, no navigation needed.")
+                return
+
             self.logger.info(f"Navigating to page {page_number}...")
             page_link = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
                 EC.element_to_be_clickable((By.XPATH, f"//a[@href='/survey/?page={page_number}']"))
@@ -31,6 +36,7 @@ class TheGradCafeScraper:
             self.scroll_to_element(page_link)
             page_link.click()
             time.sleep(2)
+
         except Exception as e:
             self.logger.error(f"Could not navigate to page {page_number}: {str(e)}")
             raise
@@ -48,14 +54,18 @@ class TheGradCafeScraper:
         except Exception as e:
             self.logger.error(f"Could not move to next page: {str(e)}")
             raise
-
     def open_options_and_click_see_more(self, button):
         """Click the given options button, then click 'See More'."""
         try:
             self.scroll_to_element(button)
             button.click()
-            time.sleep(0.5)
 
+            # Wait until the dropdown is visible
+            WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
+                EC.visibility_of_element_located((By.ID, f"{button.get_attribute('id').replace('-button', '-list')}"))
+            )
+
+            # Now find and click the "See More" link
             see_more_link = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
                 EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'See More')]"))
             )
@@ -67,6 +77,7 @@ class TheGradCafeScraper:
             self.logger.error(f"Failed during open options and click 'See More': {str(e)}")
             raise
 
+
     def scrape_profile(self):
         """Scrape the currently opened profile page."""
         profile_data = {}
@@ -77,7 +88,7 @@ class TheGradCafeScraper:
 
             # Example scraping: Expand as needed
             try:
-                uni_element = WebDriverWait(self.driver, 5).until(
+                uni_element = WebDriverWait(self.driver, random_wait(1, 3)).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "h1.tw-text-lg"))
                 )
                 profile_data["University"] = uni_element.text.strip()
@@ -93,9 +104,11 @@ class TheGradCafeScraper:
     def scrape_page_profiles(self):
         """Scrape all profiles on the current page."""
         try:
-            options_buttons = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
-                EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']"))
-            )
+            options_buttons = self.driver.find_elements(By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']")
+            if not options_buttons:
+                self.logger.info("No profiles found on this page.")
+                return
+
             self.logger.info(f"Found {len(options_buttons)} profiles on this page.")
 
             for idx, button in enumerate(options_buttons):

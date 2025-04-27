@@ -16,6 +16,7 @@ class TaskRunnerBot:
         self.admit_reject_url = admit_reject_url
         self.website_name = website_name
         self.login_config = login_config
+        random_wait(1, 4)
         if self.website_name == WebsiteName.YMGRAD:
             self.scraper = YMGradScraper(driver, logger, website_name)
         elif self.website_name == WebsiteName.YOCKET:
@@ -31,7 +32,8 @@ class TaskRunnerBot:
         self.login_page.login()
         self.login_page._submit_button()
         self.login_page.verify_login()
+        random_wait(1, 3)
         self.driver.get(self.admit_reject_url)
         if self.website_name == WebsiteName.THEGRADCAFE:
             self.scraper.start_scraping()
-        random_wait(1.0, 4.0)
+        # random_wait(1.0, 4.0)

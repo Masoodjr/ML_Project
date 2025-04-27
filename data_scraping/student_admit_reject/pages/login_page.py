@@ -33,9 +33,8 @@ class LoginPage(BasePage):
             )
 
             username_field.clear()
-            username_field.send_keys(Credentials.EMAIL)
-            
             password_field.clear()
+            username_field.send_keys(Credentials.EMAIL)
             password_field.send_keys(Credentials.PASSWORD)
 
             self.logger.info("Credentials entered successfully")

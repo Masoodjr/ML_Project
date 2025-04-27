@@ -13,7 +13,8 @@ class BrowserManager:
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
-        
+        options.page_load_strategy = 'eager'  # Options: 'normal', 'eager', 'none'
+
         self.driver = webdriver.Chrome(
             service=Service(ChromeDriverManager().install()),
             options=options
