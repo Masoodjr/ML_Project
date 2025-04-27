@@ -24,8 +24,17 @@ class TaskRunnerBot:
         elif self.website_name == WebsiteName.THEGRADCAFE:
             self.scraper = TheGradCafeScraper(driver, logger, website_name)
 
+# ✅ Pass locators + credentials (fixed!)
+        self.login_page = LoginPage(
+            logger=logger,
+            driver=driver,
+            username_field=self.login_config["USERNAME_FIELD"],
+            password_field=self.login_config["PASSWORD_FIELD"],
+            login_button=self.login_config['LOGIN_BUTTON'],
+            logged_in_indicator=self.login_config['LOGGED_IN_INDICATOR'],
+        )
         # DIFFERENT FLAVORS
-        self.login_page = LoginPage(logger=logger, driver=driver,username_field=self.login_config["USERNAME_FIELD"], password_field=self.login_config["PASSWORD_FIELD"], login_button=self.login_config['LOGIN_BUTTON'], logged_in_indicator=self.login_config['LOGGED_IN_INDICATOR'])
+        #self.login_page = LoginPage(logger=logger, driver=driver,username_field=self.login_config["USERNAME_FIELD"], password_field=self.login_config["PASSWORD_FIELD"], login_button=self.login_config['LOGIN_BUTTON'], logged_in_indicator=self.login_config['LOGGED_IN_INDICATOR'])
 
     def run(self):
         self.login_page.open_login_page(self.login_url)

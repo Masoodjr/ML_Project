@@ -23,5 +23,8 @@ class LOGIN_CONFIGS:
         "PASSWORD_FIELD": (By.XPATH, "//input[@id='password']"),
         "LOGIN_BUTTON": (By.XPATH, "//button[@name='signin' and contains(text(), 'Sign in')]"),
         "LOGGED_IN_INDICATOR": (By.XPATH, "//*[contains(text(), 'Share Your Grad School Admission Results') or contains(text(), 'Dashboard')]"),
-        "LOGIN_TIMEOUT": 30
+        "LOGIN_TIMEOUT": 30,
+        # 👇 ADD these two lines:
+        "username": "vedantoakdc@gmail.com",
+        "password": "Vedant@1234"
     }

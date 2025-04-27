@@ -20,7 +20,7 @@ def main():
             logger.warning("Scraping completed with some issues")
 
     except Exception as e:
-        logger.error(f"Fatal error: {str(e)}", exc_info=True)
+        logger.error(f"Fatal error: {str(e)}")
     finally:
         input("Press Enter to close browser...")
         browser_manager.quit()
