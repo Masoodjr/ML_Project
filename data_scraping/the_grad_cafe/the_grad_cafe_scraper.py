@@ -92,15 +92,21 @@ class TheGradCafeScraper:
         except Exception as e:
             self.logger.error(f"Could not move to next page: {str(e)}")
             return False
-
+        
     def open_options_and_click_see_more(self, profile_index):
         """Click options and 'See More' for a profile by index."""
-        MAX_RETRIES = 3
+        MAX_RETRIES = 2
         for attempt in range(MAX_RETRIES):
             try:
-                # Get a fresh list of options buttons
-                options_buttons = self.driver.find_elements(By.CSS_SELECTOR, 
-                                  "button[id^='options-menu-'][aria-haspopup='true']")
+                # Wait for profiles to load with a more reliable locator
+                WebDriverWait(self.driver, self.PAGE_LOAD_TIMEOUT).until(
+                    EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button[id^='options-menu-']"))
+                )
+                
+                # Get fresh list of options buttons
+                options_buttons = self.driver.find_elements(
+                    By.CSS_SELECTOR, "button[id^='options-menu-'][aria-haspopup='true']"
+                )
                 
                 if profile_index >= len(options_buttons):
                     self.logger.error(f"Profile index {profile_index} out of range. Only {len(options_buttons)} profiles available.")
@@ -110,40 +116,96 @@ class TheGradCafeScraper:
                 button_id = button.get_attribute('id')
                 self.logger.info(f"Opening options menu for button ID: {button_id}")
                 
-                # Scroll and click the options button
+                # Scroll to and click the options button
                 self.scroll_to_element(button)
                 button.click()
-                self.logger.info("Options button clicked, waiting for dropdown...")
                 
-                # Wait for dropdown to appear
+                # Wait for dropdown to be visible and clickable
                 dropdown_id = button_id.replace('-button', '-list')
                 dropdown = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
-                    EC.visibility_of_element_located((By.ID, dropdown_id))
-                )
-                self.logger.info(f"Dropdown with ID {dropdown_id} visible.")
+                    EC.visibility_of_element_located((By.ID, dropdown_id)))
                 
-                # Find and click See More
-                see_more_link = dropdown.find_element(By.XPATH, ".//a[contains(text(), 'See More')]")
+                # Find and click See More with explicit wait
+                see_more_link = WebDriverWait(dropdown, self.LOGIN_TIMEOUT).until(
+                    EC.element_to_be_clickable((By.XPATH, ".//a[contains(text(), 'See More')]")))
+                
                 self.scroll_to_element(see_more_link)
                 see_more_link.click()
-                self.logger.info("'See More' link clicked.")
                 
-                # Wait for profile page to load
+                # Wait for profile page to load with a more reliable indicator
                 WebDriverWait(self.driver, self.PAGE_LOAD_TIMEOUT).until(
-                    EC.presence_of_element_located((By.XPATH, "//dt[contains(text(),'Acceptance Rate')]"))
-                )
-                time.sleep(1.5)  # Increased wait time
+                    EC.presence_of_element_located((By.XPATH, "//dt[contains(text(),'Acceptance Rate')]")))
+                
+                # Additional stability wait
+                time.sleep(1)
                 return True
                 
+            except TimeoutException:
+                self.logger.warning(f"Timeout on attempt {attempt + 1}. Refreshing page...")
+                self.driver.refresh()
+                self._wait_for_page_load()
+                continue
+                
             except Exception as e:
-                self.logger.warning(f"Attempt {attempt+1}/{MAX_RETRIES} failed: {str(e)}")
+                self.logger.warning(f"Attempt {attempt + 1} failed: {str(e)}")
                 if attempt < MAX_RETRIES - 1:
-                    self.logger.info("Refreshing page and retrying...")
-                    self.driver.refresh()
-                    self._wait_for_page_load()
+                    self.logger.info("Retrying...")
+                    continue
                 else:
                     self.logger.error("Failed to open profile after maximum retries")
                     return False
+
+    # def open_options_and_click_see_more(self, profile_index):
+    #     """Click options and 'See More' for a profile by index."""
+    #     MAX_RETRIES = 3
+    #     for attempt in range(MAX_RETRIES):
+    #         try:
+    #             # Get a fresh list of options buttons
+    #             options_buttons = self.driver.find_elements(By.CSS_SELECTOR, 
+    #                               "button[id^='options-menu-'][aria-haspopup='true']")
+                
+    #             if profile_index >= len(options_buttons):
+    #                 self.logger.error(f"Profile index {profile_index} out of range. Only {len(options_buttons)} profiles available.")
+    #                 return False
+                
+    #             button = options_buttons[profile_index]
+    #             button_id = button.get_attribute('id')
+    #             self.logger.info(f"Opening options menu for button ID: {button_id}")
+                
+    #             # Scroll and click the options button
+    #             self.scroll_to_element(button)
+    #             button.click()
+    #             self.logger.info("Options button clicked, waiting for dropdown...")
+                
+    #             # Wait for dropdown to appear
+    #             dropdown_id = button_id.replace('-button', '-list')
+    #             dropdown = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
+    #                 EC.visibility_of_element_located((By.ID, dropdown_id))
+    #             )
+    #             self.logger.info(f"Dropdown with ID {dropdown_id} visible.")
+                
+    #             # Find and click See More
+    #             see_more_link = dropdown.find_element(By.XPATH, ".//a[contains(text(), 'See More')]")
+    #             self.scroll_to_element(see_more_link)
+    #             see_more_link.click()
+    #             self.logger.info("'See More' link clicked.")
+                
+    #             # Wait for profile page to load
+    #             WebDriverWait(self.driver, self.PAGE_LOAD_TIMEOUT).until(
+    #                 EC.presence_of_element_located((By.XPATH, "//dt[contains(text(),'Acceptance Rate')]"))
+    #             )
+    #             time.sleep(1.5)  # Increased wait time
+    #             return True
+                
+    #         except Exception as e:
+    #             self.logger.warning(f"Attempt {attempt+1}/{MAX_RETRIES} failed: {str(e)}")
+    #             if attempt < MAX_RETRIES - 1:
+    #                 self.logger.info("Refreshing page and retrying...")
+    #                 self.driver.refresh()
+    #                 self._wait_for_page_load()
+    #             else:
+    #                 self.logger.error("Failed to open profile after maximum retries")
+    #                 return False
 
     def scrape_profile(self):
         """Scrape the current profile page."""
