@@ -17,6 +17,30 @@ class TheGradCafeScraper:
         self.LOGIN_TIMEOUT = 5  # You can set this when initializing the object too
         self.last_page_file = "last_page.txt"
         self.data_file = "scraped_profiles.xlsx"
+        self._initialize_excel_file()
+
+    def _initialize_excel_file(self):
+        """Initialize the Excel file with headers if it doesn't exist"""
+        try:
+            if not os.path.exists(self.data_file):
+                # Define the column headers
+                columns = [
+                    "ID", "Acceptance Rate", "Institution", "Program", 
+                    "Degree Type", "Degree's Country of Origin", "Decision",
+                    "Notification Date", "Notification Method", "Undergrad GPA",
+                    "GRE General", "GRE Verbal", "Analytical Writing", "Notes",
+                    "Timeline Event", "Timeline Date", "Scraped Timestamp"
+                ]
+                
+                # Create a DataFrame with just the headers
+                df = pd.DataFrame(columns=columns)
+                
+                # Save to Excel
+                df.to_excel(self.data_file, index=False)
+                self.logger.info(f"Created new Excel file: {self.data_file}")
+        except Exception as e:
+            self.logger.error(f"Error initializing Excel file: {str(e)}")
+            raise
 
     def scroll_to_element(self, element):
         """Scroll the element into center view."""
@@ -212,118 +236,40 @@ class TheGradCafeScraper:
         except Exception as e:
             self.logger.error(f"Fatal error during scraping: {str(e)}")
 
-def scrape_profile_details(self):
-    """Scrape detailed information from the opened 'See More' profile page."""
-    profile_data = {}
-
-    try:
-        # ID from URL
-        url = self.driver.current_url
-        profile_id = url.split("/")[-1]
-        profile_data["ID"] = profile_id
-
-        # Acceptance Rate
+    def save_profiles(self):
+        """Save scraped profiles to Excel file"""
+        if not self.profiles:
+            self.logger.info("No profiles to save")
+            return
+        
         try:
-            acceptance_rate = self.driver.find_element(By.XPATH, "//dt[text()='Acceptance Rate']/following-sibling::dd")
-            profile_data["Acceptance Rate"] = acceptance_rate.text.strip()
-        except Exception:
-            profile_data["Acceptance Rate"] = None
-
-        # Institution
-        try:
-            institution = self.driver.find_element(By.XPATH, "//dt[text()='Institution']/following-sibling::dd")
-            profile_data["Institution"] = institution.text.strip()
-        except Exception:
-            profile_data["Institution"] = None
-
-        # Program
-        try:
-            program = self.driver.find_element(By.XPATH, "//dt[text()='Program']/following-sibling::dd")
-            profile_data["Program"] = program.text.strip()
-        except Exception:
-            profile_data["Program"] = None
-
-        # Degree Type
-        try:
-            degree_type = self.driver.find_element(By.XPATH, "//dt[text()='Degree Type']/following-sibling::dd")
-            profile_data["Degree Type"] = degree_type.text.strip()
-        except Exception:
-            profile_data["Degree Type"] = None
-
-        # Degree's Country of Origin
-        try:
-            country_origin = self.driver.find_element(By.XPATH, "//dt[contains(text(), \"Degree's Country of Origin\")]/following-sibling::dd")
-            profile_data["Degree's Country of Origin"] = country_origin.text.strip()
-        except Exception:
-            profile_data["Degree's Country of Origin"] = None
-
-        # Decision
-        try:
-            decision = self.driver.find_element(By.XPATH, "//dt[text()='Decision']/following-sibling::dd")
-            profile_data["Decision"] = decision.text.strip()
-        except Exception:
-            profile_data["Decision"] = None
-
-        # Notification Date and Method
-        try:
-            notification = self.driver.find_element(By.XPATH, "//dt[text()='Notification']/following-sibling::dd")
-            full_text = notification.text.strip()
-            if "via" in full_text:
-                date_part, method_part = full_text.split("via")
-                profile_data["Notification Date"] = date_part.strip()
-                profile_data["Notification Method"] = method_part.strip()
+            # Create DataFrame from scraped profiles
+            new_df = pd.DataFrame(self.profiles)
+            
+            # Add timestamp for when the data was scraped
+            new_df['Scraped Timestamp'] = pd.Timestamp.now()
+            
+            # Check if file exists
+            if os.path.exists(self.data_file):
+                # Read existing data
+                existing_df = pd.read_excel(self.data_file)
+                
+                # Filter out duplicates by ID
+                existing_ids = set(existing_df['ID'].values) if 'ID' in existing_df.columns else set()
+                new_df = new_df[~new_df['ID'].isin(existing_ids)]
+                
+                # Combine old and new data
+                combined_df = pd.concat([existing_df, new_df], ignore_index=True)
             else:
-                profile_data["Notification Date"] = full_text
-                profile_data["Notification Method"] = None
-        except Exception:
-            profile_data["Notification Date"] = None
-            profile_data["Notification Method"] = None
-
-        # Undergrad GPA
-        try:
-            gpa = self.driver.find_element(By.XPATH, "//dt[text()='Undergrad GPA']/following-sibling::dd")
-            profile_data["Undergrad GPA"] = gpa.text.strip()
-        except Exception:
-            profile_data["Undergrad GPA"] = None
-
-        # GRE Scores
-        try:
-            gre_general = self.driver.find_element(By.XPATH, "//span[contains(text(), 'GRE General:')]/following-sibling::span")
-            profile_data["GRE General Score"] = gre_general.text.strip()
-        except Exception:
-            profile_data["GRE General Score"] = None
-
-        try:
-            gre_verbal = self.driver.find_element(By.XPATH, "//span[contains(text(), 'GRE Verbal:')]/following-sibling::span")
-            profile_data["GRE Verbal Score"] = gre_verbal.text.strip()
-        except Exception:
-            profile_data["GRE Verbal Score"] = None
-
-        try:
-            gre_awa = self.driver.find_element(By.XPATH, "//span[contains(text(), 'Analytical Writing:')]/following-sibling::span")
-            profile_data["GRE Analytical Writing Score"] = gre_awa.text.strip()
-        except Exception:
-            profile_data["GRE Analytical Writing Score"] = None
-
-        # Notes
-        try:
-            notes = self.driver.find_element(By.XPATH, "//dt[text()='Notes']/following-sibling::dd")
-            profile_data["Notes"] = notes.text.strip()
-        except Exception:
-            profile_data["Notes"] = None
-
-        # Timeline Event and Date
-        try:
-            timeline_event = self.driver.find_element(By.XPATH, "//p[contains(@class,'tw-text-sm')]/strong")
-            profile_data["Timeline Event"] = timeline_event.text.strip()
-
-            timeline_date = self.driver.find_element(By.XPATH, "//div[@class='tw-whitespace-nowrap tw-text-right tw-text-sm tw-text-gray-500']/time")
-            profile_data["Timeline Date"] = timeline_date.text.strip()
-        except Exception:
-            profile_data["Timeline Event"] = None
-            profile_data["Timeline Date"] = None
-
-    except Exception as e:
-        self.logger.error(f"Error scraping profile details: {str(e)}")
-
-    return profile_data
+                combined_df = new_df
+            
+            # Save to Excel
+            combined_df.to_excel(self.data_file, index=False)
+            self.logger.info(f"Saved {len(new_df)} profiles to {self.data_file}")
+            
+            # Clear the saved profiles
+            self.profiles = []
+            
+        except Exception as e:
+            self.logger.error(f"Error saving profiles: {str(e)}")
+            raise
