@@ -190,7 +190,7 @@ class TheGradCafeScraper:
                     # Open the profile
                     if not self.open_options_and_click_see_more(idx):
                         self.logger.warning(f"Skipping profile {idx + 1} due to access failure")
-                        idx += 1
+                        idx += 1  # Move to next profile
                         continue
                     
                     # Scrape the profile data
