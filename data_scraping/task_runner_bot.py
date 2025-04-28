@@ -44,5 +44,5 @@ class TaskRunnerBot:
         random_wait(1, 3)
         self.driver.get(self.admit_reject_url)
         if self.website_name == WebsiteName.THEGRADCAFE:
-            self.scraper.start_scraping()
+            self.scraper.start_scraping(resume=True)
         # random_wait(1.0, 4.0)
