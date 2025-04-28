@@ -252,40 +252,40 @@ class ProfileScraper:
         self.logger.info("Data cleaning completed")
         return data
 
-# Fixed version of open_options_and_click_see_more in TheGradCafeScraper
-def open_options_and_click_see_more(self, button):
-    """Click the given options button, then click 'See More'."""
-    try:
-        self.scroll_to_element(button)
-        button.click()
-        self.logger.info("Clicked options menu button")
-        
-        # Extract the button ID for constructing the dropdown ID
-        button_id = button.get_attribute('id')
-        dropdown_id = button_id.replace('-button', '-list')
-        
-        # Wait for the dropdown to become visible
-        self.logger.info(f"Waiting for dropdown with ID: {dropdown_id}")
-        dropdown = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
-            EC.visibility_of_element_located((By.ID, dropdown_id))
-        )
-        
-        # Find the See More link within the dropdown using the correct selector
-        # The class names are likely using tailwind CSS (tw-) prefixes
-        see_more_xpath = ".//a[contains(text(), 'See More') or contains(@class, 'tw-text') and contains(text(), 'See More')]"
-        see_more_link = dropdown.find_element(By.XPATH, see_more_xpath)
-        
-        self.logger.info("Found 'See More' link")
-        self.scroll_to_element(see_more_link)
-        see_more_link.click()
-        self.logger.info("Clicked 'See More' link")
-        
-        # Wait for profile page to load - looking for tailwind classes
-        WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//dt[contains(@class, 'tw-text-sm') and contains(text(),'Institution')]"))
-        )
-        
-        return True
-    except Exception as e:
-        self.logger.error(f"Failed to open options and click 'See More': {str(e)}")
-        return False
+    # Fixed version of open_options_and_click_see_more in TheGradCafeScraper
+    def open_options_and_click_see_more(self, button):
+        """Click the given options button, then click 'See More'."""
+        try:
+            self.scroll_to_element(button)
+            button.click()
+            self.logger.info("Clicked options menu button")
+            
+            # Extract the button ID for constructing the dropdown ID
+            button_id = button.get_attribute('id')
+            dropdown_id = button_id.replace('-button', '-list')
+            
+            # Wait for the dropdown to become visible
+            self.logger.info(f"Waiting for dropdown with ID: {dropdown_id}")
+            dropdown = WebDriverWait(self.driver, self.LOGIN_TIMEOUT).until(
+                EC.visibility_of_element_located((By.ID, dropdown_id))
+            )
+            
+            # Find the See More link within the dropdown using the correct selector
+            # The class names are likely using tailwind CSS (tw-) prefixes
+            see_more_xpath = ".//a[contains(text(), 'See More') or contains(@class, 'tw-text') and contains(text(), 'See More')]"
+            see_more_link = dropdown.find_element(By.XPATH, see_more_xpath)
+            
+            self.logger.info("Found 'See More' link")
+            self.scroll_to_element(see_more_link)
+            see_more_link.click()
+            self.logger.info("Clicked 'See More' link")
+            
+            # Wait for profile page to load - looking for tailwind classes
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, "//dt[contains(@class, 'tw-text-sm') and contains(text(),'Institution')]"))
+            )
+            
+            return True
+        except Exception as e:
+            self.logger.error(f"Failed to open options and click 'See More': {str(e)}")
+            return False
