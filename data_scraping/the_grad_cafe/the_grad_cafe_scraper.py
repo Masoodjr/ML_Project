@@ -314,10 +314,12 @@ class TheGradCafeScraper:
         try:
             if resume:
                 current_page = self.load_last_page()
+                if current_page < 1000:
+                   current_page = 172
                 self.logger.info(f"Resuming from saved page {current_page}")
             else:
-                current_page = 1
-                self.logger.info("Starting fresh from page 1")
+                current_page = 172
+                self.logger.info("Starting fresh from page 48")
             
             # Go to the starting page
             if not self.go_to_page(current_page):
@@ -327,7 +329,7 @@ class TheGradCafeScraper:
             MAX_PAGES = 50  # Safety limit
             page_count = 0
             
-            while page_count < MAX_PAGES:
+            while page_count < 1000:
                 self.logger.info(f"Processing page {current_page}")
                 
                 # Scrape profiles on current page

@@ -90,7 +90,7 @@ class ProfileScraper:
                         percentage_match = re.search(r'(\d+(\.\d+)?)%', acceptance_rate)
                         if percentage_match:
                             acceptance_rate = percentage_match.group(0)
-                    
+                    fsdfs
                     profile_data["Acceptance Rate"] = acceptance_rate
                     self.logger.info(f"Extracted Acceptance Rate: {acceptance_rate}")
                     break
