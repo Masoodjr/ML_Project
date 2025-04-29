@@ -9,6 +9,8 @@ import random
 from utils.random_wait import random_wait
 from data_scraping.the_grad_cafe.scrape_profile import ProfileScraper
 
+from datetime import datetime
+
 class TheGradCafeScraper:
     def __init__(self, driver, logger, website_name):
         self.driver = driver
@@ -16,16 +18,17 @@ class TheGradCafeScraper:
         self.website_name = website_name
         self.seen_ids = set()
         self.profiles = []
-        self.LOGIN_TIMEOUT = 5  # Reduced from 10
-        self.PAGE_LOAD_TIMEOUT = 10  # Reduced from 15
+        self.LOGIN_TIMEOUT = 5
+        self.PAGE_LOAD_TIMEOUT = 10
         self.last_page_file = "last_page.txt"
-        self.data_file = "scraped_profiles.xlsx"
+        
+        session_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.data_file = f"scraped_profiles_{session_timestamp}.xlsx"  # <-- IMPORTANT change
         self.lock_file = self.data_file + ".lock"
-        self.save_threshold = 20  # Increased from 10 to reduce disk I/O
+        
+        self.save_threshold = 20
         self._initialize_excel_file()
         self.survey_base_url = "https://www.thegradcafe.com/survey/"
-        
-        # For improved element detection
         self.ignored_exceptions = (NoSuchElementException, StaleElementReferenceException)
 
     def _initialize_excel_file(self):
@@ -266,31 +269,48 @@ class TheGradCafeScraper:
         except Exception as e:
             self.logger.error(f"Error scraping profile: {str(e)}")
             return None
+    
+    def save_profiles(self, profiles=None):
+        profiles_to_save = profiles if profiles is not None else self.profiles
 
-def save_profiles(self):
-    """Save scraped profiles into a new Excel file if the base filename exists."""
-    if not self.profiles:
-        self.logger.info("No new profiles to save.")
-        return
+        if not profiles_to_save:
+            self.logger.info("No profiles to save")
+            return
 
-    try:
-        new_df = pd.DataFrame(self.profiles)
-        new_df['Scraped Timestamp'] = pd.Timestamp.now()
+        try:
+            new_df = pd.DataFrame(profiles_to_save)
+            if new_df.empty:
+                self.logger.info("No valid profiles to save")
+                return
 
-        # Check if base file exists and generate new filename if needed
-        if os.path.exists(self.data_file):
-            random_suffix = random.randint(1, 99999999999)
-            new_filename = f"scraped_profiles_{random_suffix}.xlsx"
-            self.logger.info(f"Base file exists, creating new file: {new_filename}")
-        else:
-            new_filename = self.data_file
+            new_df['Scraped Timestamp'] = pd.Timestamp.now()
 
-        # Save to the appropriate filename
-        new_df.to_excel(new_filename, index=False)
-        self.logger.info(f"Saved {len(new_df)} profiles to {new_filename}")
+            lock = FileLock(self.lock_file, timeout=120)
+            with lock:
+                if os.path.exists(self.data_file):
+                    try:
+                        existing_df = pd.read_excel(self.data_file)
+                        if 'ID' in new_df.columns and 'ID' in existing_df.columns:
+                            existing_ids = set(existing_df['ID'].dropna().values)
+                            new_df = new_df[~new_df['ID'].isin(existing_ids)]
+                            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
+                        else:
+                            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
+                    except Exception as e:
+                        self.logger.error(f"Error reading existing file: {str(e)}")
+                        combined_df = new_df
+                else:
+                    combined_df = new_df
 
-        self.profiles = []  # Clear buffer after saving
+                combined_df.to_excel(self.data_file, index=False)
+                self.logger.info(f"Saved {len(new_df)} new profiles to {self.data_file}")
 
-    except Exception as e:
-        self.logger.error(f"Error saving profiles: {str(e)}")
-        raise
+            if profiles is None:
+                self.profiles = []
+
+        except Exception as e:
+            self.logger.error(f"Error saving profiles: {str(e)}")
+            fallback_file = f"fallback_scraped_profiles_{pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
+            pd.DataFrame(profiles_to_save).to_excel(fallback_file, index=False)
+            self.logger.info(f"Saved fallback to {fallback_file}")
+            raise

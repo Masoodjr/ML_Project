@@ -11,6 +11,7 @@ from config.admit_reject_platform_config import PLATFORM_CONFIG
 from utils.logger import Logger
 from config.login_page_config import LOGIN_CONFIGS
 from config.website_name import WebsiteName
+from data_scraping.the_grad_cafe.the_grad_cafe_scraper import TheGradCafeScraper
 
 # Configure logging levels - set to WARNING or ERROR in production for speed
 # Logger.LEVEL = Logger.WARNING  # Uncomment for production
@@ -18,6 +19,8 @@ from config.website_name import WebsiteName
 def worker_process(page_range, shared_profiles_list, process_id):
     logger = Logger()
     browser_manager = BrowserManager(headless=True)
+    scraper = None
+    local_profiles = []  # Move this outside try block!!
 
     try:
         driver = browser_manager.get_driver()
@@ -32,7 +35,6 @@ def worker_process(page_range, shared_profiles_list, process_id):
 
         bot.login()
         scraper = bot.scraper
-        local_profiles = []
 
         for page in page_range:
             logger.info(f"[Process-{process_id}] Scraping page {page}")
@@ -44,24 +46,18 @@ def worker_process(page_range, shared_profiles_list, process_id):
             page_profiles = scraper.scrape_page_profiles_improved(page)
             if page_profiles:
                 local_profiles.extend(page_profiles)
-            else:
-                logger.warning(f"[Process-{process_id}] Problem scraping page {page}")
-
-            # 🚀 After every 20 profiles, save immediately
-            if len(local_profiles) >= 20:
-                live_save_profiles(local_profiles)
+                # Save live if you want inside here, optional
+                scraper.save_profiles(local_profiles)
                 local_profiles.clear()
-
-        # Final save if anything is left
-        if local_profiles:
-            live_save_profiles(local_profiles)
-            local_profiles.clear()
-
+                
     except Exception as e:
         logger.error(f"[Process-{process_id}] Error: {str(e)}")
     finally:
+        # Final save if anything remains
+        if scraper is not None and hasattr(scraper, "save_profiles") and local_profiles:
+            scraper.save_profiles(local_profiles)
         browser_manager.quit()
-
+   
 def live_save_profiles(profiles):
     """Save small batches of profiles live to Excel using a lock."""
     if not profiles:
@@ -93,60 +89,45 @@ def live_save_profiles(profiles):
 
 def main():
     logger = Logger()
-
-    # Optimize for M3 - use more efficient process count based on workload type
-    # Web scraping is I/O bound, not CPU bound, so slightly more processes can help
     available_cpus = cpu_count()
-    num_processes = min(available_cpus + 2, 8)  # Use up to available_cpus+2 but max 8
+    num_processes = min(available_cpus + 2, 8)
     
-    logger.info(f"Starting scraping with {num_processes} processes on {available_cpus} CPU cores...")
+    logger.info(f"Starting scraping with {num_processes} processes...")
 
-    start_page = 5100
-    end_page = 6300
-    total_pages = end_page - start_page + 1
+    start_page = 5109
+    end_page = 5500
     
-    # More intelligent page distribution
-    pages_per_process = math.ceil(total_pages / num_processes)
-    
-    page_ranges = [
-        range(start_page + i * pages_per_process, min(start_page + (i + 1) * pages_per_process, end_page + 1))
-        for i in range(num_processes)
-    ]
-
     with Manager() as manager:
-        shared_profiles_list = manager.list()  # collect profiles across processes
-        
-        # Add process_id parameter for better logging/debugging
-        worker_with_id = partial(worker_process, shared_profiles_list=shared_profiles_list)
+        shared_profiles_list = manager.list()
         
         with Pool(processes=num_processes) as pool:
-            pool.starmap(worker_process, [(page_range, shared_profiles_list, i) for i, page_range in enumerate(page_ranges)])
+            pool.starmap(worker_process, 
+                        [(page_range, shared_profiles_list, i) 
+                         for i, page_range in enumerate(divide_range(start_page, end_page, num_processes))])
 
-        logger.info("All processes completed. Saving collected profiles...")
-        save_profiles_to_excel(shared_profiles_list)
+        logger.info("All processes completed. Final save...")
+        if shared_profiles_list:
+            # Initialize a scraper just for final saving
+            temp_scraper = TheGradCafeScraper(None, logger, WebsiteName.THEGRADCAFE)
+            temp_scraper.save_profiles(list(shared_profiles_list))
 
-def save_profiles_to_excel(profiles):
-    """Extracted function to save profiles to Excel"""
-    logger = Logger()
-    data_file = "scraped_profiles.xlsx"
-
-    new_df = pd.DataFrame(list(profiles))
-    new_df['Scraped Timestamp'] = pd.Timestamp.now()
-
-    if os.path.exists(data_file):
-        try:
-            existing_df = pd.read_excel(data_file)
-            existing_ids = set(existing_df['ID'].values) if 'ID' in existing_df.columns else set()
-            new_df = new_df[~new_df['ID'].isin(existing_ids)]
-            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-        except Exception as e:
-            logger.error(f"Error reading existing file: {str(e)}")
-            combined_df = new_df
-    else:
-        combined_df = new_df
-
-    combined_df.to_excel(data_file, index=False)
-    logger.info(f"Saved {len(new_df)} new profiles to {data_file}")
+def divide_range(start, end, num_parts):
+    """Divide a range into approximately equal parts"""
+    total = end - start + 1
+    part_size = total // num_parts
+    remainder = total % num_parts
+    
+    ranges = []
+    current = start
+    
+    for i in range(num_parts):
+        extra = 1 if i < remainder else 0
+        ranges.append(range(current, current + part_size + extra))
+        current += part_size + extra
+    
+    return ranges
 
 if __name__ == "__main__":
     main()
+
+
