@@ -53,11 +53,11 @@ def worker_process(args):
 def main():
     logger = Logger()
 
-    num_processes = min(5, os.cpu_count() - 1)  # use 7 or available cores minus 1
+    num_processes = 7  # use 7 or available cores minus 1
     logger.info(f"Starting scraping with {num_processes} processes...")
 
-    start_page = 173
-    end_page = 1000
+    start_page = 1426
+    end_page = 1999
     total_pages = end_page - start_page + 1
     pages_per_process = math.ceil(total_pages / num_processes)
 
