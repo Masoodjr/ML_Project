@@ -46,7 +46,7 @@ def worker_process(args):
             shared_profiles_list.extend(scraper.profiles)
 
     except Exception as e:
-        logger.error(f"[Process-{os.getpid()}] Error: {str(e)}", exc_info=True)
+        logger.error(f"[Process-{os.getpid()}] Error: {str(e)}")
     finally:
         browser_manager.quit()
 
@@ -56,8 +56,8 @@ def main():
     num_processes = min(5, os.cpu_count() - 1)  # use 7 or available cores minus 1
     logger.info(f"Starting scraping with {num_processes} processes...")
 
-    start_page = 173
-    end_page = 1000
+    start_page = 5000
+    end_page = 5100
     total_pages = end_page - start_page + 1
     pages_per_process = math.ceil(total_pages / num_processes)
 
