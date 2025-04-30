@@ -56,8 +56,8 @@ def main():
     num_processes = 7  # use 7 or available cores minus 1
     logger.info(f"Starting scraping with {num_processes} processes...")
 
-    start_page = 1426
-    end_page = 1999
+    start_page = 4500
+    end_page = 4999
     total_pages = end_page - start_page + 1
     pages_per_process = math.ceil(total_pages / num_processes)
 
