@@ -94,8 +94,8 @@ def main():
     
     logger.info(f"Starting scraping with {num_processes} processes...")
 
-    start_page = 5500
-    end_page = 6300
+    start_page = 10000
+    end_page = 12000 
     
     with Manager() as manager:
         shared_profiles_list = manager.list()
